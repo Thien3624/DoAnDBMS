@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VS Code\\DoAnDBMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3750E817-0F44-4857-8CF2-204A6F33632F}|BLL\\BLL.csproj|d:\\vs code\\doandbms\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3750E817-0F44-4857-8CF2-204A6F33632F}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\TrangChu.cs",
+              "RelativeDocumentMoniker": "GUI\\TrangChu.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\TrangChu.cs [Design]",
+              "RelativeToolTip": "GUI\\TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:12:05.033Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:32:22.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDangNhap.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "GUI\\FormDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:27:52.503Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T06:25:38.602Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
