@@ -8,10 +8,10 @@ namespace BLL
 {
     internal class DonHang
     {
-        private String maDonHang;
+        private string maDonHang;
         private DateTime ngayDatMon;
         private int soLuong;
-        private String trangThai;
+        private string trangThai;
 
         public DonHang(string maDonHang, DateTime ngayDatMon, int soLuong, string trangThai)
         {

@@ -8,11 +8,11 @@ namespace BLL
 {
     internal class MonAn
     {
-        private String maMonAn;
-        private String tenMonAn;
-        private String loaiMonAn;
+        private string maMonAn;
+        private string tenMonAn;
+        private string loaiMonAn;
         private int gia;
-        private String trangThai;
+        private string trangThai;
         private Byte[] images;
 
         public MonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, string trangThai, byte[] images)

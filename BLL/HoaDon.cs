@@ -9,11 +9,11 @@ namespace BLL
 {
     internal class HoaDon
     {
-        private String maHoaDon;
+        private string maHoaDon;
         private int tongTien;
         private DateTime ngayInHoaDon;
-        private String phuongThucThanhToan;
-        private String trangThai;
+        private string phuongThucThanhToan;
+        private string trangThai;
 
         public HoaDon(string maHoaDon, int tongTien, DateTime ngayInHoaDon, string phuongThucThanhToan, string trangThai)
         {

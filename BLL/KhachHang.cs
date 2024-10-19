@@ -8,17 +8,17 @@ namespace BLL
 {
     internal class KhachHang
     {
-        private String maKhachHang;
-        private String hoVaTen;
-        private String gioiTinh;
-        private String sDT;
+        private string maKhachHang;
+        private string hoVaTen;
+        private string gioiTinh;
+        private string sDT;
 
         public KhachHang(string maKhachHang, string hoVaTen, string gioiTinh, string sDT)
         {
-            this.MaKhachHang = maKhachHang;
-            this.HoVaTen = hoVaTen;
-            this.GioiTinh = gioiTinh;
-            this.SDT = sDT;
+            this.maKhachHang = maKhachHang;
+            this.hoVaTen = hoVaTen;
+            this.gioiTinh = gioiTinh;
+            this.sDT = sDT;
         }
 
         public string MaKhachHang { get => maKhachHang; set => maKhachHang = value; }
