@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VS Code\\DoAnDBMS\\",
+  "WorkspaceRootPath": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|e:\\study\\nam-3\\dbms\\project\\doandbms\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,19 +42,66 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrangChu.cs",
+              "DocumentMoniker": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\TrangChu.cs",
+              "RelativeDocumentMoniker": "GUI\\TrangChu.cs",
+              "ToolTip": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\TrangChu.cs",
+              "RelativeToolTip": "GUI\\TrangChu.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAjwB8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T06:00:09.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserControlBanAn.cs [Design]",
+              "DocumentMoniker": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\UserControlBanAn.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControlBanAn.cs",
+              "ToolTip": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\UserControlBanAn.cs [Design]",
+              "RelativeToolTip": "GUI\\UserControlBanAn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T05:58:01.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormDangNhap.cs",
+              "DocumentMoniker": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\FormDangNhap.cs",
+              "ToolTip": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\FormDangNhap.cs",
+              "RelativeToolTip": "GUI\\FormDangNhap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T05:50:10.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControlMenu.cs [Design]",
+              "DocumentMoniker": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\UserControlMenu.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
+              "ToolTip": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\UserControlMenu.cs [Design]",
+              "RelativeToolTip": "GUI\\UserControlMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T05:38:48.967Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TrangChu.cs [Design]",
-              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\TrangChu.cs",
+              "DocumentMoniker": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\TrangChu.cs",
               "RelativeDocumentMoniker": "GUI\\TrangChu.cs",
-              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\TrangChu.cs [Design]",
+              "ToolTip": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\TrangChu.cs [Design]",
               "RelativeToolTip": "GUI\\TrangChu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T08:12:05.033Z",
@@ -50,23 +109,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\Program.cs",
-              "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\Program.cs",
-              "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAcwBIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T06:32:22.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FormDangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormDangNhap.cs",
+              "DocumentMoniker": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\FormDangNhap.cs",
               "RelativeDocumentMoniker": "GUI\\FormDangNhap.cs",
-              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormDangNhap.cs [Design]",
+              "ToolTip": "E:\\study\\nam-3\\DBMS\\Project\\DoAnDBMS\\GUI\\FormDangNhap.cs [Design]",
               "RelativeToolTip": "GUI\\FormDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T06:27:52.503Z"
