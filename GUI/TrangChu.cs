@@ -16,5 +16,10 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void userControlMenu1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

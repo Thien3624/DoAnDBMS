@@ -16,5 +16,14 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btn_dangNhap_Click(object sender, EventArgs e)
+        {
+            if(tb_tenDangNhap.Text.Equals("123") && tb_matKhau.Text.Equals("123"))
+            {
+                TrangChu trangChu = new TrangChu();
+                trangChu.Show();
+            }
+        }
     }
 }
