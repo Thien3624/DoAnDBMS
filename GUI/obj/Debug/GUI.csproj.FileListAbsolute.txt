@@ -26,5 +26,6 @@ E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.
 E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.csproj.Up2Date
 E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.exe
 E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.pdb
-E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
 E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
+E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.MonAn.resources
+E:\study\nam-3\DBMS\Project\DoAnDBMS\GUI\obj\Debug\GUI.Menu.resources
