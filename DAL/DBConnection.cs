@@ -9,12 +9,7 @@ namespace DAL
 {
     internal class DBConnection
     {
-        string sqlStr = @"Data Source=.;Initial Catalog=QuanLyQuanAn;Persist Security Info=True;User ID=sa;Password=***********;Encrypt=True;Trust Server Certificate=True";
-        SqlConnection sqlCon = null;
-        
-        public DBConnection() {
-            sqlCon = new SqlConnection(sqlStr);
-        }
+        SqlConnection sqlCon = new SqlConnection(@"Data Source=.;Initial Catalog=QuanLyQuanAn;Persist Security Info=True;User ID=sa;Password=***********;Encrypt=True;Trust Server Certificate=True");
 
         public SqlConnection GetSqlConnection()
         {
