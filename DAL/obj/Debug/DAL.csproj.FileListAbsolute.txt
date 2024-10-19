@@ -7,3 +7,12 @@ E:\study\nam-3\DBMS\Project\DoAnDBMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.
 E:\study\nam-3\DBMS\Project\DoAnDBMS\DAL\obj\Debug\DAL.csproj.Up2Date
 E:\study\nam-3\DBMS\Project\DoAnDBMS\DAL\obj\Debug\DAL.dll
 E:\study\nam-3\DBMS\Project\DoAnDBMS\DAL\obj\Debug\DAL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\bin\Debug\DAL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\bin\Debug\DAL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\bin\Debug\BLL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\bin\Debug\BLL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\obj\Debug\DAL.csproj.Up2Date
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\obj\Debug\DAL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\obj\Debug\DAL.pdb

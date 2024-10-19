@@ -72,6 +72,12 @@
     <Compile Include="TrangChu.Designer.cs">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_ThanhPhan\O_BanAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_ThanhPhan\O_BanAn.Designer.cs">
+      <DependentUpon>O_BanAn.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_ThanhPhan\O_MonAn.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     </Compile>
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlHoaDon.Designer.cs">
+      <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FormAdmin\TrangChuAdmin.resx">
       <DependentUpon>TrangChuAdmin.cs</DependentUpon>
@@ -103,11 +115,17 @@
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC_ThanhPhan\O_BanAn.resx">
+      <DependentUpon>O_BanAn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_ThanhPhan\O_MonAn.resx">
       <DependentUpon>O_MonAn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlHoaDon.resx">
+      <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

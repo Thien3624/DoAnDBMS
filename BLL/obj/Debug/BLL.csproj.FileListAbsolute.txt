@@ -4,3 +4,9 @@ E:\study\nam-3\DBMS\Project\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.
 E:\study\nam-3\DBMS\Project\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 E:\study\nam-3\DBMS\Project\DoAnDBMS\BLL\obj\Debug\BLL.dll
 E:\study\nam-3\DBMS\Project\DoAnDBMS\BLL\obj\Debug\BLL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\bin\Debug\BLL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\bin\Debug\BLL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.pdb
