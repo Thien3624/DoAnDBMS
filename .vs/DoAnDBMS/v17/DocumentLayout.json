@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3750E817-0F44-4857-8CF2-204A6F33632F}|BLL\\BLL.csproj|d:\\vs code\\doandbms\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3750E817-0F44-4857-8CF2-204A6F33632F}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,20 +69,7 @@
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormDangNhap.cs [Design]",
               "RelativeToolTip": "GUI\\FormDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T06:27:52.503Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\BLL\\Class1.cs",
-              "RelativeDocumentMoniker": "BLL\\Class1.cs",
-              "ToolTip": "D:\\VS Code\\DoAnDBMS\\BLL\\Class1.cs",
-              "RelativeToolTip": "BLL\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T06:25:38.602Z"
+              "WhenOpened": "2024-10-04T06:27:52.503Z"
             }
           ]
         }
