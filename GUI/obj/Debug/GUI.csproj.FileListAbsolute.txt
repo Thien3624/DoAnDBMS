@@ -60,3 +60,10 @@ E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.pdb
 =======
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
 >>>>>>> ee710684ea6a0bb99cd5a345efc06b4afc59f3b1
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_MonAn.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.Menu.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\BLL.dll
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\BLL.pdb
