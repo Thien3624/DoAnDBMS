@@ -16,15 +16,11 @@ namespace GUI.UC_ThanhPhan
         {
             InitializeComponent();
         }
-
-        private void MonAn_Load(object sender, EventArgs e)
+        public void themMonAn(string tenMonAn, int gia, Image images)
         {
-
-        }
-
-        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
-        {
-
+            lb_tenMonAn.Text = tenMonAn;
+            lb_giaMonAn.Text = "Giá: " + gia.ToString("N0") + " VNĐ";
+            picb_anhMonAn.Image = images;
         }
     }
 }

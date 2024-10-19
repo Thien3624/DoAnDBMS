@@ -69,9 +69,7 @@
             this.lb_giaMonAn.Size = new System.Drawing.Size(265, 37);
             this.lb_giaMonAn.TabIndex = 2;
             this.lb_giaMonAn.Text = "Giá món ăn";
-            this.lb_giaMonAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lb_giaMonAn.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
-            // 
+            this.lb_giaMonAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;            // 
             // btn_datMon
             // 
             this.btn_datMon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -109,7 +107,6 @@
             this.Controls.Add(this.picb_anhMonAn);
             this.Name = "O_MonAn";
             this.Size = new System.Drawing.Size(265, 353);
-            this.Load += new System.EventHandler(this.MonAn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_soLuong)).EndInit();
             this.ResumeLayout(false);

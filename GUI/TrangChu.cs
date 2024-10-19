@@ -16,10 +16,18 @@ namespace GUI
         {
             InitializeComponent();
         }
-
-        private void userControlMenu1_Load(object sender, EventArgs e)
+        public void addHienThi(UserControl uc)
         {
-
+            uc.Dock = DockStyle.Fill;
+            panelHienThi.Controls.Clear();
+            panelHienThi.Controls.Add(uc);
+            uc.BringToFront();
+        }
+        private void btn_thucDon_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            addHienThi(menu);
+            menu.Load += new EventHandler(menu.Menu_Load);
         }
     }
 }
