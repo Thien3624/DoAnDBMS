@@ -46,3 +46,4 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.csproj.Up2Date
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.exe
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.pdb
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources

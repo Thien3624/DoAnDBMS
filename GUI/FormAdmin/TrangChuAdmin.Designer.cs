@@ -32,8 +32,8 @@
             this.btn_quanLyBanAn = new Guna.UI2.WinForms.Guna2Button();
             this.btn_quanLyHoaDon = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btn_quanLyDoanhThu = new Guna.UI2.WinForms.Guna2Button();
             this.btn_quanLyNhanVien = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_quanLyDoanhThu = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,24 +104,6 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1581, 66);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // btn_quanLyDoanhThu
-            // 
-            this.btn_quanLyDoanhThu.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btn_quanLyDoanhThu.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btn_quanLyDoanhThu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_quanLyDoanhThu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_quanLyDoanhThu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_quanLyDoanhThu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_quanLyDoanhThu.FillColor = System.Drawing.Color.Transparent;
-            this.btn_quanLyDoanhThu.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_quanLyDoanhThu.ForeColor = System.Drawing.Color.White;
-            this.btn_quanLyDoanhThu.Location = new System.Drawing.Point(874, 0);
-            this.btn_quanLyDoanhThu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_quanLyDoanhThu.Name = "btn_quanLyDoanhThu";
-            this.btn_quanLyDoanhThu.Size = new System.Drawing.Size(208, 66);
-            this.btn_quanLyDoanhThu.TabIndex = 4;
-            this.btn_quanLyDoanhThu.Text = "Quản lý doanh thu";
-            // 
             // btn_quanLyNhanVien
             // 
             this.btn_quanLyNhanVien.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -139,6 +121,24 @@
             this.btn_quanLyNhanVien.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyNhanVien.TabIndex = 5;
             this.btn_quanLyNhanVien.Text = "Quản lý nhân viên";
+            // 
+            // btn_quanLyDoanhThu
+            // 
+            this.btn_quanLyDoanhThu.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btn_quanLyDoanhThu.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_quanLyDoanhThu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_quanLyDoanhThu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_quanLyDoanhThu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_quanLyDoanhThu.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_quanLyDoanhThu.FillColor = System.Drawing.Color.Transparent;
+            this.btn_quanLyDoanhThu.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_quanLyDoanhThu.ForeColor = System.Drawing.Color.White;
+            this.btn_quanLyDoanhThu.Location = new System.Drawing.Point(874, 0);
+            this.btn_quanLyDoanhThu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_quanLyDoanhThu.Name = "btn_quanLyDoanhThu";
+            this.btn_quanLyDoanhThu.Size = new System.Drawing.Size(208, 66);
+            this.btn_quanLyDoanhThu.TabIndex = 4;
+            this.btn_quanLyDoanhThu.Text = "Quản lý doanh thu";
             // 
             // TrangChuAdmin
             // 
