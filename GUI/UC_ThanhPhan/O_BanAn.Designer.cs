@@ -28,26 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lb_maBan = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
             // 
-            // guna2HtmlLabel1
+            // lb_maBan
             // 
-            this.guna2HtmlLabel1.AutoSize = false;
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Green;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(306, 198);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Bàn 01";
-            this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_maBan.AutoSize = false;
+            this.lb_maBan.BackColor = System.Drawing.Color.Green;
+            this.lb_maBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_maBan.Location = new System.Drawing.Point(0, 0);
+            this.lb_maBan.Name = "lb_maBan";
+            this.lb_maBan.Size = new System.Drawing.Size(306, 198);
+            this.lb_maBan.TabIndex = 0;
+            this.lb_maBan.Text = "Bàn 01";
+            this.lb_maBan.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // O_BanAn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2HtmlLabel1);
+            this.Controls.Add(this.lb_maBan);
             this.Name = "O_BanAn";
             this.Size = new System.Drawing.Size(306, 198);
             this.ResumeLayout(false);
@@ -56,6 +56,6 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lb_maBan;
     }
 }
