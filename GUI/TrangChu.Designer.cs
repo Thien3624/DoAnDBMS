@@ -32,6 +32,7 @@
             this.btn_banAn = new Guna.UI2.WinForms.Guna2Button();
             this.btn_hoaDon = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelHienThi = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +52,7 @@
             this.btn_thucDon.Size = new System.Drawing.Size(208, 66);
             this.btn_thucDon.TabIndex = 1;
             this.btn_thucDon.Text = "Thực đơn";
+            this.btn_thucDon.Click += new System.EventHandler(this.btn_thucDon_Click);
             // 
             // btn_banAn
             // 
@@ -100,11 +102,20 @@
             this.guna2Panel1.Size = new System.Drawing.Size(1581, 66);
             this.guna2Panel1.TabIndex = 0;
             // 
+            // panelHienThi
+            // 
+            this.panelHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelHienThi.Location = new System.Drawing.Point(0, 66);
+            this.panelHienThi.Name = "panelHienThi";
+            this.panelHienThi.Size = new System.Drawing.Size(1581, 797);
+            this.panelHienThi.TabIndex = 1;
+            // 
             // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1581, 863);
+            this.Controls.Add(this.panelHienThi);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -121,5 +132,6 @@
         private Guna.UI2.WinForms.Guna2Button btn_banAn;
         private Guna.UI2.WinForms.Guna2Button btn_hoaDon;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel panelHienThi;
     }
 }

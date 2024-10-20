@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -7,13 +8,38 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    internal class DBConnection
+    public class DBConnection
     {
-        SqlConnection sqlCon = new SqlConnection(@"Data Source=.;Initial Catalog=QuanLyQuanAn;Persist Security Info=True;User ID=sa;Password=***********;Encrypt=True;Trust Server Certificate=True");
+        private string connectionString = @"Data Source=.;Initial Catalog=QuanLyQuanAn;Persist Security Info=True;User ID=sa;Password=123;Encrypt=False";
 
         public SqlConnection GetSqlConnection()
         {
-            return  sqlCon;
+            return new SqlConnection(connectionString);
+        }
+
+
+        public DataTable executeDisplayQuery(string query)
+        {
+            DataTable dt = new DataTable();
+            using (SqlConnection sqlCon = GetSqlConnection())
+            {
+                try
+                {
+                    sqlCon.Open();
+                    using (SqlCommand sqlCommand = new SqlCommand(query, sqlCon))
+                    {
+                        sqlCommand.CommandType = CommandType.Text;
+                        SqlDataAdapter da = new SqlDataAdapter(sqlCommand);
+                        da.Fill(dt);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Lỗi: " + ex.Message);
+                    throw;
+                }
+            }
+            return dt;
         }
     }
 }
