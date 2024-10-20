@@ -90,6 +90,12 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControlBanAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlBanAn.Designer.cs">
+      <DependentUpon>UserControlBanAn.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControlHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlBanAn.resx">
+      <DependentUpon>UserControlBanAn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlHoaDon.resx">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>

@@ -29,5 +29,12 @@ namespace GUI
             addHienThi(menu);
             menu.Load += new EventHandler(menu.Menu_Load);
         }
+
+        private void btn_banAn_Click(object sender, EventArgs e)
+        {
+            UserControlBanAn banAn = new UserControlBanAn();
+            addHienThi(banAn);
+            banAn.Load += new EventHandler(banAn.UserControlBanAn_Load);
+        }
     }
 }

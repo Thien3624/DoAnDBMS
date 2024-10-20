@@ -16,5 +16,13 @@ namespace GUI.UC_ThanhPhan
         {
             InitializeComponent();
         }
+
+        public void themBanAn(int maBan, string sucChua)
+        {
+            lb_sucChua.BackColor = lb_banAn.BackColor;
+            lb_maBan.BackColor = lb_banAn.BackColor;
+            lb_maBan.Text = "Bàn " + maBan.ToString();
+            lb_sucChua.Text = "Bàn " + sucChua;
+        }
     }
 }
