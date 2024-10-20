@@ -42,7 +42,7 @@
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(1352, 75);
+            this.panelTop.Size = new System.Drawing.Size(1581, 75);
             this.panelTop.TabIndex = 0;
             // 
             // cboLoaiMonAn
@@ -57,9 +57,9 @@
             this.cboLoaiMonAn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.cboLoaiMonAn.IntegralHeight = false;
             this.cboLoaiMonAn.ItemHeight = 30;
-            this.cboLoaiMonAn.Location = new System.Drawing.Point(519, 20);
+            this.cboLoaiMonAn.Location = new System.Drawing.Point(620, 16);
             this.cboLoaiMonAn.Name = "cboLoaiMonAn";
-            this.cboLoaiMonAn.Size = new System.Drawing.Size(293, 36);
+            this.cboLoaiMonAn.Size = new System.Drawing.Size(342, 36);
             this.cboLoaiMonAn.TabIndex = 0;
             this.cboLoaiMonAn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -77,7 +77,7 @@
             this.panelNoiDung.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelNoiDung.Location = new System.Drawing.Point(0, 75);
             this.panelNoiDung.Name = "panelNoiDung";
-            this.panelNoiDung.Size = new System.Drawing.Size(1352, 726);
+            this.panelNoiDung.Size = new System.Drawing.Size(1581, 722);
             this.panelNoiDung.TabIndex = 2;
             // 
             // Menu
@@ -90,7 +90,7 @@
             this.Controls.Add(this.panelTop);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menu";
-            this.Size = new System.Drawing.Size(1352, 801);
+            this.Size = new System.Drawing.Size(1581, 797);
             this.Load += new System.EventHandler(this.Menu_Load);
             this.panelTop.ResumeLayout(false);
             this.ResumeLayout(false);

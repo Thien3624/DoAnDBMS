@@ -70,6 +70,7 @@
             this.btn_banAn.Size = new System.Drawing.Size(208, 66);
             this.btn_banAn.TabIndex = 2;
             this.btn_banAn.Text = "Bàn ăn";
+            this.btn_banAn.Click += new System.EventHandler(this.btn_banAn_Click);
             // 
             // btn_hoaDon
             // 
@@ -120,6 +121,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TrangChu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChu";
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);

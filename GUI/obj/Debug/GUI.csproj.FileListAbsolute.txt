@@ -75,5 +75,9 @@ D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.Up2Date
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\GUI\obj\Debug\GUI.exe
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\GUI\obj\Debug\GUI.pdb
-D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.dll
-D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.pdb
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\DAL.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\DAL.pdb
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
