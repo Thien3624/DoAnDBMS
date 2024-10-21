@@ -39,11 +39,12 @@
             // 
             // picb_anhMonAn
             // 
+            this.picb_anhMonAn.Dock = System.Windows.Forms.DockStyle.Top;
             this.picb_anhMonAn.ImageRotate = 0F;
             this.picb_anhMonAn.Location = new System.Drawing.Point(0, 0);
             this.picb_anhMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.picb_anhMonAn.Name = "picb_anhMonAn";
-            this.picb_anhMonAn.Size = new System.Drawing.Size(380, 248);
+            this.picb_anhMonAn.Size = new System.Drawing.Size(329, 248);
             this.picb_anhMonAn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_anhMonAn.TabIndex = 0;
             this.picb_anhMonAn.TabStop = false;
@@ -56,7 +57,7 @@
             this.lb_tenMonAn.Location = new System.Drawing.Point(0, 255);
             this.lb_tenMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.lb_tenMonAn.Name = "lb_tenMonAn";
-            this.lb_tenMonAn.Size = new System.Drawing.Size(380, 46);
+            this.lb_tenMonAn.Size = new System.Drawing.Size(329, 46);
             this.lb_tenMonAn.TabIndex = 1;
             this.lb_tenMonAn.Text = "Tên món ăn";
             this.lb_tenMonAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -69,7 +70,7 @@
             this.lb_giaMonAn.Location = new System.Drawing.Point(0, 308);
             this.lb_giaMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.lb_giaMonAn.Name = "lb_giaMonAn";
-            this.lb_giaMonAn.Size = new System.Drawing.Size(380, 46);
+            this.lb_giaMonAn.Size = new System.Drawing.Size(329, 46);
             this.lb_giaMonAn.TabIndex = 2;
             this.lb_giaMonAn.Text = "Giá món ăn";
             this.lb_giaMonAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,10 +96,10 @@
             this.numeric_soLuong.BackColor = System.Drawing.Color.Transparent;
             this.numeric_soLuong.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.numeric_soLuong.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.numeric_soLuong.Location = new System.Drawing.Point(241, 375);
+            this.numeric_soLuong.Location = new System.Drawing.Point(215, 375);
             this.numeric_soLuong.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numeric_soLuong.Name = "numeric_soLuong";
-            this.numeric_soLuong.Size = new System.Drawing.Size(133, 59);
+            this.numeric_soLuong.Size = new System.Drawing.Size(114, 55);
             this.numeric_soLuong.TabIndex = 4;
             this.numeric_soLuong.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             // 
@@ -113,7 +114,7 @@
             this.Controls.Add(this.picb_anhMonAn);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "O_MonAn";
-            this.Size = new System.Drawing.Size(380, 434);
+            this.Size = new System.Drawing.Size(329, 434);
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_soLuong)).EndInit();
             this.ResumeLayout(false);

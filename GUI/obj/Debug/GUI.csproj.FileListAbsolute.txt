@@ -49,7 +49,6 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.pdb
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_MonAn.resources
-D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.Menu.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\BLL.dll
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\BLL.pdb
@@ -81,3 +80,6 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.dll
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.pdb
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
