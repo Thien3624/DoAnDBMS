@@ -84,11 +84,11 @@
     <Compile Include="UC_ThanhPhan\O_MonAn.Designer.cs">
       <DependentUpon>O_MonAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu.cs">
+    <Compile Include="UserControlMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="UserControlMenu.Designer.cs">
+      <DependentUpon>UserControlMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControlBanAn.cs">
       <SubType>UserControl</SubType>
@@ -127,8 +127,8 @@
     <EmbeddedResource Include="UC_ThanhPhan\O_MonAn.resx">
       <DependentUpon>O_MonAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="UserControlMenu.resx">
+      <DependentUpon>UserControlMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlBanAn.resx">
       <DependentUpon>UserControlBanAn.cs</DependentUpon>

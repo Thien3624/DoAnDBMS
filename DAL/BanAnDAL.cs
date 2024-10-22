@@ -15,5 +15,10 @@ namespace DAL
             const string sql = "SELECT * FROM QuanLyBanAn";
             return executeDisplayQuery(sql);
         }
+        public List<string> LayDanhSachIdBanAn()
+        {
+            const string sql = "SELECT DISTINCT maBan FROM QuanLyBanAn";
+            return ExecuteQueryAndGetList(sql);
+        }
     }
 }

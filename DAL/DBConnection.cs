@@ -41,5 +41,27 @@ namespace DAL
             }
             return dt;
         }
+        public List<string> ExecuteQueryAndGetList(string query)
+        {
+            List<string> resultList = new List<string>();
+
+            using (SqlConnection sqlCon = GetSqlConnection())
+            {
+                using (SqlCommand sqlCommand = new SqlCommand(query, sqlCon))
+                {
+                    sqlCon.Open();
+
+                    using (SqlDataReader reader = sqlCommand.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            resultList.Add(reader[0].ToString());
+                        }
+                    }
+                }
+            }
+            return resultList;
+        }
+
     }
 }

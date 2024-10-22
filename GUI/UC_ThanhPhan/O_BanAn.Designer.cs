@@ -41,15 +41,16 @@
             this.lb_banAn.Location = new System.Drawing.Point(0, 0);
             this.lb_banAn.Margin = new System.Windows.Forms.Padding(4);
             this.lb_banAn.Name = "lb_banAn";
-            this.lb_banAn.Size = new System.Drawing.Size(274, 240);
+            this.lb_banAn.Size = new System.Drawing.Size(255, 231);
             this.lb_banAn.TabIndex = 0;
+            this.lb_banAn.Text = null;
             this.lb_banAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lb_sucChua
             // 
             this.lb_sucChua.BackColor = System.Drawing.Color.Transparent;
             this.lb_sucChua.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_sucChua.Location = new System.Drawing.Point(44, 128);
+            this.lb_sucChua.Location = new System.Drawing.Point(38, 128);
             this.lb_sucChua.Name = "lb_sucChua";
             this.lb_sucChua.Size = new System.Drawing.Size(176, 40);
             this.lb_sucChua.TabIndex = 2;
@@ -60,7 +61,7 @@
             // 
             this.lb_maBan.BackColor = System.Drawing.Color.Transparent;
             this.lb_maBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_maBan.Location = new System.Drawing.Point(80, 65);
+            this.lb_maBan.Location = new System.Drawing.Point(72, 65);
             this.lb_maBan.Name = "lb_maBan";
             this.lb_maBan.Size = new System.Drawing.Size(106, 40);
             this.lb_maBan.TabIndex = 1;
@@ -76,7 +77,7 @@
             this.Controls.Add(this.lb_banAn);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "O_BanAn";
-            this.Size = new System.Drawing.Size(274, 240);
+            this.Size = new System.Drawing.Size(255, 231);
             this.ResumeLayout(false);
             this.PerformLayout();
 
