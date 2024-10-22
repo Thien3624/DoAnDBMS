@@ -59,7 +59,7 @@
             this.guna2HtmlLabel1.AutoSize = false;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(271, 76);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(270, 19);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(120, 36);
             this.guna2HtmlLabel1.TabIndex = 0;
@@ -77,7 +77,7 @@
             this.tb_nhapMaHoaDon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_nhapMaHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_nhapMaHoaDon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_nhapMaHoaDon.Location = new System.Drawing.Point(438, 75);
+            this.tb_nhapMaHoaDon.Location = new System.Drawing.Point(437, 18);
             this.tb_nhapMaHoaDon.Name = "tb_nhapMaHoaDon";
             this.tb_nhapMaHoaDon.PasswordChar = '\0';
             this.tb_nhapMaHoaDon.PlaceholderText = "";
@@ -96,7 +96,7 @@
             this.btn_xemThongTinHoaDon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_xemThongTinHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_xemThongTinHoaDon.ForeColor = System.Drawing.Color.White;
-            this.btn_xemThongTinHoaDon.Location = new System.Drawing.Point(482, 132);
+            this.btn_xemThongTinHoaDon.Location = new System.Drawing.Point(481, 75);
             this.btn_xemThongTinHoaDon.Name = "btn_xemThongTinHoaDon";
             this.btn_xemThongTinHoaDon.Size = new System.Drawing.Size(234, 46);
             this.btn_xemThongTinHoaDon.TabIndex = 2;
@@ -124,7 +124,7 @@
             this.grb_thongTinHoaDon.Controls.Add(this.guna2HtmlLabel2);
             this.grb_thongTinHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.grb_thongTinHoaDon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.grb_thongTinHoaDon.Location = new System.Drawing.Point(208, 203);
+            this.grb_thongTinHoaDon.Location = new System.Drawing.Point(207, 146);
             this.grb_thongTinHoaDon.Name = "grb_thongTinHoaDon";
             this.grb_thongTinHoaDon.Size = new System.Drawing.Size(759, 421);
             this.grb_thongTinHoaDon.TabIndex = 3;
@@ -142,7 +142,7 @@
             this.tb_trangThai.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_trangThai.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_trangThai.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_trangThai.Location = new System.Drawing.Point(152, 368);
+            this.tb_trangThai.Location = new System.Drawing.Point(181, 366);
             this.tb_trangThai.Name = "tb_trangThai";
             this.tb_trangThai.PasswordChar = '\0';
             this.tb_trangThai.PlaceholderText = "";
@@ -161,7 +161,7 @@
             this.tb_phuongThucThanhToan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_phuongThucThanhToan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_phuongThucThanhToan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_phuongThucThanhToan.Location = new System.Drawing.Point(152, 331);
+            this.tb_phuongThucThanhToan.Location = new System.Drawing.Point(181, 329);
             this.tb_phuongThucThanhToan.Name = "tb_phuongThucThanhToan";
             this.tb_phuongThucThanhToan.PasswordChar = '\0';
             this.tb_phuongThucThanhToan.PlaceholderText = "";
@@ -180,7 +180,7 @@
             this.tb_ngayTaoHoaDon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_ngayTaoHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_ngayTaoHoaDon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_ngayTaoHoaDon.Location = new System.Drawing.Point(152, 294);
+            this.tb_ngayTaoHoaDon.Location = new System.Drawing.Point(181, 292);
             this.tb_ngayTaoHoaDon.Name = "tb_ngayTaoHoaDon";
             this.tb_ngayTaoHoaDon.PasswordChar = '\0';
             this.tb_ngayTaoHoaDon.PlaceholderText = "";
@@ -193,7 +193,7 @@
             this.guna2HtmlLabel8.AutoSize = false;
             this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(10, 366);
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(39, 364);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
             this.guna2HtmlLabel8.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel8.TabIndex = 21;
@@ -205,7 +205,7 @@
             this.guna2HtmlLabel9.AutoSize = false;
             this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(10, 329);
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(39, 327);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
             this.guna2HtmlLabel9.Size = new System.Drawing.Size(136, 34);
             this.guna2HtmlLabel9.TabIndex = 20;
@@ -217,7 +217,7 @@
             this.guna2HtmlLabel10.AutoSize = false;
             this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(10, 292);
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(39, 290);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
             this.guna2HtmlLabel10.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel10.TabIndex = 19;
@@ -235,7 +235,7 @@
             this.tb_tongTienThanhToan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_tongTienThanhToan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_tongTienThanhToan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_tongTienThanhToan.Location = new System.Drawing.Point(152, 257);
+            this.tb_tongTienThanhToan.Location = new System.Drawing.Point(181, 255);
             this.tb_tongTienThanhToan.Name = "tb_tongTienThanhToan";
             this.tb_tongTienThanhToan.PasswordChar = '\0';
             this.tb_tongTienThanhToan.PlaceholderText = "";
@@ -254,7 +254,7 @@
             this.tb_maNhanVien.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_maNhanVien.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_maNhanVien.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_maNhanVien.Location = new System.Drawing.Point(152, 220);
+            this.tb_maNhanVien.Location = new System.Drawing.Point(181, 218);
             this.tb_maNhanVien.Name = "tb_maNhanVien";
             this.tb_maNhanVien.PasswordChar = '\0';
             this.tb_maNhanVien.PlaceholderText = "";
@@ -273,7 +273,7 @@
             this.tb_maBan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_maBan.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_maBan.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_maBan.Location = new System.Drawing.Point(152, 183);
+            this.tb_maBan.Location = new System.Drawing.Point(181, 181);
             this.tb_maBan.Name = "tb_maBan";
             this.tb_maBan.PasswordChar = '\0';
             this.tb_maBan.PlaceholderText = "";
@@ -286,7 +286,7 @@
             this.guna2HtmlLabel4.AutoSize = false;
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(10, 255);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(39, 253);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel4.TabIndex = 15;
@@ -298,7 +298,7 @@
             this.guna2HtmlLabel6.AutoSize = false;
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(10, 218);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(39, 216);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel6.TabIndex = 14;
@@ -310,7 +310,7 @@
             this.guna2HtmlLabel7.AutoSize = false;
             this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(10, 181);
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(39, 179);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
             this.guna2HtmlLabel7.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel7.TabIndex = 13;
@@ -328,7 +328,7 @@
             this.tb_maKhachHang.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_maKhachHang.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_maKhachHang.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_maKhachHang.Location = new System.Drawing.Point(152, 141);
+            this.tb_maKhachHang.Location = new System.Drawing.Point(181, 139);
             this.tb_maKhachHang.Name = "tb_maKhachHang";
             this.tb_maKhachHang.PasswordChar = '\0';
             this.tb_maKhachHang.PlaceholderText = "";
@@ -347,7 +347,7 @@
             this.tb_maDonHang.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_maDonHang.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_maDonHang.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_maDonHang.Location = new System.Drawing.Point(152, 104);
+            this.tb_maDonHang.Location = new System.Drawing.Point(181, 102);
             this.tb_maDonHang.Name = "tb_maDonHang";
             this.tb_maDonHang.PasswordChar = '\0';
             this.tb_maDonHang.PlaceholderText = "";
@@ -366,7 +366,7 @@
             this.tb_maHoaDon.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.tb_maHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tb_maHoaDon.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tb_maHoaDon.Location = new System.Drawing.Point(152, 67);
+            this.tb_maHoaDon.Location = new System.Drawing.Point(181, 65);
             this.tb_maHoaDon.Name = "tb_maHoaDon";
             this.tb_maHoaDon.PasswordChar = '\0';
             this.tb_maHoaDon.PlaceholderText = "";
@@ -379,7 +379,7 @@
             this.guna2HtmlLabel5.AutoSize = false;
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(10, 139);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(39, 137);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel5.TabIndex = 3;
@@ -391,7 +391,7 @@
             this.guna2HtmlLabel3.AutoSize = false;
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(10, 102);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(39, 100);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel3.TabIndex = 2;
@@ -403,7 +403,7 @@
             this.guna2HtmlLabel2.AutoSize = false;
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(10, 65);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(39, 63);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(124, 34);
             this.guna2HtmlLabel2.TabIndex = 1;
@@ -420,7 +420,7 @@
             this.btn_inHoaDon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_inHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_inHoaDon.ForeColor = System.Drawing.Color.White;
-            this.btn_inHoaDon.Location = new System.Drawing.Point(482, 642);
+            this.btn_inHoaDon.Location = new System.Drawing.Point(481, 585);
             this.btn_inHoaDon.Name = "btn_inHoaDon";
             this.btn_inHoaDon.Size = new System.Drawing.Size(234, 46);
             this.btn_inHoaDon.TabIndex = 4;
@@ -436,7 +436,8 @@
             this.Controls.Add(this.tb_nhapMaHoaDon);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Name = "UserControlHoaDon";
-            this.Size = new System.Drawing.Size(1180, 701);
+            this.Size = new System.Drawing.Size(1186, 647);
+            this.Load += new System.EventHandler(this.UserControlHoaDon_Load);
             this.grb_thongTinHoaDon.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -26,5 +26,10 @@ namespace GUI
         {
 
         }
+
+        public void UserControlHoaDon_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

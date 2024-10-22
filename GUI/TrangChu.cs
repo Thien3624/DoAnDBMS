@@ -36,5 +36,12 @@ namespace GUI
             addHienThi(banAn);
             banAn.Load += new EventHandler(banAn.UserControlBanAn_Load);
         }
+
+        private void btn_hoaDon_Click(object sender, EventArgs e)
+        {
+            UserControlHoaDon hoaDon = new UserControlHoaDon();
+            addHienThi(hoaDon);
+            hoaDon.Load += new EventHandler(hoaDon.UserControlHoaDon_Load);
+        }
     }
 }
