@@ -52,7 +52,6 @@ namespace GUI
 
         public void Menu_Load(object sender, EventArgs e)
         {
-            addSanPham();
             LoadLoaiMonAn();
             LoadIdBanAn();
         }

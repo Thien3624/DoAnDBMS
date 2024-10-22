@@ -12,16 +12,16 @@ namespace BLL
         private string tenMonAn;
         private string loaiMonAn;
         private int gia;
-        private string trangThai;
+        private int soLuong;
         private Byte[] images;
 
-        public MonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, string trangThai, byte[] images)
+        public MonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, int soLuong, byte[] images)
         {
             this.maMonAn = maMonAn;
             this.tenMonAn = tenMonAn;
             this.loaiMonAn = loaiMonAn;
             this.gia = gia;
-            this.trangThai = trangThai;
+            this.soLuong = soLuong;
             this.images = images;
         }
 
@@ -29,7 +29,7 @@ namespace BLL
         public string TenMonAn { get => tenMonAn; set => tenMonAn = value; }
         public string LoaiMonAn { get => loaiMonAn; set => loaiMonAn = value; }
         public int Gia { get => gia; set => gia = value; }
-        public string TrangThai { get => trangThai; set => trangThai = value; }
+        public int SoLuong { get => soLuong; set => soLuong = value; }
         public byte[] Images { get => images; set => images = value; }
     }
 }
