@@ -25,7 +25,7 @@ namespace GUI
         }
         private void btn_thucDon_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
+            UserControlMenu menu = new UserControlMenu();
             addHienThi(menu);
             menu.Load += new EventHandler(menu.Menu_Load);
         }

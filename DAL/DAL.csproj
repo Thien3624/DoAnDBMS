@@ -44,6 +44,7 @@
     <Compile Include="BanAnDAL.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="MonAnDAL.cs" />
+    <Compile Include="NhanVienDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

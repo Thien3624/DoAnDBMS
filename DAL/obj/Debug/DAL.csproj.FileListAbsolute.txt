@@ -34,3 +34,12 @@ D:\VS Code\DoAnDBMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\VS Code\DoAnDBMS\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\VS Code\DoAnDBMS\DAL\obj\Debug\DAL.dll
 D:\VS Code\DoAnDBMS\DAL\obj\Debug\DAL.pdb
+D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\DAL.dll
+D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\DAL.pdb
+D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\BLL.dll
+D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\BLL.pdb
+D:\DBMS\Project\C#\DoAnDBMS\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\DBMS\Project\C#\DoAnDBMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\DBMS\Project\C#\DoAnDBMS\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\DBMS\Project\C#\DoAnDBMS\DAL\obj\Debug\DAL.dll
+D:\DBMS\Project\C#\DoAnDBMS\DAL\obj\Debug\DAL.pdb

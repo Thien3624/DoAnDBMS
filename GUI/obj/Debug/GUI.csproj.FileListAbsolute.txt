@@ -49,7 +49,6 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.pdb
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_MonAn.resources
-D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.Menu.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\BLL.dll
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\BLL.pdb
@@ -81,6 +80,7 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
+<<<<<<< HEAD
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\GUI.exe.config
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\GUI.exe
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\GUI.pdb
@@ -104,3 +104,12 @@ E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.Up2Date
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.exe
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.pdb
+=======
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.dll
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.pdb
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
+>>>>>>> 9224dd012a10a2e043c49ca461ac59bae6212386
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
+>>>>>>> eb54ed5667838177198e820587ab542993eda3f4
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
