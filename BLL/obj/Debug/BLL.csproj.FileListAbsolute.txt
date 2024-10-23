@@ -16,9 +16,18 @@ D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.dll
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.pdb
+<<<<<<< HEAD
 D:\DBMS_Project\DoAnDBMS\BLL\bin\Debug\BLL.dll
 D:\DBMS_Project\DoAnDBMS\BLL\bin\Debug\BLL.pdb
 D:\DBMS_Project\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\DBMS_Project\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\DBMS_Project\DoAnDBMS\BLL\obj\Debug\BLL.dll
 D:\DBMS_Project\DoAnDBMS\BLL\obj\Debug\BLL.pdb
+=======
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\bin\Debug\BLL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\bin\Debug\BLL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.pdb
+>>>>>>> dd4e5c3c35b3fea296c90e1c956d2c19322812a4
