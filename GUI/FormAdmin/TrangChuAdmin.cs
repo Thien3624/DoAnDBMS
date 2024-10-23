@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI.FormAdmin.UC_ThanPhanAdmin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,15 @@ namespace GUI.FormAdmin
         private void btn_quanLyThucDon_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void btn_quanLyNhanVien_Click(object sender, EventArgs e)
+        {
+            UserControlQLNhanVien userControlQLNhanVien = new UserControlQLNhanVien();
+            addHienThi(userControlQLNhanVien);
+            userControlQLNhanVien.Load += new EventHandler(userControlQLNhanVien.UserControlQLNhanVien_Load);
+
+            userControlQLNhanVien.loadNhanVienLenGridView();
         }
     }
 }

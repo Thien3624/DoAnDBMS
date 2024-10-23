@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAdmin\ThemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\ThemNhanVien.Designer.cs">
+      <DependentUpon>ThemNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAdmin\TrangChuAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.Designer.cs">
       <DependentUpon>O_MonAnAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLNhanVien.Designer.cs">
+      <DependentUpon>UserControlQLNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAdmin\UserControlQLThucDon.cs">
       <SubType>UserControl</SubType>
@@ -114,11 +126,17 @@
     <Compile Include="UserControlHoaDon.Designer.cs">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAdmin\ThemNhanVien.resx">
+      <DependentUpon>ThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\TrangChuAdmin.resx">
       <DependentUpon>TrangChuAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.resx">
       <DependentUpon>O_MonAnAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\UserControlQLNhanVien.resx">
+      <DependentUpon>UserControlQLNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\UserControlQLThucDon.resx">
       <DependentUpon>UserControlQLThucDon.cs</DependentUpon>

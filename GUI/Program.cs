@@ -1,5 +1,7 @@
 ﻿using BLL;
 using DAL;
+using GUI;
+using GUI.FormAdmin;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,7 +18,7 @@ namespace GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TrangChu());
+            Application.Run(new TrangChuAdmin());
         }
     }
 }
