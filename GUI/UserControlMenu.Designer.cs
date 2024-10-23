@@ -37,11 +37,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             this.dtGVDonHang = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.maMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.soLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cb_gioiTinhNu = new System.Windows.Forms.CheckBox();
+            this.cb_gioiTinhNam = new System.Windows.Forms.CheckBox();
+            this.txt_sDT = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txt_hoVaTen = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.cbo_maBan = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -51,10 +55,6 @@
             this.panelNoiDung = new System.Windows.Forms.FlowLayoutPanel();
             this.panelTop = new Guna.UI2.WinForms.Guna2Panel();
             this.cboLoaiMonAn = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.maMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.soLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelDatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGVDonHang)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -72,11 +72,11 @@
             this.panelDatHang.Controls.Add(this.label6);
             this.panelDatHang.Controls.Add(this.guna2Shapes1);
             this.panelDatHang.Controls.Add(this.dtGVDonHang);
-            this.panelDatHang.Controls.Add(this.checkBox2);
-            this.panelDatHang.Controls.Add(this.checkBox1);
-            this.panelDatHang.Controls.Add(this.guna2TextBox2);
+            this.panelDatHang.Controls.Add(this.cb_gioiTinhNu);
+            this.panelDatHang.Controls.Add(this.cb_gioiTinhNam);
+            this.panelDatHang.Controls.Add(this.txt_sDT);
             this.panelDatHang.Controls.Add(this.label4);
-            this.panelDatHang.Controls.Add(this.guna2TextBox1);
+            this.panelDatHang.Controls.Add(this.txt_hoVaTen);
             this.panelDatHang.Controls.Add(this.guna2Panel2);
             this.panelDatHang.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelDatHang.Location = new System.Drawing.Point(1064, 0);
@@ -196,47 +196,75 @@
             this.dtGVDonHang.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dtGVDonHang.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // checkBox2
+            // maMonAn
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(302, 219);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(46, 20);
-            this.checkBox2.TabIndex = 14;
-            this.checkBox2.Text = "Nữ";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.maMonAn.HeaderText = "Mã Món Ăn";
+            this.maMonAn.MinimumWidth = 6;
+            this.maMonAn.Name = "maMonAn";
+            this.maMonAn.ReadOnly = true;
             // 
-            // checkBox1
+            // tenMonAn
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(186, 219);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(58, 20);
-            this.checkBox1.TabIndex = 13;
-            this.checkBox1.Text = "Nam";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.tenMonAn.HeaderText = "Tên món ăn";
+            this.tenMonAn.MinimumWidth = 6;
+            this.tenMonAn.Name = "tenMonAn";
+            this.tenMonAn.ReadOnly = true;
             // 
-            // guna2TextBox2
+            // soLuong
             // 
-            this.guna2TextBox2.AutoRoundedCorners = true;
-            this.guna2TextBox2.BorderRadius = 16;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(72, 177);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "Số điện thoại";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(408, 34);
-            this.guna2TextBox2.TabIndex = 9;
+            this.soLuong.HeaderText = "Số lượng";
+            this.soLuong.MinimumWidth = 6;
+            this.soLuong.Name = "soLuong";
+            this.soLuong.ReadOnly = true;
+            // 
+            // gia
+            // 
+            this.gia.HeaderText = "Giá";
+            this.gia.MinimumWidth = 6;
+            this.gia.Name = "gia";
+            this.gia.ReadOnly = true;
+            // 
+            // cb_gioiTinhNu
+            // 
+            this.cb_gioiTinhNu.AutoSize = true;
+            this.cb_gioiTinhNu.Location = new System.Drawing.Point(302, 219);
+            this.cb_gioiTinhNu.Name = "cb_gioiTinhNu";
+            this.cb_gioiTinhNu.Size = new System.Drawing.Size(46, 20);
+            this.cb_gioiTinhNu.TabIndex = 14;
+            this.cb_gioiTinhNu.Text = "Nữ";
+            this.cb_gioiTinhNu.UseVisualStyleBackColor = true;
+            // 
+            // cb_gioiTinhNam
+            // 
+            this.cb_gioiTinhNam.AutoSize = true;
+            this.cb_gioiTinhNam.Location = new System.Drawing.Point(186, 219);
+            this.cb_gioiTinhNam.Name = "cb_gioiTinhNam";
+            this.cb_gioiTinhNam.Size = new System.Drawing.Size(58, 20);
+            this.cb_gioiTinhNam.TabIndex = 13;
+            this.cb_gioiTinhNam.Text = "Nam";
+            this.cb_gioiTinhNam.UseVisualStyleBackColor = true;
+            // 
+            // txt_sDT
+            // 
+            this.txt_sDT.AutoRoundedCorners = true;
+            this.txt_sDT.BorderRadius = 16;
+            this.txt_sDT.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_sDT.DefaultText = "";
+            this.txt_sDT.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_sDT.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_sDT.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_sDT.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_sDT.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_sDT.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_sDT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_sDT.Location = new System.Drawing.Point(72, 177);
+            this.txt_sDT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_sDT.Name = "txt_sDT";
+            this.txt_sDT.PasswordChar = '\0';
+            this.txt_sDT.PlaceholderText = "Số điện thoại";
+            this.txt_sDT.SelectedText = "";
+            this.txt_sDT.Size = new System.Drawing.Size(408, 34);
+            this.txt_sDT.TabIndex = 9;
             // 
             // label4
             // 
@@ -249,27 +277,27 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Khách hàng";
             // 
-            // guna2TextBox1
+            // txt_hoVaTen
             // 
-            this.guna2TextBox1.AutoRoundedCorners = true;
-            this.guna2TextBox1.BorderRadius = 16;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(72, 135);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Tên khách hàng";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(408, 34);
-            this.guna2TextBox1.TabIndex = 7;
+            this.txt_hoVaTen.AutoRoundedCorners = true;
+            this.txt_hoVaTen.BorderRadius = 16;
+            this.txt_hoVaTen.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_hoVaTen.DefaultText = "";
+            this.txt_hoVaTen.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txt_hoVaTen.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txt_hoVaTen.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_hoVaTen.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txt_hoVaTen.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_hoVaTen.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txt_hoVaTen.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txt_hoVaTen.Location = new System.Drawing.Point(72, 135);
+            this.txt_hoVaTen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_hoVaTen.Name = "txt_hoVaTen";
+            this.txt_hoVaTen.PasswordChar = '\0';
+            this.txt_hoVaTen.PlaceholderText = "Tên khách hàng";
+            this.txt_hoVaTen.SelectedText = "";
+            this.txt_hoVaTen.Size = new System.Drawing.Size(408, 34);
+            this.txt_hoVaTen.TabIndex = 7;
             // 
             // guna2Panel2
             // 
@@ -390,34 +418,6 @@
             this.cboLoaiMonAn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cboLoaiMonAn.SelectedIndexChanged += new System.EventHandler(this.cboLoaiMonAn_SelectedIndexChanged);
             // 
-            // maMonAn
-            // 
-            this.maMonAn.HeaderText = "Mã Món Ăn";
-            this.maMonAn.MinimumWidth = 6;
-            this.maMonAn.Name = "maMonAn";
-            this.maMonAn.ReadOnly = true;
-            // 
-            // tenMonAn
-            // 
-            this.tenMonAn.HeaderText = "Tên món ăn";
-            this.tenMonAn.MinimumWidth = 6;
-            this.tenMonAn.Name = "tenMonAn";
-            this.tenMonAn.ReadOnly = true;
-            // 
-            // soLuong
-            // 
-            this.soLuong.HeaderText = "Số lượng";
-            this.soLuong.MinimumWidth = 6;
-            this.soLuong.Name = "soLuong";
-            this.soLuong.ReadOnly = true;
-            // 
-            // gia
-            // 
-            this.gia.HeaderText = "Giá";
-            this.gia.MinimumWidth = 6;
-            this.gia.Name = "gia";
-            this.gia.ReadOnly = true;
-            // 
             // UserControlMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -453,10 +453,10 @@
         private Guna.UI2.WinForms.Guna2Panel panelTop;
         private Guna.UI2.WinForms.Guna2ComboBox cboLoaiMonAn;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txt_hoVaTen;
+        private Guna.UI2.WinForms.Guna2TextBox txt_sDT;
+        private System.Windows.Forms.CheckBox cb_gioiTinhNu;
+        private System.Windows.Forms.CheckBox cb_gioiTinhNam;
         private Guna.UI2.WinForms.Guna2DataGridView dtGVDonHang;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
         private System.Windows.Forms.Label label5;
