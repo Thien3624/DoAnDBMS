@@ -26,9 +26,7 @@ namespace GUI.FormAdmin
 
         private void btn_quanLyThucDon_Click(object sender, EventArgs e)
         {
-            UserControlQLThucDon menu = new UserControlQLThucDon();
-            addHienThi(menu);
-            menu.Load += new EventHandler(menu.Menu_Load);
+            
         }
     }
 }

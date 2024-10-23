@@ -33,6 +33,7 @@
             this.lb_giaMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.btn_datMon = new Guna.UI2.WinForms.Guna2Button();
             this.numeric_soLuong = new Guna.UI2.WinForms.Guna2NumericUpDown();
+            this.lb_maMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_soLuong)).BeginInit();
             this.SuspendLayout();
@@ -90,6 +91,7 @@
             this.btn_datMon.Size = new System.Drawing.Size(124, 55);
             this.btn_datMon.TabIndex = 3;
             this.btn_datMon.Text = "Đặt món";
+            this.btn_datMon.Click += new System.EventHandler(this.btn_datMon_Click);
             // 
             // numeric_soLuong
             // 
@@ -103,10 +105,21 @@
             this.numeric_soLuong.TabIndex = 4;
             this.numeric_soLuong.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             // 
+            // lb_maMonAn
+            // 
+            this.lb_maMonAn.BackColor = System.Drawing.Color.Transparent;
+            this.lb_maMonAn.Location = new System.Drawing.Point(135, 397);
+            this.lb_maMonAn.Name = "lb_maMonAn";
+            this.lb_maMonAn.Size = new System.Drawing.Size(70, 18);
+            this.lb_maMonAn.TabIndex = 5;
+            this.lb_maMonAn.Text = "Ma Mon An";
+            this.lb_maMonAn.Visible = false;
+            // 
             // O_MonAn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lb_maMonAn);
             this.Controls.Add(this.numeric_soLuong);
             this.Controls.Add(this.btn_datMon);
             this.Controls.Add(this.lb_giaMonAn);
@@ -118,6 +131,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numeric_soLuong)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -125,8 +139,9 @@
 
         private Guna.UI2.WinForms.Guna2PictureBox picb_anhMonAn;
         private Guna.UI2.WinForms.Guna2HtmlLabel lb_tenMonAn;
-        private Guna.UI2.WinForms.Guna2HtmlLabel lb_giaMonAn;
         private Guna.UI2.WinForms.Guna2Button btn_datMon;
         private Guna.UI2.WinForms.Guna2NumericUpDown numeric_soLuong;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lb_giaMonAn;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lb_maMonAn;
     }
 }

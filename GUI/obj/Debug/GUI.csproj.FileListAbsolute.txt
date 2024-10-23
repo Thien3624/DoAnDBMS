@@ -81,11 +81,62 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
 <<<<<<< HEAD
-D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\GUI.exe.config
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\GUI.exe
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\GUI.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\BLL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\DAL.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\Guna.UI2.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\BLL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\DAL.pdb
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormDangNhap.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.Properties.Resources.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.TrangChu.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_MonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.Menu.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.csproj.Up2Date
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.exe
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.pdb
 =======
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.dll
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.pdb
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
 >>>>>>> 9224dd012a10a2e043c49ca461ac59bae6212386
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLThucDon.resources
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\GUI.exe.config
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\GUI.exe
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\GUI.pdb
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\BLL.dll
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\DAL.dll
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\Guna.UI2.dll
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\BLL.pdb
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\DAL.pdb
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.TrangChuAdmin.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormDangNhap.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.Properties.Resources.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.TrangChu.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_BanAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.UC_ThanhPhan.O_MonAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.UserControlBanAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.UserControlHoaDon.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.csproj.CopyComplete
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.exe
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.pdb
+>>>>>>> eb54ed5667838177198e820587ab542993eda3f4
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
+>>>>>>> dd4e5c3c35b3fea296c90e1c956d2c19322812a4
+>>>>>>> 107e1408dbcdc335d46165452cf0b0f5db114ba9
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources

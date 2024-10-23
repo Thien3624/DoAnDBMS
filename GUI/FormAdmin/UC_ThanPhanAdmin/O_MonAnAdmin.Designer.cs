@@ -33,6 +33,7 @@
             this.lb_tenMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.picb_anhMonAn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btn_suaMonAn = new Guna.UI2.WinForms.Guna2Button();
+            this.lb_maMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,10 +107,21 @@
             this.btn_suaMonAn.TabIndex = 9;
             this.btn_suaMonAn.Text = "Sửa";
             // 
+            // lb_maMonAn
+            // 
+            this.lb_maMonAn.BackColor = System.Drawing.Color.Transparent;
+            this.lb_maMonAn.Location = new System.Drawing.Point(131, 403);
+            this.lb_maMonAn.Name = "lb_maMonAn";
+            this.lb_maMonAn.Size = new System.Drawing.Size(70, 18);
+            this.lb_maMonAn.TabIndex = 10;
+            this.lb_maMonAn.Text = "Ma Mon An";
+            this.lb_maMonAn.Visible = false;
+            // 
             // O_MonAnAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lb_maMonAn);
             this.Controls.Add(this.btn_suaMonAn);
             this.Controls.Add(this.btn_themMonAn);
             this.Controls.Add(this.lb_giaMonAn);
@@ -119,6 +131,7 @@
             this.Size = new System.Drawing.Size(329, 434);
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -129,5 +142,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lb_tenMonAn;
         private Guna.UI2.WinForms.Guna2PictureBox picb_anhMonAn;
         private Guna.UI2.WinForms.Guna2Button btn_suaMonAn;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lb_maMonAn;
     }
 }

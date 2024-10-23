@@ -46,10 +46,10 @@
             this.btn_thucDon.FillColor = System.Drawing.Color.Transparent;
             this.btn_thucDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_thucDon.ForeColor = System.Drawing.Color.White;
-            this.btn_thucDon.Location = new System.Drawing.Point(480, 0);
-            this.btn_thucDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_thucDon.Location = new System.Drawing.Point(360, 0);
+            this.btn_thucDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_thucDon.Name = "btn_thucDon";
-            this.btn_thucDon.Size = new System.Drawing.Size(208, 66);
+            this.btn_thucDon.Size = new System.Drawing.Size(156, 54);
             this.btn_thucDon.TabIndex = 1;
             this.btn_thucDon.Text = "Thực đơn";
             this.btn_thucDon.Click += new System.EventHandler(this.btn_thucDon_Click);
@@ -64,10 +64,10 @@
             this.btn_banAn.FillColor = System.Drawing.Color.Transparent;
             this.btn_banAn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_banAn.ForeColor = System.Drawing.Color.White;
-            this.btn_banAn.Location = new System.Drawing.Point(688, 2);
-            this.btn_banAn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_banAn.Location = new System.Drawing.Point(516, 2);
+            this.btn_banAn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_banAn.Name = "btn_banAn";
-            this.btn_banAn.Size = new System.Drawing.Size(208, 66);
+            this.btn_banAn.Size = new System.Drawing.Size(156, 54);
             this.btn_banAn.TabIndex = 2;
             this.btn_banAn.Text = "Bàn ăn";
             this.btn_banAn.Click += new System.EventHandler(this.btn_banAn_Click);
@@ -83,12 +83,13 @@
             this.btn_hoaDon.FillColor = System.Drawing.Color.Transparent;
             this.btn_hoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_hoaDon.ForeColor = System.Drawing.Color.White;
-            this.btn_hoaDon.Location = new System.Drawing.Point(895, 2);
-            this.btn_hoaDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_hoaDon.Location = new System.Drawing.Point(671, 2);
+            this.btn_hoaDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_hoaDon.Name = "btn_hoaDon";
-            this.btn_hoaDon.Size = new System.Drawing.Size(208, 66);
+            this.btn_hoaDon.Size = new System.Drawing.Size(156, 54);
             this.btn_hoaDon.TabIndex = 3;
             this.btn_hoaDon.Text = "Hóa đơn";
+            this.btn_hoaDon.Click += new System.EventHandler(this.btn_hoaDon_Click);
             // 
             // guna2Panel1
             // 
@@ -98,28 +99,29 @@
             this.guna2Panel1.Controls.Add(this.btn_thucDon);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1581, 66);
+            this.guna2Panel1.Size = new System.Drawing.Size(1186, 54);
             this.guna2Panel1.TabIndex = 0;
             // 
             // panelHienThi
             // 
             this.panelHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelHienThi.Location = new System.Drawing.Point(0, 66);
+            this.panelHienThi.Location = new System.Drawing.Point(0, 54);
+            this.panelHienThi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelHienThi.Name = "panelHienThi";
-            this.panelHienThi.Size = new System.Drawing.Size(1581, 797);
+            this.panelHienThi.Size = new System.Drawing.Size(1186, 647);
             this.panelHienThi.TabIndex = 1;
             // 
             // TrangChu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1581, 863);
+            this.ClientSize = new System.Drawing.Size(1186, 701);
             this.Controls.Add(this.panelHienThi);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "TrangChu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChu";

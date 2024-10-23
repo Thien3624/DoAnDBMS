@@ -29,7 +29,16 @@ namespace GUI
                 // Lấy giá trị từng cột trong hàng hiện tại
                 int maBan = row.Field<int>("maBan");
                 string sucChua = row["sucChua"].ToString();
+                if (row["trangThai"].ToString().Equals("Đã đặt"))
+                {
+                    oBanAn.BackColor = Color.Red;
+                }
+                else
+                {
+                    oBanAn.BackColor = Color.Green;
+                }
                 oBanAn.themBanAn(maBan, sucChua);
+
                 panelNoiDung.Controls.Add(oBanAn);
                 oBanAn.BringToFront();
             }

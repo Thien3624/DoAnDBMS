@@ -3,43 +3,47 @@
   "WorkspaceRootPath": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E105C768-DABB-4B62-9732-6EED462DDF3F}|BLL\\BLL.csproj|d:\\dbms\\project\\c#\\doandbms\\bll\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E105C768-DABB-4B62-9732-6EED462DDF3F}|BLL\\BLL.csproj|solutionrelative:bll\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\formadmin\\uc_thanphanadmin\\o_monanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\uc_thanphanadmin\\o_monanadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\uc_thanhphan\\o_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\uc_thanhphan\\o_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\uc_thanhphan\\o_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\uc_thanhphan\\o_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\uc_thanhphan\\o_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\uc_thanhphan\\o_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\formadmin\\usercontrolqlthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\formadmin\\usercontrolqlthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\usercontrolqlthucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,31 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "O_MonAnAdmin.cs [Design]",
-              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs",
-              "RelativeDocumentMoniker": "GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs",
-              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs [Design]",
-              "RelativeToolTip": "GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T05:24:15.653Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "O_MonAn.cs [Design]",
-              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UC_ThanhPhan\\O_MonAn.cs",
-              "RelativeDocumentMoniker": "GUI\\UC_ThanhPhan\\O_MonAn.cs",
-              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UC_ThanhPhan\\O_MonAn.cs [Design]",
-              "RelativeToolTip": "GUI\\UC_ThanhPhan\\O_MonAn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T05:23:22.288Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "O_BanAn.cs [Design]",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UC_ThanhPhan\\O_BanAn.cs",
               "RelativeDocumentMoniker": "GUI\\UC_ThanhPhan\\O_BanAn.cs",
@@ -106,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserControlMenu.cs",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
@@ -119,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserControlMenu.cs [Design]",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
@@ -131,57 +111,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "TrangChuAdmin.cs",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\TrangChuAdmin.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\TrangChuAdmin.cs",
               "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\TrangChuAdmin.cs",
               "RelativeToolTip": "GUI\\FormAdmin\\TrangChuAdmin.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAiwBwAAABAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAA0wBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T05:20:32.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "O_MonAnAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs",
+              "RelativeDocumentMoniker": "GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs",
+              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs [Design]",
+              "RelativeToolTip": "GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:24:15.653Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\BLL\\NhanVien.cs",
+              "RelativeDocumentMoniker": "BLL\\NhanVien.cs",
+              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\BLL\\NhanVien.cs",
+              "RelativeToolTip": "BLL\\NhanVien.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:36:43.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA+wBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T05:40:02.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TrangChu.cs",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\TrangChu.cs",
               "RelativeDocumentMoniker": "GUI\\TrangChu.cs",
               "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\TrangChu.cs",
               "RelativeToolTip": "GUI\\TrangChu.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAcwB0AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T05:19:57.367Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-10-23T05:19:57.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TrangChu.cs [Design]",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\TrangChu.cs",
               "RelativeDocumentMoniker": "GUI\\TrangChu.cs",
               "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\TrangChu.cs [Design]",
               "RelativeToolTip": "GUI\\TrangChu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T05:19:56.087Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-10-23T05:19:56.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserControlQLThucDon.cs [Design]",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLThucDon.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\UserControlQLThucDon.cs",
               "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLThucDon.cs [Design]",
               "RelativeToolTip": "GUI\\FormAdmin\\UserControlQLThucDon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T05:13:48.79Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-23T05:13:48.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TrangChuAdmin.cs [Design]",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\FormAdmin\\TrangChuAdmin.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\TrangChuAdmin.cs",

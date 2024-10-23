@@ -30,14 +30,17 @@ namespace GUI
         private void ThemMonAnVaoPanel(DataRow row)
         {
             O_MonAn oMonAn = new O_MonAn();
+            string maMonAn = row["maMonAn"].ToString();
             string tenSP = row["tenMonAn"].ToString();
             int gia = row.Field<int>("gia");
             byte[] b = row.Field<byte[]>("anhMoTa");
             Image anh = ByteArrToImage(b);
 
-            oMonAn.themMonAn(tenSP, gia, anh);
+            oMonAn.themMonAn(maMonAn,tenSP, gia, anh);
             panelNoiDung.Controls.Add(oMonAn);
             oMonAn.BringToFront();
+
+            oMonAn.DatMonAn += ThemMonAnVaoDonHang;
         }
 
         private void addSanPham()
@@ -83,6 +86,37 @@ namespace GUI
         {
             List<string> IdBanAnList = banAnDAL.LayDanhSachIdBanAn();
             cbo_maBan.DataSource = IdBanAnList;
+        }
+
+        public void ThemMonAnVaoDonHang(string maMonAn, string tenMonAn, int soLuong, int gia)
+        {
+            if (soLuong <= 0)
+            {
+                MessageBox.Show("Số lượng phải lớn hơn 0.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            foreach (DataGridViewRow row in dtGVDonHang.Rows)
+            {
+                if (row.Cells["TenMonAn"].Value.ToString() == tenMonAn)
+                {
+                    int existingQuantity = Convert.ToInt32(row.Cells["SoLuong"].Value);
+                    row.Cells["SoLuong"].Value = existingQuantity + soLuong; 
+                    return;
+                }
+            }
+
+            int rowIndex = dtGVDonHang.Rows.Add();
+            DataGridViewRow newRow = dtGVDonHang.Rows[rowIndex];
+            newRow.Cells["maMonAn"].Value = maMonAn;
+            newRow.Cells["TenMonAn"].Value = tenMonAn;
+            newRow.Cells["SoLuong"].Value = soLuong;
+            newRow.Cells["gia"].Value = gia * soLuong;
+        }
+
+        private void btn_themDonHang_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
