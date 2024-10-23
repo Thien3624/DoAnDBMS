@@ -52,3 +52,4 @@ D:\DBMS_Project\DoAnDBMS\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\DBMS_Project\DoAnDBMS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\DBMS_Project\DoAnDBMS\DAL\obj\Debug\DAL.dll
 D:\DBMS_Project\DoAnDBMS\DAL\obj\Debug\DAL.pdb
+D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\Guna.UI2.dll

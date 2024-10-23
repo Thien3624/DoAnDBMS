@@ -30,12 +30,14 @@ namespace GUI.FormAdmin
         {
             O_MonAnAdmin oMonAnAdmin = new O_MonAnAdmin();
             string maMonAn = row["maMonAn"].ToString();
-            string tenSP = row["tenMonAn"].ToString();
+            string tenMonAn = row["tenMonAn"].ToString();
+            string loaiMonAn = row["loaiMonAn"].ToString();
             int gia = row.Field<int>("gia");
+            int soLuong = row.Field<int>("soLuong");
             byte[] b = row.Field<byte[]>("anhMoTa");
             Image anh = ByteArrToImage(b);
 
-            oMonAnAdmin.themMonAnAdmin(maMonAn, tenSP, gia, anh);
+            oMonAnAdmin.themMonAnAdmin(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, anh);
             panelNoiDung.Controls.Add(oMonAnAdmin);
             oMonAnAdmin.BringToFront();
         }
@@ -85,5 +87,7 @@ namespace GUI.FormAdmin
         {
             LoadLoaiMonAnAdmin();
         }
+
+
     }
 }

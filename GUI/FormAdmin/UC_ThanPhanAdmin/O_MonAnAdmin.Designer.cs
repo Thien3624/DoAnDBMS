@@ -34,6 +34,8 @@
             this.picb_anhMonAn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.btn_suaMonAn = new Guna.UI2.WinForms.Guna2Button();
             this.lb_maMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lb_soLuong = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lb_loaiMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,6 +54,7 @@
             this.btn_xoaMonAn.Size = new System.Drawing.Size(101, 55);
             this.btn_xoaMonAn.TabIndex = 8;
             this.btn_xoaMonAn.Text = "Xóa";
+            this.btn_xoaMonAn.Click += new System.EventHandler(this.btn_xoaMonAn_Click);
             // 
             // lb_giaMonAn
             // 
@@ -118,10 +121,32 @@
             this.lb_maMonAn.Text = "Ma Mon An";
             this.lb_maMonAn.Visible = false;
             // 
+            // lb_soLuong
+            // 
+            this.lb_soLuong.BackColor = System.Drawing.Color.Transparent;
+            this.lb_soLuong.Location = new System.Drawing.Point(156, 403);
+            this.lb_soLuong.Name = "lb_soLuong";
+            this.lb_soLuong.Size = new System.Drawing.Size(60, 18);
+            this.lb_soLuong.TabIndex = 11;
+            this.lb_soLuong.Text = "So Luong";
+            this.lb_soLuong.Visible = false;
+            // 
+            // lb_loaiMonAn
+            // 
+            this.lb_loaiMonAn.BackColor = System.Drawing.Color.Transparent;
+            this.lb_loaiMonAn.Location = new System.Drawing.Point(149, 403);
+            this.lb_loaiMonAn.Name = "lb_loaiMonAn";
+            this.lb_loaiMonAn.Size = new System.Drawing.Size(77, 18);
+            this.lb_loaiMonAn.TabIndex = 12;
+            this.lb_loaiMonAn.Text = "Loai Mon An";
+            this.lb_loaiMonAn.Visible = false;
+            // 
             // O_MonAnAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lb_loaiMonAn);
+            this.Controls.Add(this.lb_soLuong);
             this.Controls.Add(this.lb_maMonAn);
             this.Controls.Add(this.btn_suaMonAn);
             this.Controls.Add(this.btn_xoaMonAn);
@@ -144,5 +169,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox picb_anhMonAn;
         private Guna.UI2.WinForms.Guna2Button btn_suaMonAn;
         public Guna.UI2.WinForms.Guna2HtmlLabel lb_maMonAn;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lb_soLuong;
+        public Guna.UI2.WinForms.Guna2HtmlLabel lb_loaiMonAn;
     }
 }
