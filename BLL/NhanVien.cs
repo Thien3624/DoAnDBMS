@@ -15,11 +15,17 @@ namespace BLL
         private DateTime ngaySinh;
         private string soDienThoai;
         private string diaChi;
+<<<<<<< HEAD
         private string trangThaiLamViec;
 
 
 
         public NhanVien(string maNhanVien, string cCCD, string hoVaTen, string gioiTinh, DateTime ngaySinh, string soDienThoai, string diaChi)
+=======
+        private bool trangThaiLamViec;
+
+        public NhanVien(string maNhanVien, string cCCD, string hoVaTen, string gioiTinh, DateTime ngaySinh, string soDienThoai, string diaChi, bool trangThaiLamViec)
+>>>>>>> c0be9cf7d06c63066290274a29fbb410e16ad5d1
         {
             this.maNhanVien = maNhanVien;
             this.cCCD = cCCD;
@@ -28,6 +34,10 @@ namespace BLL
             this.ngaySinh = ngaySinh;
             this.soDienThoai = soDienThoai;
             this.diaChi = diaChi;
+<<<<<<< HEAD
+=======
+            this.trangThaiLamViec = trangThaiLamViec;
+>>>>>>> c0be9cf7d06c63066290274a29fbb410e16ad5d1
         }
 
         public string MaNhanVien { get => maNhanVien; set => maNhanVien = value; }
@@ -37,6 +47,10 @@ namespace BLL
         public DateTime NgaySinh { get => ngaySinh; set => ngaySinh = value; }
         public string SoDienThoai { get => soDienThoai; set => soDienThoai = value; }
         public string DiaChi { get => diaChi; set => diaChi = value; }
+<<<<<<< HEAD
         public string TrangThaiLamViec { get => trangThaiLamViec; set => trangThaiLamViec = value; }
+=======
+        public bool TrangThaiLamViec { get => trangThaiLamViec; set => trangThaiLamViec = value; }
+>>>>>>> c0be9cf7d06c63066290274a29fbb410e16ad5d1
     }
 }

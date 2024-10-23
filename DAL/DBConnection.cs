@@ -62,6 +62,29 @@ namespace DAL
             }
             return resultList;
         }
+        public int executeNonQuery(string query, SqlParameter[] parameters = null)
+        {
+            using (SqlConnection sqlCon = GetSqlConnection())
+            {
+                try
+                {
+                    sqlCon.Open();
+                    using (SqlCommand sqlCommand = new SqlCommand(query, sqlCon))
+                    {
+                        if (parameters != null)
+                        {
+                            sqlCommand.Parameters.AddRange(parameters);
+                        }
+                        return sqlCommand.ExecuteNonQuery(); // Trả về số hàng bị ảnh hưởng
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Lỗi: " + ex.Message);
+                    throw;
+                }
+            }
+        }
 
         public void executeInsertQuery(string query, SqlParameter[] sqlParameters)
         {
