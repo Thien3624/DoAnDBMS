@@ -52,6 +52,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAdmin\SuaMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\SuaMonAn.Designer.cs">
+      <DependentUpon>SuaMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin\ThemMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\ThemMonAn.Designer.cs">
+      <DependentUpon>ThemMonAn.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAdmin\ThemNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +138,12 @@
     <Compile Include="UserControlHoaDon.Designer.cs">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAdmin\SuaMonAn.resx">
+      <DependentUpon>SuaMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\ThemMonAn.resx">
+      <DependentUpon>ThemMonAn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\ThemNhanVien.resx">
       <DependentUpon>ThemNhanVien.cs</DependentUpon>
     </EmbeddedResource>

@@ -67,6 +67,7 @@ namespace GUI
             string selectedLoaiMonAn = cboLoaiMonAn.SelectedItem.ToString();
             if (selectedLoaiMonAn == "Tất cả")
             {
+                panelNoiDung.Controls.Clear();
                 addSanPham();
             }
             else
