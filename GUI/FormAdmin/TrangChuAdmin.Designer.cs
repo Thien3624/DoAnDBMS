@@ -34,6 +34,7 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_quanLyNhanVien = new Guna.UI2.WinForms.Guna2Button();
             this.btn_quanLyDoanhThu = new Guna.UI2.WinForms.Guna2Button();
+            this.panelHienThi = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +54,7 @@
             this.btn_quanLyThucDon.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyThucDon.TabIndex = 1;
             this.btn_quanLyThucDon.Text = "Quản lý thực đơn";
+            this.btn_quanLyThucDon.Click += new System.EventHandler(this.btn_quanLyThucDon_Click);
             // 
             // btn_quanLyBanAn
             // 
@@ -140,11 +142,20 @@
             this.btn_quanLyDoanhThu.TabIndex = 4;
             this.btn_quanLyDoanhThu.Text = "Quản lý doanh thu";
             // 
+            // panelHienThi
+            // 
+            this.panelHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelHienThi.Location = new System.Drawing.Point(0, 66);
+            this.panelHienThi.Name = "panelHienThi";
+            this.panelHienThi.Size = new System.Drawing.Size(1581, 797);
+            this.panelHienThi.TabIndex = 2;
+            // 
             // TrangChuAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1581, 863);
+            this.Controls.Add(this.panelHienThi);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -163,5 +174,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Button btn_quanLyDoanhThu;
         private Guna.UI2.WinForms.Guna2Button btn_quanLyNhanVien;
+        private Guna.UI2.WinForms.Guna2Panel panelHienThi;
     }
 }

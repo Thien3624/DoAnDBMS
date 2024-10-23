@@ -16,5 +16,19 @@ namespace GUI.FormAdmin
         {
             InitializeComponent();
         }
+        public void addHienThi(UserControl uc)
+        {
+            uc.Dock = DockStyle.Fill;
+            panelHienThi.Controls.Clear();
+            panelHienThi.Controls.Add(uc);
+            uc.BringToFront();
+        }
+
+        private void btn_quanLyThucDon_Click(object sender, EventArgs e)
+        {
+            UserControlQLThucDon menu = new UserControlQLThucDon();
+            addHienThi(menu);
+            menu.Load += new EventHandler(menu.Menu_Load);
+        }
     }
 }

@@ -58,6 +58,18 @@
     <Compile Include="FormAdmin\TrangChuAdmin.Designer.cs">
       <DependentUpon>TrangChuAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.Designer.cs">
+      <DependentUpon>O_MonAnAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLThucDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLThucDon.Designer.cs">
+      <DependentUpon>UserControlQLThucDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +116,12 @@
     </Compile>
     <EmbeddedResource Include="FormAdmin\TrangChuAdmin.resx">
       <DependentUpon>TrangChuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.resx">
+      <DependentUpon>O_MonAnAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\UserControlQLThucDon.resx">
+      <DependentUpon>UserControlQLThucDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>

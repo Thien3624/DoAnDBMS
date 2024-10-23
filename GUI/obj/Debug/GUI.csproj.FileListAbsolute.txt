@@ -88,3 +88,4 @@ D:\VS Code\DoAnDBMS\GUI\bin\Debug\DAL.pdb
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
 >>>>>>> 9224dd012a10a2e043c49ca461ac59bae6212386
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLThucDon.resources
