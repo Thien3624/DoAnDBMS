@@ -16,5 +16,18 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
         {
             InitializeComponent();
         }
+        public void themMonAnAdmin(string maMonAn, string tenMonAn, int gia, Image images)
+        {
+            lb_maMonAn.Text = maMonAn;
+            lb_tenMonAn.Text = tenMonAn;
+            lb_giaMonAn.Text = "Giá: " + gia.ToString("N0") + " VNĐ";
+            picb_anhMonAn.Image = images;
+        }
+
+        private void btn_suaMonAn_Click(object sender, EventArgs e)
+        {
+            SuaMonAn suaMonAn = new SuaMonAn();
+            suaMonAn.ShowDialog();
+        }
     }
 }

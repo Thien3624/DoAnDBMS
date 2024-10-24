@@ -43,9 +43,10 @@
   <ItemGroup>
     <Compile Include="BanAnDAL.cs" />
     <Compile Include="DBConnection.cs" />
-    <Compile Include="DonHangDAL.cs" />
+    <Compile Include="DonHangDAO.cs" />
+    <Compile Include="KhachHangDAO.cs" />
     <Compile Include="MonAnDAL.cs" />
-    <Compile Include="NhanVienDAO.cs" />
+    <Compile Include="NhanVienDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

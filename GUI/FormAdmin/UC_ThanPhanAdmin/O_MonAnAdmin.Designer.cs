@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_themMonAn = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_xoaMonAn = new Guna.UI2.WinForms.Guna2Button();
             this.lb_giaMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lb_tenMonAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.picb_anhMonAn = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -37,21 +37,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).BeginInit();
             this.SuspendLayout();
             // 
-            // btn_themMonAn
+            // btn_xoaMonAn
             // 
-            this.btn_themMonAn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_themMonAn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_themMonAn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_themMonAn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_themMonAn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_themMonAn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_themMonAn.ForeColor = System.Drawing.Color.White;
-            this.btn_themMonAn.Location = new System.Drawing.Point(4, 377);
-            this.btn_themMonAn.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_themMonAn.Name = "btn_themMonAn";
-            this.btn_themMonAn.Size = new System.Drawing.Size(101, 55);
-            this.btn_themMonAn.TabIndex = 8;
-            this.btn_themMonAn.Text = "Thêm";
+            this.btn_xoaMonAn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_xoaMonAn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_xoaMonAn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_xoaMonAn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_xoaMonAn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_xoaMonAn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_xoaMonAn.ForeColor = System.Drawing.Color.White;
+            this.btn_xoaMonAn.Location = new System.Drawing.Point(4, 377);
+            this.btn_xoaMonAn.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_xoaMonAn.Name = "btn_xoaMonAn";
+            this.btn_xoaMonAn.Size = new System.Drawing.Size(101, 55);
+            this.btn_xoaMonAn.TabIndex = 8;
+            this.btn_xoaMonAn.Text = "Xóa";
             // 
             // lb_giaMonAn
             // 
@@ -61,7 +61,7 @@
             this.lb_giaMonAn.Location = new System.Drawing.Point(0, 310);
             this.lb_giaMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.lb_giaMonAn.Name = "lb_giaMonAn";
-            this.lb_giaMonAn.Size = new System.Drawing.Size(329, 46);
+            this.lb_giaMonAn.Size = new System.Drawing.Size(378, 46);
             this.lb_giaMonAn.TabIndex = 7;
             this.lb_giaMonAn.Text = "Giá món ăn";
             this.lb_giaMonAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -74,7 +74,7 @@
             this.lb_tenMonAn.Location = new System.Drawing.Point(0, 257);
             this.lb_tenMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.lb_tenMonAn.Name = "lb_tenMonAn";
-            this.lb_tenMonAn.Size = new System.Drawing.Size(329, 46);
+            this.lb_tenMonAn.Size = new System.Drawing.Size(378, 46);
             this.lb_tenMonAn.TabIndex = 6;
             this.lb_tenMonAn.Text = "Tên món ăn";
             this.lb_tenMonAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -86,7 +86,7 @@
             this.picb_anhMonAn.Location = new System.Drawing.Point(0, 0);
             this.picb_anhMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.picb_anhMonAn.Name = "picb_anhMonAn";
-            this.picb_anhMonAn.Size = new System.Drawing.Size(329, 248);
+            this.picb_anhMonAn.Size = new System.Drawing.Size(378, 248);
             this.picb_anhMonAn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picb_anhMonAn.TabIndex = 5;
             this.picb_anhMonAn.TabStop = false;
@@ -100,17 +100,18 @@
             this.btn_suaMonAn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_suaMonAn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_suaMonAn.ForeColor = System.Drawing.Color.White;
-            this.btn_suaMonAn.Location = new System.Drawing.Point(222, 377);
+            this.btn_suaMonAn.Location = new System.Drawing.Point(268, 379);
             this.btn_suaMonAn.Margin = new System.Windows.Forms.Padding(4);
             this.btn_suaMonAn.Name = "btn_suaMonAn";
             this.btn_suaMonAn.Size = new System.Drawing.Size(106, 55);
             this.btn_suaMonAn.TabIndex = 9;
             this.btn_suaMonAn.Text = "Sửa";
+            this.btn_suaMonAn.Click += new System.EventHandler(this.btn_suaMonAn_Click);
             // 
             // lb_maMonAn
             // 
             this.lb_maMonAn.BackColor = System.Drawing.Color.Transparent;
-            this.lb_maMonAn.Location = new System.Drawing.Point(131, 403);
+            this.lb_maMonAn.Location = new System.Drawing.Point(156, 403);
             this.lb_maMonAn.Name = "lb_maMonAn";
             this.lb_maMonAn.Size = new System.Drawing.Size(70, 18);
             this.lb_maMonAn.TabIndex = 10;
@@ -123,12 +124,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lb_maMonAn);
             this.Controls.Add(this.btn_suaMonAn);
-            this.Controls.Add(this.btn_themMonAn);
+            this.Controls.Add(this.btn_xoaMonAn);
             this.Controls.Add(this.lb_giaMonAn);
             this.Controls.Add(this.lb_tenMonAn);
             this.Controls.Add(this.picb_anhMonAn);
             this.Name = "O_MonAnAdmin";
-            this.Size = new System.Drawing.Size(329, 434);
+            this.Size = new System.Drawing.Size(378, 434);
             ((System.ComponentModel.ISupportInitialize)(this.picb_anhMonAn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -137,7 +138,7 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Button btn_themMonAn;
+        private Guna.UI2.WinForms.Guna2Button btn_xoaMonAn;
         private Guna.UI2.WinForms.Guna2HtmlLabel lb_giaMonAn;
         private Guna.UI2.WinForms.Guna2HtmlLabel lb_tenMonAn;
         private Guna.UI2.WinForms.Guna2PictureBox picb_anhMonAn;
