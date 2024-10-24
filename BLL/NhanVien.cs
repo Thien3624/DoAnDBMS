@@ -17,6 +17,8 @@ namespace BLL
         private string diaChi;
         private bool trangThaiLamViec;
 
+        public NhanVien() { }
+
         public NhanVien(string maNhanVien, string cCCD, string hoVaTen, string gioiTinh, DateTime ngaySinh, string soDienThoai, string diaChi, bool trangThaiLamViec)
         {
             this.maNhanVien = maNhanVien;

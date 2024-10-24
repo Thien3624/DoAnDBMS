@@ -22,12 +22,9 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
 
         public void loadNhanVienLenGridView()
         {
-
-
             DataTable dt = new DataTable();
             dt = nhanVienDAL.hienThiNhanVien();
             gridViewHienThiNhanVien.DataSource = dt;
-
         }
 
         public void UserControlQLNhanVien_Load(object sender, EventArgs e)
@@ -39,6 +36,11 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
         {
             ThemNhanVien themNhanVien = new ThemNhanVien();
             themNhanVien.Show();
+        }
+
+        private void btn_xoaNhanVien_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
