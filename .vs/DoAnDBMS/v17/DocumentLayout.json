@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E105C768-DABB-4B62-9732-6EED462DDF3F}|BLL\\BLL.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\bll\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +50,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DonHangDAO.cs",
-              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\DAL\\DonHangDAO.cs",
-              "RelativeDocumentMoniker": "DAL\\DonHangDAO.cs",
-              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\DAL\\DonHangDAO.cs",
-              "RelativeToolTip": "DAL\\DonHangDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:38:42.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DonHang.cs",
-              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\BLL\\DonHang.cs",
-              "RelativeDocumentMoniker": "BLL\\DonHang.cs",
-              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\BLL\\DonHang.cs",
-              "RelativeToolTip": "BLL\\DonHang.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:01:45.328Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserControlMenu.cs",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
               "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeToolTip": "GUI\\UserControlMenu.cs",
-              "ViewState": "AQIAAJoAAAAAAAAAAAAkwHYAAAApAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwJwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T07:56:54.156Z",
+              "WhenOpened": "2024-10-24T13:05:26.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControlMenu.cs [Design]",
+              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
+              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs [Design]",
+              "RelativeToolTip": "GUI\\UserControlMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:05:22.948Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:25:37.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DonHangDAO.cs",
+              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\DAL\\DonHangDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DonHangDAO.cs",
+              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\DAL\\DonHangDAO.cs",
+              "RelativeToolTip": "DAL\\DonHangDAO.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwEYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:38:42.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\BLL\\DonHang.cs",
+              "RelativeDocumentMoniker": "BLL\\DonHang.cs",
+              "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\BLL\\DonHang.cs",
+              "RelativeToolTip": "BLL\\DonHang.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T09:01:45.328Z",
               "EditorCaption": ""
             }
           ]
