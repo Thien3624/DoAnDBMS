@@ -40,7 +40,7 @@ namespace GUI
             byte[] b = row.Field<byte[]>("anhMoTa");
             Image anh = ByteArrToImage(b);
 
-            oMonAn.themMonAn(maMonAn,tenSP, gia, anh);
+            oMonAn.themMonAn(maMonAn, tenSP, gia, anh);
             panelNoiDung.Controls.Add(oMonAn);
             oMonAn.BringToFront();
 
@@ -106,7 +106,7 @@ namespace GUI
                 if (row.Cells["TenMonAn"].Value.ToString() == tenMonAn)
                 {
                     int existingQuantity = Convert.ToInt32(row.Cells["SoLuong"].Value);
-                    row.Cells["SoLuong"].Value = existingQuantity + soLuong; 
+                    row.Cells["SoLuong"].Value = existingQuantity + soLuong;
                     return;
                 }
             }
@@ -121,50 +121,69 @@ namespace GUI
 
         private void btn_themDonHang_Click(object sender, EventArgs e)
         {
-            DonHangDAO donHangDAO = new DonHangDAO();
-            KhachHangDAO khachHangDAO = new KhachHangDAO();
             try
             {
+                // Validate input
+                if (string.IsNullOrWhiteSpace(txt_hoVaTen.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập họ tên khách hàng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (string.IsNullOrWhiteSpace(txt_sDT.Text))
+                {
+                    MessageBox.Show("Vui lòng nhập số điện thoại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                if (dtGVDonHang.Rows.Count <= 1)
+                {
+                    MessageBox.Show("Vui lòng chọn ít nhất một món ăn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 string hoVaTen = txt_hoVaTen.Text;
                 string sDT = txt_sDT.Text;
-                string gioiTinh;
-                if (cb_gioiTinhNam.Checked)
-                {
-                    gioiTinh = "Nam";
-                }
-                else if (cb_gioiTinhNu.Checked)
-                {
-                    gioiTinh = "Nữ";
-                }
-                else
-                {
-                    gioiTinh = "Khác"; 
-                }
-                string maBan = cbo_maBan.ToString();
-                string dsMaMonAn = "";
+                string gioiTinh = cb_gioiTinhNam.Checked ? "Nam" : (cb_gioiTinhNu.Checked ? "Nữ" : "Khác");
+                KhachHang khachHang = new KhachHang(sDT, hoVaTen, gioiTinh, sDT);
+                KhachHangDAO khachHangDAO = new KhachHangDAO();
+                khachHangDAO.themKhachHang(khachHang);
 
+                int maBan = int.Parse(cbo_maBan.SelectedValue.ToString());
+                DateTime ngayDatMon = DateTime.Now;
+
+
+
+                // Khởi tạo đối tượng DonHang
+                DonHang donHang = new DonHang(maBan, khachHang.MaKhachHang, ngayDatMon);
+                // Thêm DonHang và lấy maDonHang vừa được thêm
+                int generatedMaDonHang = donHangDAO.ThemDonHang(donHang);
+
+                List<ChiTietDonHang> chiTietDonHangs = new List<ChiTietDonHang>();
+                // Gather order details from DataGridView
                 foreach (DataGridViewRow row in dtGVDonHang.Rows)
                 {
                     if (row.IsNewRow) continue;
-
                     string maMonAn = row.Cells["maMonAn"].Value.ToString();
-                    string tenMonAn = row.Cells["tenMonAn"].Value.ToString();
-                    dsMaMonAn += maMonAn;
                     int soLuong = Convert.ToInt32(row.Cells["soLuong"].Value);
-                    int gia = Convert.ToInt32(row.Cells["gia"].Value);
-
-                    DonHang donHang = new DonHang(maBan, soLuong, dsMaMonAn);
-                    donHangDAO.themDonHang(donHang);
-
+                    int donGia = Convert.ToInt32(row.Cells["gia"].Value) / soLuong;
+                    int thanhTien = Convert.ToInt32(row.Cells["gia"].Value);
+                    chiTietDonHangs.Add(new ChiTietDonHang
+                    {
+                        MaDonHang = generatedMaDonHang,
+                        MaMonAn = maMonAn,
+                        SoLuong = soLuong,
+                        DonGia = donGia,
+                        ThanhTien = thanhTien
+                    });
                 }
 
-                KhachHang khachHang = new KhachHang(sDT, hoVaTen, gioiTinh, sDT);
-                khachHangDAO.themKhachHang(khachHang);
-                MessageBox.Show("Đơn hàng đã được thêm thành công.");
+                // Save the order details to the database
+                donHangDAO.ThemChiTietDonHang(chiTietDonHangs);
+                MessageBox.Show("Đơn hàng đã được thêm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi thêm đơn hàng." + ex.Message);
+                MessageBox.Show($"Lỗi khi thêm đơn hàng: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
         }
     }
