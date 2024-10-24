@@ -140,7 +140,17 @@ E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
 >>>>>>> dd4e5c3c35b3fea296c90e1c956d2c19322812a4
 >>>>>>> 107e1408dbcdc335d46165452cf0b0f5db114ba9
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLThucDon.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLThucDon.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
+>>>>>>> da925482ccd61ca1b3179fe3bbfc71cc0e9fab64
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources

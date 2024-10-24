@@ -88,13 +88,9 @@ namespace DAL
 
         public void executeInsertQuery(string query, SqlParameter[] sqlParameters)
         {
-            // Tạo kết nối với cơ sở dữ liệu
             using (SqlConnection sqlConnection = GetSqlConnection())
             {
-                // Mở kết nối
                 sqlConnection.Open();
-
-                // Tạo lệnh SQL
                 using (SqlCommand sqlCommand = new SqlCommand(query, sqlConnection))
                 {
                     sqlCommand.CommandType = CommandType.StoredProcedure; // Đặt loại lệnh
@@ -102,16 +98,41 @@ namespace DAL
 
                     try
                     {
-                        // Thực thi lệnh SQL
                         sqlCommand.ExecuteNonQuery();
                     }
                     catch (Exception ex)
                     {
-                        // In thông báo lỗi ra console
                         Console.WriteLine(ex.Message);
                     }
                 }
-            } // Kết nối sẽ tự động đóng ở đây
+            }
+        }
+        public void executeUpdateOrDeleteQuery(string query, SqlParameter[] sqlParameter)
+        {
+            using (SqlConnection connection = GetSqlConnection())
+            {
+                using (SqlCommand sqlCommand = new SqlCommand(query, connection))
+                {
+                    sqlCommand.CommandType = CommandType.StoredProcedure;
+                    if (sqlParameter != null)
+                    {
+                        foreach (var param in sqlParameter)
+                        {
+                            sqlCommand.Parameters.AddWithValue(param.ParameterName, param.Value);
+                        }
+                    }
+
+                    try
+                    {
+                        connection.Open();
+                        sqlCommand.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Lỗi: " + ex.Message);
+                    }
+                }
+            }
         }
 
 

@@ -1,4 +1,5 @@
-﻿using DAL;
+﻿using BLL;
+using DAL;
 using GUI.UC_ThanhPhan;
 using System;
 using System.Collections.Generic;
@@ -11,10 +12,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace GUI
 {
     public partial class UserControlMenu : UserControl
     {
+        DonHangDAO donHangDAO = new DonHangDAO();
+
         public UserControlMenu()
         {
             InitializeComponent();
@@ -63,6 +67,7 @@ namespace GUI
             string selectedLoaiMonAn = cboLoaiMonAn.SelectedItem.ToString();
             if (selectedLoaiMonAn == "Tất cả")
             {
+                panelNoiDung.Controls.Clear();
                 addSanPham();
             }
             else
@@ -109,14 +114,58 @@ namespace GUI
             int rowIndex = dtGVDonHang.Rows.Add();
             DataGridViewRow newRow = dtGVDonHang.Rows[rowIndex];
             newRow.Cells["maMonAn"].Value = maMonAn;
-            newRow.Cells["TenMonAn"].Value = tenMonAn;
-            newRow.Cells["SoLuong"].Value = soLuong;
+            newRow.Cells["tenMonAn"].Value = tenMonAn;
+            newRow.Cells["soLuong"].Value = soLuong;
             newRow.Cells["gia"].Value = gia * soLuong;
         }
 
         private void btn_themDonHang_Click(object sender, EventArgs e)
         {
+            DonHangDAO donHangDAO = new DonHangDAO();
+            KhachHangDAO khachHangDAO = new KhachHangDAO();
+            try
+            {
+                string hoVaTen = txt_hoVaTen.Text;
+                string sDT = txt_sDT.Text;
+                string gioiTinh;
+                if (cb_gioiTinhNam.Checked)
+                {
+                    gioiTinh = "Nam";
+                }
+                else if (cb_gioiTinhNu.Checked)
+                {
+                    gioiTinh = "Nữ";
+                }
+                else
+                {
+                    gioiTinh = "Khác"; 
+                }
+                string maBan = cbo_maBan.ToString();
+                string dsMaMonAn = "";
 
+                foreach (DataGridViewRow row in dtGVDonHang.Rows)
+                {
+                    if (row.IsNewRow) continue;
+
+                    string maMonAn = row.Cells["maMonAn"].Value.ToString();
+                    string tenMonAn = row.Cells["tenMonAn"].Value.ToString();
+                    dsMaMonAn += maMonAn;
+                    int soLuong = Convert.ToInt32(row.Cells["soLuong"].Value);
+                    int gia = Convert.ToInt32(row.Cells["gia"].Value);
+
+                    DonHang donHang = new DonHang(maBan, soLuong, dsMaMonAn);
+                    donHangDAO.themDonHang(donHang);
+
+                }
+
+                KhachHang khachHang = new KhachHang(sDT, hoVaTen, gioiTinh, sDT);
+                khachHangDAO.themKhachHang(khachHang);
+                MessageBox.Show("Đơn hàng đã được thêm thành công.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi thêm đơn hàng." + ex.Message);
+            }
         }
     }
 }

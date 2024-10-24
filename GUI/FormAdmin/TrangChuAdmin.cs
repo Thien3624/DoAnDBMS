@@ -27,7 +27,9 @@ namespace GUI.FormAdmin
 
         private void btn_quanLyThucDon_Click(object sender, EventArgs e)
         {
-            
+            UserControlQLThucDon qlmenu = new UserControlQLThucDon();
+            addHienThi(qlmenu);
+            qlmenu.Load += new EventHandler(qlmenu.UserControlQLThucDon_Load);
         }
 
         public void btn_quanLyNhanVien_Click(object sender, EventArgs e)

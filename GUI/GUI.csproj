@@ -52,6 +52,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAdmin\SuaMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\SuaMonAn.Designer.cs">
+      <DependentUpon>SuaMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin\SuaNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\SuaNhanVien.Designer.cs">
+      <DependentUpon>SuaNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin\ThemMonAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\ThemMonAn.Designer.cs">
+      <DependentUpon>ThemMonAn.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAdmin\ThemNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,12 +99,6 @@
     </Compile>
     <Compile Include="FormAdmin\UserControlQLThucDon.Designer.cs">
       <DependentUpon>UserControlQLThucDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormAdmin\XoaNhanVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormAdmin\XoaNhanVien.Designer.cs">
-      <DependentUpon>XoaNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="FormDangNhap.cs">
       <SubType>Form</SubType>
@@ -132,6 +144,15 @@
     <Compile Include="UserControlHoaDon.Designer.cs">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAdmin\SuaMonAn.resx">
+      <DependentUpon>SuaMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\SuaNhanVien.resx">
+      <DependentUpon>SuaNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\ThemMonAn.resx">
+      <DependentUpon>ThemMonAn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\ThemNhanVien.resx">
       <DependentUpon>ThemNhanVien.cs</DependentUpon>
     </EmbeddedResource>

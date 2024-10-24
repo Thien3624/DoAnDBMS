@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class KhachHang
+    public class KhachHang
     {
         private string maKhachHang;
         private string hoVaTen;
