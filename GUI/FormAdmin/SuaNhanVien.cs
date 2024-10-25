@@ -1,4 +1,5 @@
-﻿using DAL;
+﻿using BLL;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -119,6 +120,7 @@ namespace GUI.FormAdmin
 
         private void btn_luu_Click(object sender, EventArgs e)
         {
+            
             try
             {
                 string maNhanVien = cbb_maNhanVien.Text;
@@ -137,9 +139,10 @@ namespace GUI.FormAdmin
                 {
                     gioiTinh = "Nữ";
                 }
-
-                NhanVienDAL nhanVienDAL = new NhanVienDAL();
-                nhanVienDAL.SuaNhanVien(maNhanVien ,CCCD, hoVaTen, gioiTinh, ngaySinh, soDienThoai, diaChi);
+                 
+                NhanVien nhanVien = new NhanVien(cbb_maNhanVien.Text, tb_cccd.Text, tb_hoVaTen.Text, gioiTinh, datetime_ngaySinh.Value, tb_soDienThoai.Text, tb_diaChi.Text, true);
+                NhanVienDAL nhanVienDAL = new NhanVienDAL(); 
+                nhanVienDAL.SuaNhanVien(nhanVien);
                 MessageBox.Show("Sửa thông tin nhân viên thành công!");
             }catch (Exception ex) 
             {
