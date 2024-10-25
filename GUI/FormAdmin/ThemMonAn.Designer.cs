@@ -33,7 +33,7 @@
             this.btn_ChonAnh = new Guna.UI2.WinForms.Guna2Button();
             this.cbo_loaiMonAn = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txt_soLuong = new Guna.UI2.WinForms.Guna2TextBox();
-            this.picBoxSP = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic_MonAn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txt_gia = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_tenMonAn = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_maMonAn = new Guna.UI2.WinForms.Guna2TextBox();
@@ -45,7 +45,7 @@
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.pn_NoiDungSua.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxSP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_MonAn)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +59,7 @@
             this.pn_NoiDungSua.Controls.Add(this.btn_ChonAnh);
             this.pn_NoiDungSua.Controls.Add(this.cbo_loaiMonAn);
             this.pn_NoiDungSua.Controls.Add(this.txt_soLuong);
-            this.pn_NoiDungSua.Controls.Add(this.picBoxSP);
+            this.pn_NoiDungSua.Controls.Add(this.pic_MonAn);
             this.pn_NoiDungSua.Controls.Add(this.txt_gia);
             this.pn_NoiDungSua.Controls.Add(this.txt_tenMonAn);
             this.pn_NoiDungSua.Controls.Add(this.txt_maMonAn);
@@ -83,6 +83,7 @@
             this.btn_Luu.Size = new System.Drawing.Size(180, 45);
             this.btn_Luu.TabIndex = 66;
             this.btn_Luu.Text = "Lưu";
+            this.btn_Luu.Click += new System.EventHandler(this.btn_Luu_Click);
             // 
             // btn_ChonAnh
             // 
@@ -98,6 +99,7 @@
             this.btn_ChonAnh.Size = new System.Drawing.Size(180, 45);
             this.btn_ChonAnh.TabIndex = 65;
             this.btn_ChonAnh.Text = "Chọn Ảnh";
+            this.btn_ChonAnh.Click += new System.EventHandler(this.btn_ChonAnh_Click);
             // 
             // cbo_loaiMonAn
             // 
@@ -138,16 +140,16 @@
             this.txt_soLuong.Size = new System.Drawing.Size(408, 48);
             this.txt_soLuong.TabIndex = 39;
             // 
-            // picBoxSP
+            // pic_MonAn
             // 
-            this.picBoxSP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picBoxSP.ImageRotate = 0F;
-            this.picBoxSP.Location = new System.Drawing.Point(180, 12);
-            this.picBoxSP.Name = "picBoxSP";
-            this.picBoxSP.Size = new System.Drawing.Size(247, 200);
-            this.picBoxSP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxSP.TabIndex = 14;
-            this.picBoxSP.TabStop = false;
+            this.pic_MonAn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pic_MonAn.ImageRotate = 0F;
+            this.pic_MonAn.Location = new System.Drawing.Point(180, 12);
+            this.pic_MonAn.Name = "pic_MonAn";
+            this.pic_MonAn.Size = new System.Drawing.Size(247, 200);
+            this.pic_MonAn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_MonAn.TabIndex = 14;
+            this.pic_MonAn.TabStop = false;
             // 
             // txt_gia
             // 
@@ -296,8 +298,9 @@
             this.Name = "ThemMonAn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ThemMonAn";
+            this.Load += new System.EventHandler(this.ThemMonAn_Load);
             this.pn_NoiDungSua.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxSP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_MonAn)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -310,7 +313,7 @@
         private Guna.UI2.WinForms.Guna2Button btn_ChonAnh;
         private Guna.UI2.WinForms.Guna2ComboBox cbo_loaiMonAn;
         private Guna.UI2.WinForms.Guna2TextBox txt_soLuong;
-        private Guna.UI2.WinForms.Guna2PictureBox picBoxSP;
+        private Guna.UI2.WinForms.Guna2PictureBox pic_MonAn;
         private Guna.UI2.WinForms.Guna2TextBox txt_gia;
         private Guna.UI2.WinForms.Guna2TextBox txt_tenMonAn;
         private Guna.UI2.WinForms.Guna2TextBox txt_maMonAn;

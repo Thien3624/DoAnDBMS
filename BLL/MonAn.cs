@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class MonAn
+    public class MonAn
     {
         private string maMonAn;
         private string tenMonAn;

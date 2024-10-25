@@ -41,8 +41,6 @@
             this.tenMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cb_gioiTinhNu = new System.Windows.Forms.CheckBox();
-            this.cb_gioiTinhNam = new System.Windows.Forms.CheckBox();
             this.txt_sDT = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_hoVaTen = new Guna.UI2.WinForms.Guna2TextBox();
@@ -55,6 +53,8 @@
             this.panelNoiDung = new System.Windows.Forms.FlowLayoutPanel();
             this.panelTop = new Guna.UI2.WinForms.Guna2Panel();
             this.cboLoaiMonAn = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cb_gioiTinhNu = new System.Windows.Forms.CheckBox();
+            this.cb_gioiTinhNam = new System.Windows.Forms.CheckBox();
             this.panelDatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGVDonHang)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -169,14 +169,14 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dtGVDonHang.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtGVDonHang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtGVDonHang.Location = new System.Drawing.Point(61, 272);
+            this.dtGVDonHang.Location = new System.Drawing.Point(61, 296);
             this.dtGVDonHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtGVDonHang.Name = "dtGVDonHang";
             this.dtGVDonHang.ReadOnly = true;
             this.dtGVDonHang.RowHeadersVisible = false;
             this.dtGVDonHang.RowHeadersWidth = 60;
             this.dtGVDonHang.RowTemplate.Height = 24;
-            this.dtGVDonHang.Size = new System.Drawing.Size(408, 366);
+            this.dtGVDonHang.Size = new System.Drawing.Size(408, 342);
             this.dtGVDonHang.TabIndex = 15;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -227,28 +227,6 @@
             this.gia.MinimumWidth = 6;
             this.gia.Name = "gia";
             this.gia.ReadOnly = true;
-            // 
-            // cb_gioiTinhNu
-            // 
-            this.cb_gioiTinhNu.AutoSize = true;
-            this.cb_gioiTinhNu.Location = new System.Drawing.Point(403, 270);
-            this.cb_gioiTinhNu.Margin = new System.Windows.Forms.Padding(4);
-            this.cb_gioiTinhNu.Name = "cb_gioiTinhNu";
-            this.cb_gioiTinhNu.Size = new System.Drawing.Size(46, 20);
-            this.cb_gioiTinhNu.TabIndex = 14;
-            this.cb_gioiTinhNu.Text = "Nữ";
-            this.cb_gioiTinhNu.UseVisualStyleBackColor = true;
-            // 
-            // cb_gioiTinhNam
-            // 
-            this.cb_gioiTinhNam.AutoSize = true;
-            this.cb_gioiTinhNam.Location = new System.Drawing.Point(248, 270);
-            this.cb_gioiTinhNam.Margin = new System.Windows.Forms.Padding(4);
-            this.cb_gioiTinhNam.Name = "cb_gioiTinhNam";
-            this.cb_gioiTinhNam.Size = new System.Drawing.Size(58, 20);
-            this.cb_gioiTinhNam.TabIndex = 13;
-            this.cb_gioiTinhNam.Text = "Nam";
-            this.cb_gioiTinhNam.UseVisualStyleBackColor = true;
             // 
             // txt_sDT
             // 
@@ -431,6 +409,28 @@
             this.cboLoaiMonAn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cboLoaiMonAn.SelectedIndexChanged += new System.EventHandler(this.cboLoaiMonAn_SelectedIndexChanged);
             // 
+            // cb_gioiTinhNu
+            // 
+            this.cb_gioiTinhNu.AutoSize = true;
+            this.cb_gioiTinhNu.Location = new System.Drawing.Point(403, 270);
+            this.cb_gioiTinhNu.Margin = new System.Windows.Forms.Padding(4);
+            this.cb_gioiTinhNu.Name = "cb_gioiTinhNu";
+            this.cb_gioiTinhNu.Size = new System.Drawing.Size(46, 20);
+            this.cb_gioiTinhNu.TabIndex = 14;
+            this.cb_gioiTinhNu.Text = "Nữ";
+            this.cb_gioiTinhNu.UseVisualStyleBackColor = true;
+            // 
+            // cb_gioiTinhNam
+            // 
+            this.cb_gioiTinhNam.AutoSize = true;
+            this.cb_gioiTinhNam.Location = new System.Drawing.Point(248, 270);
+            this.cb_gioiTinhNam.Margin = new System.Windows.Forms.Padding(4);
+            this.cb_gioiTinhNam.Name = "cb_gioiTinhNam";
+            this.cb_gioiTinhNam.Size = new System.Drawing.Size(58, 20);
+            this.cb_gioiTinhNam.TabIndex = 13;
+            this.cb_gioiTinhNam.Text = "Nam";
+            this.cb_gioiTinhNam.UseVisualStyleBackColor = true;
+            // 
             // UserControlMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -468,8 +468,6 @@
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2TextBox txt_hoVaTen;
         private Guna.UI2.WinForms.Guna2TextBox txt_sDT;
-        private System.Windows.Forms.CheckBox cb_gioiTinhNu;
-        private System.Windows.Forms.CheckBox cb_gioiTinhNam;
 
         private Guna.UI2.WinForms.Guna2DataGridView dtGVDonHang;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
@@ -480,5 +478,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tenMonAn;
         private System.Windows.Forms.DataGridViewTextBoxColumn soLuong;
         private System.Windows.Forms.DataGridViewTextBoxColumn gia;
+        private System.Windows.Forms.CheckBox cb_gioiTinhNu;
+        private System.Windows.Forms.CheckBox cb_gioiTinhNam;
     }
 }

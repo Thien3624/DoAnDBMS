@@ -132,13 +132,9 @@ namespace GUI
                 {
                     gioiTinh = "Nam";
                 }
-                else if (cb_gioiTinhNu.Checked)
+                else 
                 {
                     gioiTinh = "Nữ";
-                }
-                else
-                {
-                    gioiTinh = "Khác"; 
                 }
                 string maBan = cbo_maBan.ToString();
                 string dsMaMonAn = "";

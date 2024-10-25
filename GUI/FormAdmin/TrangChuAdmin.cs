@@ -40,5 +40,12 @@ namespace GUI.FormAdmin
 
             userControlQLNhanVien.loadNhanVienLenGridView();
         }
+
+        private void btn_quanLyBanAn_Click(object sender, EventArgs e)
+        {
+            UserControlQLBanAn qlBanAn = new UserControlQLBanAn();
+            addHienThi(qlBanAn);
+            qlBanAn.Load += new EventHandler(qlBanAn.UserControlBanAn_Load);
+        }
     }
 }

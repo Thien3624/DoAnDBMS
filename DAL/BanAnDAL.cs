@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,5 +21,28 @@ namespace DAL
             const string sql = "SELECT DISTINCT maBan FROM QuanLyBanAn";
             return ExecuteQueryAndGetList(sql);
         }
+
+        public void ThemBanAn(string maBan)
+        {
+            string storedProcedure = "ThemBanAn";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@maBanAn", SqlDbType.Int) { Value = maBan }, 
+            };
+
+            executeInsertQuery(storedProcedure, parameters);
+        }
+
+        public void XoaBanAn(string maBanAn)
+        {
+            string storedProcedure = "XoaBanAn";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@maBanAn", SqlDbType.NVarChar) { Value = maBanAn }
+            };
+
+            executeUpdateOrDeleteQuery(storedProcedure, parameters);
+        }
+
     }
 }

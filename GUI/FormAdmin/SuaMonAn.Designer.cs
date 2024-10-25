@@ -33,7 +33,7 @@
             this.btn_ChonAnh = new Guna.UI2.WinForms.Guna2Button();
             this.cbo_loaiMonAn = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txt_soLuong = new Guna.UI2.WinForms.Guna2TextBox();
-            this.picBoxSP = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.pic_AnhMonAn = new Guna.UI2.WinForms.Guna2PictureBox();
             this.txt_gia = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_tenMonAn = new Guna.UI2.WinForms.Guna2TextBox();
             this.txt_maMonAn = new Guna.UI2.WinForms.Guna2TextBox();
@@ -45,7 +45,7 @@
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.pn_NoiDungSua.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxSP)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_AnhMonAn)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +59,7 @@
             this.pn_NoiDungSua.Controls.Add(this.btn_ChonAnh);
             this.pn_NoiDungSua.Controls.Add(this.cbo_loaiMonAn);
             this.pn_NoiDungSua.Controls.Add(this.txt_soLuong);
-            this.pn_NoiDungSua.Controls.Add(this.picBoxSP);
+            this.pn_NoiDungSua.Controls.Add(this.pic_AnhMonAn);
             this.pn_NoiDungSua.Controls.Add(this.txt_gia);
             this.pn_NoiDungSua.Controls.Add(this.txt_tenMonAn);
             this.pn_NoiDungSua.Controls.Add(this.txt_maMonAn);
@@ -83,6 +83,7 @@
             this.btn_Luu.Size = new System.Drawing.Size(180, 45);
             this.btn_Luu.TabIndex = 66;
             this.btn_Luu.Text = "Lưu";
+            this.btn_Luu.Click += new System.EventHandler(this.btn_Luu_Click);
             // 
             // btn_ChonAnh
             // 
@@ -98,6 +99,7 @@
             this.btn_ChonAnh.Size = new System.Drawing.Size(180, 45);
             this.btn_ChonAnh.TabIndex = 65;
             this.btn_ChonAnh.Text = "Chọn Ảnh";
+            this.btn_ChonAnh.Click += new System.EventHandler(this.btn_ChonAnh_Click);
             // 
             // cbo_loaiMonAn
             // 
@@ -138,16 +140,16 @@
             this.txt_soLuong.Size = new System.Drawing.Size(408, 48);
             this.txt_soLuong.TabIndex = 39;
             // 
-            // picBoxSP
+            // pic_AnhMonAn
             // 
-            this.picBoxSP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picBoxSP.ImageRotate = 0F;
-            this.picBoxSP.Location = new System.Drawing.Point(170, 12);
-            this.picBoxSP.Name = "picBoxSP";
-            this.picBoxSP.Size = new System.Drawing.Size(247, 200);
-            this.picBoxSP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxSP.TabIndex = 14;
-            this.picBoxSP.TabStop = false;
+            this.pic_AnhMonAn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pic_AnhMonAn.ImageRotate = 0F;
+            this.pic_AnhMonAn.Location = new System.Drawing.Point(170, 12);
+            this.pic_AnhMonAn.Name = "pic_AnhMonAn";
+            this.pic_AnhMonAn.Size = new System.Drawing.Size(247, 200);
+            this.pic_AnhMonAn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_AnhMonAn.TabIndex = 14;
+            this.pic_AnhMonAn.TabStop = false;
             // 
             // txt_gia
             // 
@@ -208,6 +210,7 @@
             this.txt_maMonAn.Name = "txt_maMonAn";
             this.txt_maMonAn.PasswordChar = '\0';
             this.txt_maMonAn.PlaceholderText = "Mã món ăn...";
+            this.txt_maMonAn.ReadOnly = true;
             this.txt_maMonAn.SelectedText = "";
             this.txt_maMonAn.Size = new System.Drawing.Size(408, 48);
             this.txt_maMonAn.TabIndex = 5;
@@ -296,8 +299,9 @@
             this.Name = "SuaMonAn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SuaMonAn";
+            this.Load += new System.EventHandler(this.SuaMonAn_Load);
             this.pn_NoiDungSua.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxSP)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_AnhMonAn)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -310,7 +314,7 @@
         private Guna.UI2.WinForms.Guna2Button btn_ChonAnh;
         private Guna.UI2.WinForms.Guna2ComboBox cbo_loaiMonAn;
         private Guna.UI2.WinForms.Guna2TextBox txt_soLuong;
-        private Guna.UI2.WinForms.Guna2PictureBox picBoxSP;
+        private Guna.UI2.WinForms.Guna2PictureBox pic_AnhMonAn;
         private Guna.UI2.WinForms.Guna2TextBox txt_gia;
         private Guna.UI2.WinForms.Guna2TextBox txt_tenMonAn;
         private Guna.UI2.WinForms.Guna2TextBox txt_maMonAn;

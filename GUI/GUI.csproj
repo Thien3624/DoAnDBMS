@@ -76,11 +76,23 @@
     <Compile Include="FormAdmin\TrangChuAdmin.Designer.cs">
       <DependentUpon>TrangChuAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAdmin\UC_ThanPhanAdmin\O_BanAnAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\UC_ThanPhanAdmin\O_BanAnAdmin.Designer.cs">
+      <DependentUpon>O_BanAnAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.Designer.cs">
       <DependentUpon>O_MonAnAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLBanAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLBanAn.Designer.cs">
+      <DependentUpon>UserControlQLBanAn.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAdmin\UserControlQLNhanVien.cs">
       <SubType>UserControl</SubType>
@@ -150,8 +162,14 @@
     <EmbeddedResource Include="FormAdmin\TrangChuAdmin.resx">
       <DependentUpon>TrangChuAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\UC_ThanPhanAdmin\O_BanAnAdmin.resx">
+      <DependentUpon>O_BanAnAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\UC_ThanPhanAdmin\O_MonAnAdmin.resx">
       <DependentUpon>O_MonAnAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\UserControlQLBanAn.resx">
+      <DependentUpon>UserControlQLBanAn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\UserControlQLNhanVien.resx">
       <DependentUpon>UserControlQLNhanVien.cs</DependentUpon>
