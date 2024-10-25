@@ -46,5 +46,10 @@ namespace GUI.UC_ThanhPhan
                 MaBan = maBan;
             }
         }
+
+        private void lb_banAn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

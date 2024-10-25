@@ -44,6 +44,7 @@
             this.lb_banAn.TabIndex = 0;
             this.lb_banAn.Text = null;
             this.lb_banAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_banAn.Click += new System.EventHandler(this.lb_banAn_Click);
             // 
             // lb_maBan
             // 

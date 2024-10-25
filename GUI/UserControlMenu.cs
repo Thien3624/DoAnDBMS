@@ -24,6 +24,7 @@ namespace GUI
         }
         private MonAnDAL monAnDAL = new MonAnDAL();
         private BanAnDAL banAnDAL = new BanAnDAL();
+        private KhachHangDAO khachHangDAO = new KhachHangDAO();
         public Image ByteArrToImage(byte[] b)
         {
             MemoryStream m = new MemoryStream(b);
@@ -183,6 +184,33 @@ namespace GUI
             {
                 MessageBox.Show($"Lỗi khi thêm đơn hàng: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+            }
+        }
+
+        private void btn_timKiem_Click(object sender, EventArgs e)
+        {
+            string tenMonAn = txt_tenMonAn.Text;
+            DataTable dt = new DataTable();
+            dt = monAnDAL.TimKiemMonAn(tenMonAn);
+            panelNoiDung.Controls.Clear();
+            foreach (DataRow row in dt.Rows)
+            {
+
+                ThemMonAnVaoPanel(row);
+            }
+        }
+
+        private void btn_ktraKH_Click(object sender, EventArgs e)
+        {
+            string sDT = txt_sDT.Text;
+            DataTable dt = new DataTable();
+            dt = khachHangDAO.timKiemKhachHangTheoSDT(sDT);
+            foreach (DataRow row in dt.Rows)
+            {
+                txt_hoVaTen.Text = row["hoVaTen"].ToString();
+                txt_sDT.Text = row["SDT"].ToString();
+                cb_gioiTinhNam.Checked = row["gioiTinh"].ToString() == "Nam" ? true : false;
+                cb_gioiTinhNu.Checked = row["gioiTinh"].ToString() == "Nữ" ? true : false;
             }
         }
     }

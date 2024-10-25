@@ -78,10 +78,12 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gridViewHienThiNhanVien.DefaultCellStyle = dataGridViewCellStyle3;
             this.gridViewHienThiNhanVien.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.gridViewHienThiNhanVien.Location = new System.Drawing.Point(143, 304);
+            this.gridViewHienThiNhanVien.Location = new System.Drawing.Point(191, 374);
+            this.gridViewHienThiNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridViewHienThiNhanVien.Name = "gridViewHienThiNhanVien";
             this.gridViewHienThiNhanVien.RowHeadersVisible = false;
-            this.gridViewHienThiNhanVien.Size = new System.Drawing.Size(900, 288);
+            this.gridViewHienThiNhanVien.RowHeadersWidth = 51;
+            this.gridViewHienThiNhanVien.Size = new System.Drawing.Size(1200, 354);
             this.gridViewHienThiNhanVien.TabIndex = 0;
             this.gridViewHienThiNhanVien.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.gridViewHienThiNhanVien.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -110,48 +112,56 @@
             // 
             this.maNhanVien.DataPropertyName = "maNhanVien";
             this.maNhanVien.HeaderText = "MaNV";
+            this.maNhanVien.MinimumWidth = 6;
             this.maNhanVien.Name = "maNhanVien";
             // 
             // CCCD
             // 
             this.CCCD.DataPropertyName = "CCCD";
             this.CCCD.HeaderText = "CCCD";
+            this.CCCD.MinimumWidth = 6;
             this.CCCD.Name = "CCCD";
             // 
             // hoVaTen
             // 
             this.hoVaTen.DataPropertyName = "hoVaTen";
             this.hoVaTen.HeaderText = "TênNV";
+            this.hoVaTen.MinimumWidth = 6;
             this.hoVaTen.Name = "hoVaTen";
             // 
             // gioiTinh
             // 
             this.gioiTinh.DataPropertyName = "gioiTinh";
             this.gioiTinh.HeaderText = "Giới tính";
+            this.gioiTinh.MinimumWidth = 6;
             this.gioiTinh.Name = "gioiTinh";
             // 
             // ngaySinh
             // 
             this.ngaySinh.DataPropertyName = "ngaySinh";
             this.ngaySinh.HeaderText = "Ngày sinh";
+            this.ngaySinh.MinimumWidth = 6;
             this.ngaySinh.Name = "ngaySinh";
             // 
             // soDienThoai
             // 
             this.soDienThoai.DataPropertyName = "soDienThoai";
             this.soDienThoai.HeaderText = "Số điện thoại";
+            this.soDienThoai.MinimumWidth = 6;
             this.soDienThoai.Name = "soDienThoai";
             // 
             // diaChi
             // 
             this.diaChi.DataPropertyName = "diaChi";
             this.diaChi.HeaderText = "Địa chỉ";
+            this.diaChi.MinimumWidth = 6;
             this.diaChi.Name = "diaChi";
             // 
             // trangThaiLamViec
             // 
             this.trangThaiLamViec.DataPropertyName = "trangThaiLamViec";
             this.trangThaiLamViec.HeaderText = "Trạng thái làm việc";
+            this.trangThaiLamViec.MinimumWidth = 6;
             this.trangThaiLamViec.Name = "trangThaiLamViec";
             // 
             // btn_themnhanvien
@@ -164,9 +174,10 @@
             this.btn_themnhanvien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_themnhanvien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_themnhanvien.ForeColor = System.Drawing.Color.White;
-            this.btn_themnhanvien.Location = new System.Drawing.Point(155, 152);
+            this.btn_themnhanvien.Location = new System.Drawing.Point(207, 187);
+            this.btn_themnhanvien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_themnhanvien.Name = "btn_themnhanvien";
-            this.btn_themnhanvien.Size = new System.Drawing.Size(234, 46);
+            this.btn_themnhanvien.Size = new System.Drawing.Size(312, 57);
             this.btn_themnhanvien.TabIndex = 3;
             this.btn_themnhanvien.Text = "Thêm nhân viên";
             this.btn_themnhanvien.Click += new System.EventHandler(this.btn_xemThongTinHoaDon_Click);
@@ -181,9 +192,10 @@
             this.btn_xoaNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_xoaNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_xoaNhanVien.ForeColor = System.Drawing.Color.White;
-            this.btn_xoaNhanVien.Location = new System.Drawing.Point(463, 152);
+            this.btn_xoaNhanVien.Location = new System.Drawing.Point(617, 187);
+            this.btn_xoaNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_xoaNhanVien.Name = "btn_xoaNhanVien";
-            this.btn_xoaNhanVien.Size = new System.Drawing.Size(234, 46);
+            this.btn_xoaNhanVien.Size = new System.Drawing.Size(312, 57);
             this.btn_xoaNhanVien.TabIndex = 4;
             this.btn_xoaNhanVien.Text = "Xóa nhân viên";
             this.btn_xoaNhanVien.Click += new System.EventHandler(this.btn_xoaNhanVien_Click);
@@ -198,22 +210,25 @@
             this.btn_suaThongTinNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_suaThongTinNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_suaThongTinNhanVien.ForeColor = System.Drawing.Color.White;
-            this.btn_suaThongTinNhanVien.Location = new System.Drawing.Point(771, 152);
+            this.btn_suaThongTinNhanVien.Location = new System.Drawing.Point(1028, 187);
+            this.btn_suaThongTinNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_suaThongTinNhanVien.Name = "btn_suaThongTinNhanVien";
-            this.btn_suaThongTinNhanVien.Size = new System.Drawing.Size(234, 46);
+            this.btn_suaThongTinNhanVien.Size = new System.Drawing.Size(312, 57);
             this.btn_suaThongTinNhanVien.TabIndex = 5;
             this.btn_suaThongTinNhanVien.Text = "Sửa thông tin nhân viên";
+            this.btn_suaThongTinNhanVien.Click += new System.EventHandler(this.btn_suaThongTinNhanVien_Click_1);
             // 
             // UserControlQLNhanVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btn_suaThongTinNhanVien);
             this.Controls.Add(this.btn_xoaNhanVien);
             this.Controls.Add(this.btn_themnhanvien);
             this.Controls.Add(this.gridViewHienThiNhanVien);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UserControlQLNhanVien";
-            this.Size = new System.Drawing.Size(1186, 647);
+            this.Size = new System.Drawing.Size(1581, 796);
             this.Load += new System.EventHandler(this.UserControlQLNhanVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridViewHienThiNhanVien)).EndInit();
             this.ResumeLayout(false);

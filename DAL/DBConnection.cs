@@ -135,6 +135,32 @@ namespace DAL
             }
         }
 
-
+        public DataTable executeSearchQuery(string query, SqlParameter[] parameters = null)
+        {
+            DataTable dt = new DataTable();
+            using (SqlConnection sqlCon = GetSqlConnection())
+            {
+                try
+                {
+                    sqlCon.Open();
+                    using (SqlCommand sqlCommand = new SqlCommand(query, sqlCon))
+                    {
+                        sqlCommand.CommandType = CommandType.Text;
+                        if (parameters != null)
+                        {
+                            sqlCommand.Parameters.AddRange(parameters);
+                        }
+                        SqlDataAdapter da = new SqlDataAdapter(sqlCommand);
+                        da.Fill(dt);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Lỗi: " + ex.Message);
+                    throw;
+                }
+            }
+            return dt;
+        }
     }
 }

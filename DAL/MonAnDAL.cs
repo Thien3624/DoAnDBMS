@@ -50,21 +50,6 @@ namespace DAL
 
             executeInsertQuery(storedProcedure, parameters);
         }
-        /*public void ThemMonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, int soLuong, byte[] anhMoTa)
-        {
-            string storedProcedure = "ThemMonAn";
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-                new SqlParameter("@maMonAn", SqlDbType.NVarChar) { Value = maMonAn },
-                new SqlParameter("@tenMonAn", SqlDbType.NVarChar) { Value = tenMonAn },
-                new SqlParameter("@loaiMonAn", SqlDbType.NVarChar) { Value = loaiMonAn },
-                new SqlParameter("@gia", SqlDbType.Int) { Value = gia },
-                new SqlParameter("@soLuong", SqlDbType.Int) { Value = soLuong },
-                new SqlParameter("@anhMoTa", SqlDbType.Image) { Value = (object)anhMoTa ?? DBNull.Value }
-            };
-
-            executeInsertQuery(storedProcedure, parameters);
-        }*/
         public void XoaMonAn(MonAn monAn)
         {
             string storedProcedure = "XoaMonAn";
@@ -98,6 +83,16 @@ namespace DAL
             {
                 Console.WriteLine("Lỗi khi cập nhật món ăn: " + ex.Message);
             }
+        }
+
+        public DataTable TimKiemMonAn(string tenMonAn)
+        {
+            string sql = "SELECT * FROM dbo.TimKiemMonAn(@tenMonAn)";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@tenMonAn", SqlDbType.NVarChar) { Value = tenMonAn }
+            };
+            return executeSearchQuery(sql, parameters);
         }
     }
 }
