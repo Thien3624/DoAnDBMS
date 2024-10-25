@@ -53,4 +53,8 @@ D:\DBMS_Project\DoAnDBMS\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\DBMS_Project\DoAnDBMS\DAL\obj\Debug\DAL.dll
 D:\DBMS_Project\DoAnDBMS\DAL\obj\Debug\DAL.pdb
 D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\Guna.UI2.dll
+<<<<<<< HEAD
 D:\VS Code\DoAnDBMS\DAL\bin\Debug\Guna.UI2.dll
+=======
+E:\study\nam-3\DBMS\DoAnDBMS\DAL\bin\Debug\Guna.UI2.dll
+>>>>>>> c1c41e9baa9ab0bde4bd0b6ed6d71b078c8c9728

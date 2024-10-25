@@ -30,7 +30,7 @@ namespace GUI
                 O_BanAn oBanAn = new O_BanAn();
                 // Lấy giá trị từng cột trong hàng hiện tại
                 int maBan = row.Field<int>("maBan");
-                if (row["trangThai"].ToString().Equals("Đã đặt"))
+                if ((bool)row["trangThai"])
                 {
                     oBanAn.BackColor = Color.Red;
                 }
@@ -57,7 +57,7 @@ namespace GUI
 
         private void HienThiDonHang(int maBan)
         {
-            DataTable dtDonHang = DonHangDAO.
+           
 
         }
     }

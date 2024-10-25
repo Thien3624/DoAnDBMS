@@ -33,28 +33,26 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelDatHang = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_themDonHang = new Guna.UI2.WinForms.Guna2Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.guna2Shapes1 = new Guna.UI2.WinForms.Guna2Shapes();
             this.dtGVDonHang = new Guna.UI2.WinForms.Guna2DataGridView();
             this.maMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenMonAn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.soLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cb_gioiTinhNu = new System.Windows.Forms.CheckBox();
+            this.cb_gioiTinhNam = new System.Windows.Forms.CheckBox();
             this.txt_sDT = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_hoVaTen = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.cbo_maBan = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.leftPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.panelNoiDung = new System.Windows.Forms.FlowLayoutPanel();
             this.panelTop = new Guna.UI2.WinForms.Guna2Panel();
             this.cboLoaiMonAn = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cb_gioiTinhNu = new System.Windows.Forms.CheckBox();
-            this.cb_gioiTinhNam = new System.Windows.Forms.CheckBox();
             this.panelDatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGVDonHang)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -68,8 +66,6 @@
             this.panelDatHang.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panelDatHang.BorderThickness = 1;
             this.panelDatHang.Controls.Add(this.btn_themDonHang);
-            this.panelDatHang.Controls.Add(this.label5);
-            this.panelDatHang.Controls.Add(this.label6);
             this.panelDatHang.Controls.Add(this.guna2Shapes1);
             this.panelDatHang.Controls.Add(this.dtGVDonHang);
             this.panelDatHang.Controls.Add(this.cb_gioiTinhNu);
@@ -95,7 +91,7 @@
             this.btn_themDonHang.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_themDonHang.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_themDonHang.ForeColor = System.Drawing.Color.White;
-            this.btn_themDonHang.Location = new System.Drawing.Point(203, 722);
+            this.btn_themDonHang.Location = new System.Drawing.Point(198, 709);
             this.btn_themDonHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_themDonHang.Name = "btn_themDonHang";
             this.btn_themDonHang.Size = new System.Drawing.Size(147, 41);
@@ -103,32 +99,10 @@
             this.btn_themDonHang.Text = "Xác nhận";
             this.btn_themDonHang.Click += new System.EventHandler(this.btn_themDonHang_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(299, 678);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(146, 25);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "1.000.000 VND";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Location = new System.Drawing.Point(67, 677);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(131, 29);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Tổng tiền:";
-            // 
             // guna2Shapes1
             // 
             this.guna2Shapes1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.guna2Shapes1.Location = new System.Drawing.Point(64, 656);
+            this.guna2Shapes1.Location = new System.Drawing.Point(61, 682);
             this.guna2Shapes1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Shapes1.Name = "guna2Shapes1";
             this.guna2Shapes1.PolygonSkip = 1;
@@ -169,14 +143,14 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dtGVDonHang.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtGVDonHang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtGVDonHang.Location = new System.Drawing.Point(61, 296);
+            this.dtGVDonHang.Location = new System.Drawing.Point(72, 311);
             this.dtGVDonHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtGVDonHang.Name = "dtGVDonHang";
             this.dtGVDonHang.ReadOnly = true;
             this.dtGVDonHang.RowHeadersVisible = false;
             this.dtGVDonHang.RowHeadersWidth = 60;
             this.dtGVDonHang.RowTemplate.Height = 24;
-            this.dtGVDonHang.Size = new System.Drawing.Size(408, 342);
+            this.dtGVDonHang.Size = new System.Drawing.Size(403, 348);
             this.dtGVDonHang.TabIndex = 15;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -227,6 +201,28 @@
             this.gia.MinimumWidth = 6;
             this.gia.Name = "gia";
             this.gia.ReadOnly = true;
+            // 
+            // cb_gioiTinhNu
+            // 
+            this.cb_gioiTinhNu.AutoSize = true;
+            this.cb_gioiTinhNu.Location = new System.Drawing.Point(403, 270);
+            this.cb_gioiTinhNu.Margin = new System.Windows.Forms.Padding(4);
+            this.cb_gioiTinhNu.Name = "cb_gioiTinhNu";
+            this.cb_gioiTinhNu.Size = new System.Drawing.Size(46, 20);
+            this.cb_gioiTinhNu.TabIndex = 14;
+            this.cb_gioiTinhNu.Text = "Nữ";
+            this.cb_gioiTinhNu.UseVisualStyleBackColor = true;
+            // 
+            // cb_gioiTinhNam
+            // 
+            this.cb_gioiTinhNam.AutoSize = true;
+            this.cb_gioiTinhNam.Location = new System.Drawing.Point(248, 270);
+            this.cb_gioiTinhNam.Margin = new System.Windows.Forms.Padding(4);
+            this.cb_gioiTinhNam.Name = "cb_gioiTinhNam";
+            this.cb_gioiTinhNam.Size = new System.Drawing.Size(58, 20);
+            this.cb_gioiTinhNam.TabIndex = 13;
+            this.cb_gioiTinhNam.Text = "Nam";
+            this.cb_gioiTinhNam.UseVisualStyleBackColor = true;
             // 
             // txt_sDT
             // 
@@ -289,9 +285,9 @@
             this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.guna2Panel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2Panel2.BorderThickness = 1;
+            this.guna2Panel2.Controls.Add(this.guna2DateTimePicker1);
             this.guna2Panel2.Controls.Add(this.label3);
             this.guna2Panel2.Controls.Add(this.cbo_maBan);
-            this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
@@ -299,6 +295,19 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(517, 101);
             this.guna2Panel2.TabIndex = 6;
+            // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(55, 47);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(200, 36);
+            this.guna2DateTimePicker1.TabIndex = 4;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 10, 24, 15, 35, 44, 289);
             // 
             // label3
             // 
@@ -329,17 +338,6 @@
             this.cbo_maBan.Name = "cbo_maBan";
             this.cbo_maBan.Size = new System.Drawing.Size(164, 26);
             this.cbo_maBan.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(51, 58);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(201, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Saturday, 21/10/2024";
             // 
             // label1
             // 
@@ -409,28 +407,6 @@
             this.cboLoaiMonAn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cboLoaiMonAn.SelectedIndexChanged += new System.EventHandler(this.cboLoaiMonAn_SelectedIndexChanged);
             // 
-            // cb_gioiTinhNu
-            // 
-            this.cb_gioiTinhNu.AutoSize = true;
-            this.cb_gioiTinhNu.Location = new System.Drawing.Point(403, 270);
-            this.cb_gioiTinhNu.Margin = new System.Windows.Forms.Padding(4);
-            this.cb_gioiTinhNu.Name = "cb_gioiTinhNu";
-            this.cb_gioiTinhNu.Size = new System.Drawing.Size(46, 20);
-            this.cb_gioiTinhNu.TabIndex = 14;
-            this.cb_gioiTinhNu.Text = "Nữ";
-            this.cb_gioiTinhNu.UseVisualStyleBackColor = true;
-            // 
-            // cb_gioiTinhNam
-            // 
-            this.cb_gioiTinhNam.AutoSize = true;
-            this.cb_gioiTinhNam.Location = new System.Drawing.Point(248, 270);
-            this.cb_gioiTinhNam.Margin = new System.Windows.Forms.Padding(4);
-            this.cb_gioiTinhNam.Name = "cb_gioiTinhNam";
-            this.cb_gioiTinhNam.Size = new System.Drawing.Size(58, 20);
-            this.cb_gioiTinhNam.TabIndex = 13;
-            this.cb_gioiTinhNam.Text = "Nam";
-            this.cb_gioiTinhNam.UseVisualStyleBackColor = true;
-            // 
             // UserControlMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -457,7 +433,6 @@
         #endregion
         private Guna.UI2.WinForms.Guna2Panel panelDatHang;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2ComboBox cbo_maBan;
         private System.Windows.Forms.Label label3;
@@ -471,8 +446,6 @@
 
         private Guna.UI2.WinForms.Guna2DataGridView dtGVDonHang;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2Button btn_themDonHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn maMonAn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenMonAn;
@@ -480,5 +453,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn gia;
         private System.Windows.Forms.CheckBox cb_gioiTinhNu;
         private System.Windows.Forms.CheckBox cb_gioiTinhNam;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
     }
 }

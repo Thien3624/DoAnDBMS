@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BLL;
+using System.Web.UI.WebControls;
 
 namespace DAL
 {
@@ -16,39 +17,62 @@ namespace DAL
 
         public DataTable hienThiNhanVien()
         {
-            const string sql = "SELECT * FROM NHANVIEN";
+            const string sql = "SELECT * FROM NHANVIEN WHERE TrangThaiLamViec = 1";
             return executeDisplayQuery(sql);
         }
 
-        public void themNV(NhanVien nv)
+        public void themNhanVien(string maNhanVien, string CCCD, string hoVaTen, string gioiTinh, DateTime ngaySinh, string soDienThoai, string diaChi)
         {
-            const string sql = "ThemNhanVien";
-            SqlParameter[] sqlParameters = new SqlParameter[7];
+            string storedProcedure = "ThemNhanVien";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = maNhanVien },
+                new SqlParameter("@CCCD", SqlDbType.NVarChar) { Value = CCCD },
+                new SqlParameter("@hoVaTen", SqlDbType.NVarChar) { Value = hoVaTen },
+                new SqlParameter("@gioiTinh", SqlDbType.NVarChar) { Value = gioiTinh },
+                new SqlParameter("@ngaySinh", SqlDbType.DateTime) { Value = ngaySinh },
+                new SqlParameter("@soDienThoai", SqlDbType.NVarChar) { Value = soDienThoai },
+                new SqlParameter("@diaChi", SqlDbType.NVarChar) { Value = diaChi },
 
-            sqlParameters[0] = new SqlParameter("@maNhanVien", SqlDbType.VarChar);
-            sqlParameters[0].Value = Convert.ToString(nv.MaNhanVien);
+            };
 
-            sqlParameters[1] = new SqlParameter("@CCCD", SqlDbType.VarChar);
-            sqlParameters[1].Value = Convert.ToString(nv.CCCD);
-
-            sqlParameters[2] = new SqlParameter("@hoVaTen", SqlDbType.NVarChar);
-            sqlParameters[2].Value = Convert.ToString(nv.HoVaTen);
-
-            sqlParameters[3] = new SqlParameter("@gioiTinh", SqlDbType.NVarChar);
-            sqlParameters[3].Value = Convert.ToString(nv.GioiTinh);
-
-            sqlParameters[4] = new SqlParameter("@ngaySinh", SqlDbType.Date);
-            sqlParameters[4].Value = Convert.ToDateTime(nv.NgaySinh);
-
-            sqlParameters[5] = new SqlParameter("@soDienThoai", SqlDbType.VarChar);
-            sqlParameters[5].Value = Convert.ToString(nv.SoDienThoai);
-
-            sqlParameters[6] = new SqlParameter("@diaChi", SqlDbType.NVarChar);
-            sqlParameters[6].Value = Convert.ToString(nv.DiaChi);
-
-            executeInsertQuery(sql, sqlParameters);
+            executeInsertQuery(storedProcedure, parameters);
         }
 
-        
+        public void XoaNhanVien(string maNhanVien)
+        {
+            string storedProcedure = "XoaNhanVien";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = maNhanVien }
+            };
+
+            executeUpdateOrDeleteQuery(storedProcedure, parameters); // Giả sử bạn đã định nghĩa phương thức này để thực hiện stored procedure
+        }
+
+        public void SuaNhanVien(string maNhanVien, string CCCD, string hoVaTen, string gioiTinh, DateTime ngaySinh, string soDienThoai, string diaChi)
+        {
+            string storedProcedure = "SuaNhanVien";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = maNhanVien },
+                new SqlParameter("@CCCD", SqlDbType.NVarChar) { Value = CCCD },
+                new SqlParameter("@hoVaTen", SqlDbType.NVarChar) { Value = hoVaTen },
+                new SqlParameter("@gioiTinh", SqlDbType.NVarChar) { Value = gioiTinh },
+                new SqlParameter("@ngaySinh", SqlDbType.DateTime) { Value = ngaySinh },
+                new SqlParameter("@soDienThoai", SqlDbType.NVarChar) { Value = soDienThoai },
+                new SqlParameter("@diaChi", SqlDbType.NVarChar) { Value = diaChi },
+            };
+
+            try
+            {
+                executeUpdateOrDeleteQuery(storedProcedure, parameters);
+                Console.WriteLine("Cập nhật thông tin nhân viên thành công.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi cập nhật thông tin nhân viên: " + ex.Message);
+            }
+        }
     }
 }

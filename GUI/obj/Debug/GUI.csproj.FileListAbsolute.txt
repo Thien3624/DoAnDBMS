@@ -160,3 +160,8 @@ D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+>>>>>>> c1c41e9baa9ab0bde4bd0b6ed6d71b078c8c9728
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources

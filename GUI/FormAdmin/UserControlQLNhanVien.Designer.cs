@@ -41,8 +41,8 @@
             this.diaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.trangThaiLamViec = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btn_themnhanvien = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_xoaNhanVien = new Guna.UI2.WinForms.Guna2Button();
+            this.btn_suaThongTinNhanVien = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewHienThiNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,6 +104,7 @@
             this.gridViewHienThiNhanVien.ThemeStyle.RowsStyle.Height = 22;
             this.gridViewHienThiNhanVien.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gridViewHienThiNhanVien.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.gridViewHienThiNhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridViewHienThiNhanVien_CellClick);
             // 
             // maNhanVien
             // 
@@ -170,44 +171,46 @@
             this.btn_themnhanvien.Text = "Thêm nhân viên";
             this.btn_themnhanvien.Click += new System.EventHandler(this.btn_xemThongTinHoaDon_Click);
             // 
-            // guna2Button1
+            // btn_xoaNhanVien
             // 
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(463, 152);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(234, 46);
-            this.guna2Button1.TabIndex = 4;
-            this.guna2Button1.Text = "Xóa nhân viên";
+            this.btn_xoaNhanVien.BorderRadius = 20;
+            this.btn_xoaNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_xoaNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_xoaNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_xoaNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_xoaNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_xoaNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_xoaNhanVien.ForeColor = System.Drawing.Color.White;
+            this.btn_xoaNhanVien.Location = new System.Drawing.Point(463, 152);
+            this.btn_xoaNhanVien.Name = "btn_xoaNhanVien";
+            this.btn_xoaNhanVien.Size = new System.Drawing.Size(234, 46);
+            this.btn_xoaNhanVien.TabIndex = 4;
+            this.btn_xoaNhanVien.Text = "Xóa nhân viên";
+            this.btn_xoaNhanVien.Click += new System.EventHandler(this.btn_xoaNhanVien_Click);
             // 
-            // guna2Button2
+            // btn_suaThongTinNhanVien
             // 
-            this.guna2Button2.BorderRadius = 20;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(771, 152);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(234, 46);
-            this.guna2Button2.TabIndex = 5;
-            this.guna2Button2.Text = "Sửa thông tin nhân viên";
+            this.btn_suaThongTinNhanVien.BorderRadius = 20;
+            this.btn_suaThongTinNhanVien.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_suaThongTinNhanVien.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_suaThongTinNhanVien.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_suaThongTinNhanVien.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_suaThongTinNhanVien.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_suaThongTinNhanVien.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_suaThongTinNhanVien.ForeColor = System.Drawing.Color.White;
+            this.btn_suaThongTinNhanVien.Location = new System.Drawing.Point(771, 152);
+            this.btn_suaThongTinNhanVien.Name = "btn_suaThongTinNhanVien";
+            this.btn_suaThongTinNhanVien.Size = new System.Drawing.Size(234, 46);
+            this.btn_suaThongTinNhanVien.TabIndex = 5;
+            this.btn_suaThongTinNhanVien.Text = "Sửa thông tin nhân viên";
+            this.btn_suaThongTinNhanVien.Click += new System.EventHandler(this.btn_suaThongTinNhanVien_Click_1);
             // 
             // UserControlQLNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btn_suaThongTinNhanVien);
+            this.Controls.Add(this.btn_xoaNhanVien);
             this.Controls.Add(this.btn_themnhanvien);
             this.Controls.Add(this.gridViewHienThiNhanVien);
             this.Name = "UserControlQLNhanVien";
@@ -230,7 +233,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn diaChi;
         private System.Windows.Forms.DataGridViewTextBoxColumn trangThaiLamViec;
         private Guna.UI2.WinForms.Guna2Button btn_themnhanvien;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btn_xoaNhanVien;
+        private Guna.UI2.WinForms.Guna2Button btn_suaThongTinNhanVien;
     }
 }
