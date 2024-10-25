@@ -10,6 +10,7 @@ using Guna.UI2.WinForms;
 using System.Windows.Forms;
 using System.Drawing;
 using static System.Net.Mime.MediaTypeNames;
+using BLL;
 
 namespace DAL
 {
@@ -34,7 +35,22 @@ namespace DAL
             return executeDisplayQuery(sql);
         }
 
-        public void ThemMonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, int soLuong, byte[] anhMoTa)
+        public void ThemMonAn(MonAn monAn)
+        {
+            string storedProcedure = "ThemMonAn";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@maMonAn", monAn.MaMonAn) ,
+                new SqlParameter("@tenMonAn", monAn.TenMonAn),
+                new SqlParameter("@loaiMonAn", monAn.LoaiMonAn),
+                new SqlParameter("@gia", monAn.Gia),
+                new SqlParameter("@soLuong", monAn.SoLuong),
+                new SqlParameter("@anhMoTa", (object)monAn.Images ?? DBNull.Value)
+            };
+
+            executeInsertQuery(storedProcedure, parameters);
+        }
+        /*public void ThemMonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, int soLuong, byte[] anhMoTa)
         {
             string storedProcedure = "ThemMonAn";
             SqlParameter[] parameters = new SqlParameter[]
@@ -48,29 +64,29 @@ namespace DAL
             };
 
             executeInsertQuery(storedProcedure, parameters);
-        }
-        public void XoaMonAn(string maMonAn)
+        }*/
+        public void XoaMonAn(MonAn monAn)
         {
-            string storedProcedure = "XoaMonAn"; // Tên của stored procedure
+            string storedProcedure = "XoaMonAn";
             SqlParameter[] parameters = new SqlParameter[]
             {
-                new SqlParameter("@maMonAn", SqlDbType.NVarChar) { Value = maMonAn }
+                new SqlParameter("@maMonAn", monAn.MaMonAn)
             };
 
-            executeUpdateOrDeleteQuery(storedProcedure, parameters); // Giả sử bạn đã định nghĩa phương thức này để thực hiện stored procedure
+            executeUpdateOrDeleteQuery(storedProcedure, parameters);
         }
 
-        public void SuaMonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, int soLuong, byte[] anhMoTa)
+        public void SuaMonAn(MonAn monAn)
         {
             string storedProcedure = "SuaMonAn";
             SqlParameter[] parameters = new SqlParameter[]
             {
-        new SqlParameter("@maMonAn", SqlDbType.NVarChar) { Value = maMonAn },
-        new SqlParameter("@tenMonAn", SqlDbType.NVarChar) { Value = tenMonAn },
-        new SqlParameter("@loaiMonAn", SqlDbType.NVarChar) { Value = loaiMonAn },
-        new SqlParameter("@gia", SqlDbType.Int) { Value = gia },
-        new SqlParameter("@soLuong", SqlDbType.Int) { Value = soLuong },
-        new SqlParameter("@anhMoTa", SqlDbType.Image) { Value = (object)anhMoTa ?? DBNull.Value }
+                new SqlParameter("@maMonAn", monAn.MaMonAn) ,
+                new SqlParameter("@tenMonAn", monAn.TenMonAn),
+                new SqlParameter("@loaiMonAn", monAn.LoaiMonAn),
+                new SqlParameter("@gia", monAn.Gia),
+                new SqlParameter("@soLuong", monAn.SoLuong),
+                new SqlParameter("@anhMoTa", (object)monAn.Images ?? DBNull.Value)
             };
 
             try

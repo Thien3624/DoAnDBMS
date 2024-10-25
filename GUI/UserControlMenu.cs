@@ -134,7 +134,7 @@ namespace GUI
                     MessageBox.Show("Vui lòng nhập số điện thoại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                if (dtGVDonHang.Rows.Count <= 1)
+                if (dtGVDonHang.Rows.Count <= 0)
                 {
                     MessageBox.Show("Vui lòng chọn ít nhất một món ăn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;

@@ -32,7 +32,7 @@ namespace GUI.FormAdmin
             qlmenu.Load += new EventHandler(qlmenu.UserControlQLThucDon_Load);
         }
 
-        private void btn_quanLyNhanVien_Click(object sender, EventArgs e)
+        public void btn_quanLyNhanVien_Click(object sender, EventArgs e)
         {
             UserControlQLNhanVien userControlQLNhanVien = new UserControlQLNhanVien();
             addHienThi(userControlQLNhanVien);

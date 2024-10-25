@@ -1,4 +1,5 @@
-﻿using DAL;
+﻿using BLL;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,7 +29,8 @@ namespace GUI.FormAdmin
             int soLuong = int.Parse(txt_soLuong.Text);
             byte[] anhMoTa = ImageToByteArray(pic_AnhMonAn.Image);
 
-            monAnDAL.SuaMonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, anhMoTa);
+            MonAn monAn = new MonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, anhMoTa);
+            monAnDAL.SuaMonAn(monAn);
             MessageBox.Show("Cập nhật món ăn thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }

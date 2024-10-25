@@ -16,37 +16,31 @@ namespace DAL
             using (SqlConnection conn = GetSqlConnection())
             {
                 conn.Open();
-                using (SqlTransaction transaction = conn.BeginTransaction())
+                try
                 {
-                    try
+                    // Insert DonHang
+                    using (SqlCommand cmd = new SqlCommand("ThemDonHang", conn))
                     {
-                        // Insert DonHang
-                        using (SqlCommand cmd = new SqlCommand("ThemDonHang", conn, transaction))
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.Parameters.AddWithValue("@maBan", donHang.MaBan);
+                        cmd.Parameters.AddWithValue("@maKhachHang", donHang.MaKhachHang);
+                        cmd.Parameters.AddWithValue("@ngayDatMon", donHang.NgayDatMon);
+                        SqlParameter outputIdParam = new SqlParameter("@maDonHang", SqlDbType.Int)
                         {
-                            cmd.CommandType = CommandType.StoredProcedure;
-                            cmd.Parameters.AddWithValue("@maBan", donHang.MaBan);
-                            cmd.Parameters.AddWithValue("@maKhachHang", donHang.MaKhachHang);
-                            cmd.Parameters.AddWithValue("@ngayDatMon", donHang.NgayDatMon);
-                            SqlParameter outputIdParam = new SqlParameter("@maDonHang", SqlDbType.Int)
-                            {
-                                Direction = ParameterDirection.Output
-                            };
-                            cmd.Parameters.Add(outputIdParam);
-                            cmd.ExecuteNonQuery();
-                            transaction.Commit();
-                            // Return the generated maDonHang
-                            return (int)outputIdParam.Value;
-                        }
+                            Direction = ParameterDirection.Output
+                        };
+                        cmd.Parameters.Add(outputIdParam);
+                        cmd.ExecuteNonQuery();
+                        // Return the generated maDonHang
+                        return (int)outputIdParam.Value;
                     }
-                    catch (Exception)
-                    {
-                        transaction.Rollback();
-                        throw;
-                    }
+                }
+                catch (Exception)
+                {
+                    throw;
                 }
             }
         }
-
 
         // Method to insert ChiTietDonHang
         public void ThemChiTietDonHang(List<ChiTietDonHang> chiTietDonHangs)
@@ -54,30 +48,25 @@ namespace DAL
             using (SqlConnection conn = GetSqlConnection())
             {
                 conn.Open();
-                using (SqlTransaction transaction = conn.BeginTransaction())
+                try
                 {
-                    try
+                    foreach (var chiTiet in chiTietDonHangs)
                     {
-                        foreach (var chiTiet in chiTietDonHangs)
+                        using (SqlCommand cmd = new SqlCommand("ThemChiTietDonHang", conn))
                         {
-                            using (SqlCommand cmd = new SqlCommand("ThemChiTietDonHang", conn, transaction))
-                            {
-                                cmd.CommandType = CommandType.StoredProcedure;
-                                cmd.Parameters.AddWithValue("@maDonHang", chiTiet.MaDonHang);
-                                cmd.Parameters.AddWithValue("@maMonAn", chiTiet.MaMonAn);
-                                cmd.Parameters.AddWithValue("@soLuong", chiTiet.SoLuong);
-                                cmd.Parameters.AddWithValue("@donGia", chiTiet.DonGia);
-                                cmd.Parameters.AddWithValue("@thanhTien", chiTiet.ThanhTien);
-                                cmd.ExecuteNonQuery();
-                            }
+                            cmd.CommandType = CommandType.StoredProcedure;
+                            cmd.Parameters.AddWithValue("@maDonHang", chiTiet.MaDonHang);
+                            cmd.Parameters.AddWithValue("@maMonAn", chiTiet.MaMonAn);
+                            cmd.Parameters.AddWithValue("@soLuong", chiTiet.SoLuong);
+                            cmd.Parameters.AddWithValue("@donGia", chiTiet.DonGia);
+                            cmd.Parameters.AddWithValue("@thanhTien", chiTiet.ThanhTien);
+                            cmd.ExecuteNonQuery();
                         }
-                        transaction.Commit();
                     }
-                    catch (Exception)
-                    {
-                        transaction.Rollback();
-                        throw;
-                    }
+                }
+                catch (Exception)
+                {
+                    throw;
                 }
             }
         }

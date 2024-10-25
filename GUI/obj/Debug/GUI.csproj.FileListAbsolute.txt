@@ -151,3 +151,7 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources

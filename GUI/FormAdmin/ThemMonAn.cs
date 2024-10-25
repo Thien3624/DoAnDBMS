@@ -59,7 +59,7 @@ namespace GUI.FormAdmin
                 }
 
                 MonAn monAn = new MonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, imageBytes);
-                monAnDAL.ThemMonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, imageBytes);
+                monAnDAL.ThemMonAn(monAn);
                 MessageBox.Show("Thêm món ăn thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
 

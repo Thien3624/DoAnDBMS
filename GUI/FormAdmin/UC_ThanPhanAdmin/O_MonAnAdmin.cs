@@ -1,4 +1,5 @@
-﻿using DAL;
+﻿using BLL;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -60,7 +61,8 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
                 try
                 {
                     MonAnDAL monAnDAL = new MonAnDAL();
-                    monAnDAL.XoaMonAn(maMonAn);
+                    MonAn monAn = new MonAn(maMonAn);
+                    monAnDAL.XoaMonAn(monAn);
                     MessageBox.Show("Xóa món ăn thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 }

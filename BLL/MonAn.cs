@@ -25,6 +25,11 @@ namespace BLL
             this.images = images;
         }
 
+        public MonAn(string maMonAn)
+        {
+            this.maMonAn = maMonAn;
+        }
+
         public string MaMonAn { get => maMonAn; set => maMonAn = value; }
         public string TenMonAn { get => tenMonAn; set => tenMonAn = value; }
         public string LoaiMonAn { get => loaiMonAn; set => loaiMonAn = value; }
