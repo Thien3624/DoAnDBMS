@@ -21,47 +21,47 @@ namespace DAL
             return executeDisplayQuery(sql);
         }
 
-        public void themNhanVien(string maNhanVien, string CCCD, string hoVaTen, string gioiTinh, DateTime ngaySinh, string soDienThoai, string diaChi)
+        public void themNhanVien(NhanVien nhanVien)
         {
             string storedProcedure = "ThemNhanVien";
             SqlParameter[] parameters = new SqlParameter[]
             {
-                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = maNhanVien },
-                new SqlParameter("@CCCD", SqlDbType.NVarChar) { Value = CCCD },
-                new SqlParameter("@hoVaTen", SqlDbType.NVarChar) { Value = hoVaTen },
-                new SqlParameter("@gioiTinh", SqlDbType.NVarChar) { Value = gioiTinh },
-                new SqlParameter("@ngaySinh", SqlDbType.DateTime) { Value = ngaySinh },
-                new SqlParameter("@soDienThoai", SqlDbType.NVarChar) { Value = soDienThoai },
-                new SqlParameter("@diaChi", SqlDbType.NVarChar) { Value = diaChi },
+                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = nhanVien.MaNhanVien },
+                new SqlParameter("@CCCD", SqlDbType.NVarChar) { Value = nhanVien.CCCD },
+                new SqlParameter("@hoVaTen", SqlDbType.NVarChar) { Value = nhanVien.HoVaTen },
+                new SqlParameter("@gioiTinh", SqlDbType.NVarChar) { Value = nhanVien.GioiTinh },
+                new SqlParameter("@ngaySinh", SqlDbType.DateTime) { Value = nhanVien.NgaySinh },
+                new SqlParameter("@soDienThoai", SqlDbType.NVarChar) { Value = nhanVien.SoDienThoai },
+                new SqlParameter("@diaChi", SqlDbType.NVarChar) { Value = nhanVien.DiaChi },
 
             };
 
             executeInsertQuery(storedProcedure, parameters);
         }
 
-        public void XoaNhanVien(string maNhanVien)
+        public void XoaNhanVien(NhanVien nhanVien)
         {
             string storedProcedure = "XoaNhanVien";
             SqlParameter[] parameters = new SqlParameter[]
             {
-                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = maNhanVien }
+                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = nhanVien.MaNhanVien }
             };
 
             executeUpdateOrDeleteQuery(storedProcedure, parameters); // Giả sử bạn đã định nghĩa phương thức này để thực hiện stored procedure
         }
 
-        public void SuaNhanVien(string maNhanVien, string CCCD, string hoVaTen, string gioiTinh, DateTime ngaySinh, string soDienThoai, string diaChi)
+        public void SuaNhanVien(NhanVien nhanVien)
         {
             string storedProcedure = "SuaNhanVien";
             SqlParameter[] parameters = new SqlParameter[]
             {
-                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = maNhanVien },
-                new SqlParameter("@CCCD", SqlDbType.NVarChar) { Value = CCCD },
-                new SqlParameter("@hoVaTen", SqlDbType.NVarChar) { Value = hoVaTen },
-                new SqlParameter("@gioiTinh", SqlDbType.NVarChar) { Value = gioiTinh },
-                new SqlParameter("@ngaySinh", SqlDbType.DateTime) { Value = ngaySinh },
-                new SqlParameter("@soDienThoai", SqlDbType.NVarChar) { Value = soDienThoai },
-                new SqlParameter("@diaChi", SqlDbType.NVarChar) { Value = diaChi },
+                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = nhanVien.MaNhanVien },
+                new SqlParameter("@CCCD", SqlDbType.NVarChar) { Value = nhanVien.CCCD },
+                new SqlParameter("@hoVaTen", SqlDbType.NVarChar) { Value = nhanVien.HoVaTen },
+                new SqlParameter("@gioiTinh", SqlDbType.NVarChar) { Value = nhanVien.GioiTinh },
+                new SqlParameter("@ngaySinh", SqlDbType.DateTime) { Value = nhanVien.NgaySinh },
+                new SqlParameter("@soDienThoai", SqlDbType.NVarChar) { Value = nhanVien.SoDienThoai },
+                new SqlParameter("@diaChi", SqlDbType.NVarChar) { Value = nhanVien.DiaChi },
             };
 
             try

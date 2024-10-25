@@ -24,8 +24,6 @@ namespace GUI.FormAdmin
         private void btn_luu_Click(object sender, EventArgs e)
         {
             NhanVienDAL nhanVienDAL = new NhanVienDAL();
-            NhanVien nhanVien = new NhanVien();
-
             string gioiTinh = "";
 
             // Kiểm tra các trường nhập liệu
@@ -69,11 +67,13 @@ namespace GUI.FormAdmin
             {
                 gioiTinh = "Nữ";
             }
+            NhanVien nhanVien = new NhanVien(tb_maNhanVien.Text, tb_cccd.Text, tb_hoVaTen.Text, gioiTinh, datetime_ngaySinh.Value,tb_soDienThoai.Text, tb_diaChi.Text, true);
 
             // Nếu tất cả các trường đã nhập đầy đủ, thực hiện thêm nhân viên
             try
             {
-                nhanVienDAL.themNhanVien(tb_maNhanVien.Text, tb_cccd.Text, tb_hoVaTen.Text, gioiTinh, datetime_ngaySinh.Value, tb_soDienThoai.Text, tb_diaChi.Text);
+                
+                nhanVienDAL.themNhanVien(nhanVien);
                 MessageBox.Show("Thêm nhân viên thành công!");
 
                 //Load loại gridview nhân viên
@@ -90,11 +90,3 @@ namespace GUI.FormAdmin
         }
     }
 }
-
-/*test case
-    NV005
-    192846172631
-    NgocThanh
-    0192827461
-
- */

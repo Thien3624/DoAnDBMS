@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
 using DAL;
 
 namespace GUI.FormAdmin.UC_ThanPhanAdmin
@@ -46,8 +47,10 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
             {
                 try
                 {
+                    NhanVien nhanVien = new NhanVien();
+                    nhanVien.MaNhanVien = selectedMaNhanVien;
                     NhanVienDAL nhanVienDAL = new NhanVienDAL();
-                    nhanVienDAL.XoaNhanVien(selectedMaNhanVien);
+                    nhanVienDAL.XoaNhanVien(nhanVien);
 
                     MessageBox.Show("Xóa nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -73,12 +76,7 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
 
         private void btn_suaThongTinNhanVien_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btn_suaThongTinNhanVien_Click_1(object sender, EventArgs e)
-        {
-            SuaNhanVien suaNhanVien = new SuaNhanVien();    
+            SuaNhanVien suaNhanVien = new SuaNhanVien();
             suaNhanVien.ShowDialog();
         }
     }

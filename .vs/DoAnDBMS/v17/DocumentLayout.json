@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\VS Code\\DoAnDBMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\uc_thanhphan\\o_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\uc_thanhphan\\o_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\uc_thanhphan\\o_banan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\banandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|d:\\vs code\\doandbms\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,19 +39,19 @@
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\uc_thanphanadmin\\o_bananadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|d:\\vs code\\doandbms\\dal\\nhanviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\nhanviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\nhanviendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|d:\\vs code\\doandbms\\dal\\monandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\monandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\monandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|d:\\vs code\\doandbms\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|d:\\vs code\\doandbms\\dal\\khachhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\khachhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\khachhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -87,6 +91,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T03:01:48.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UserControlBanAn.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlBanAn.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlBanAn.cs",
@@ -99,32 +116,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "O_BanAn.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\UC_ThanhPhan\\O_BanAn.cs",
               "RelativeDocumentMoniker": "GUI\\UC_ThanhPhan\\O_BanAn.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\UC_ThanhPhan\\O_BanAn.cs",
               "RelativeToolTip": "GUI\\UC_ThanhPhan\\O_BanAn.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:48:37.246Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-25T02:48:37.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserControlBanAn.cs [Design]",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlBanAn.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlBanAn.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlBanAn.cs [Design]",
               "RelativeToolTip": "GUI\\UserControlBanAn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:48:27.817Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-25T02:48:27.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\DBConnection.cs",
               "RelativeDocumentMoniker": "DAL\\DBConnection.cs",
@@ -132,25 +147,23 @@
               "RelativeToolTip": "DAL\\DBConnection.cs",
               "ViewState": "AQIAAHEAAAAAAAAAAAAswG0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:14:38.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:14:38.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserControlMenu.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeToolTip": "GUI\\UserControlMenu.cs",
               "ViewState": "AQIAAKgAAAAAAAAAAAAkwLAAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:06:39.92Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-25T02:06:39.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "DonHangDAO.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\DonHangDAO.cs",
               "RelativeDocumentMoniker": "DAL\\DonHangDAO.cs",
@@ -158,12 +171,11 @@
               "RelativeToolTip": "DAL\\DonHangDAO.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAgwAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:05:28.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:05:28.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "KhachHangDAO.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\KhachHangDAO.cs",
               "RelativeDocumentMoniker": "DAL\\KhachHangDAO.cs",
@@ -171,12 +183,11 @@
               "RelativeToolTip": "DAL\\KhachHangDAO.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:05:24.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:05:24.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MonAnDAL.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\MonAnDAL.cs",
               "RelativeDocumentMoniker": "DAL\\MonAnDAL.cs",
@@ -184,12 +195,11 @@
               "RelativeToolTip": "DAL\\MonAnDAL.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAwwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:05:01.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:05:01.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "NhanVienDAL.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\NhanVienDAL.cs",
               "RelativeDocumentMoniker": "DAL\\NhanVienDAL.cs",
@@ -197,12 +207,11 @@
               "RelativeToolTip": "DAL\\NhanVienDAL.cs",
               "ViewState": "AQIAADkAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:04:51.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T02:04:51.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BanAnDAL.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\BanAnDAL.cs",
               "RelativeDocumentMoniker": "DAL\\BanAnDAL.cs",
@@ -210,24 +219,22 @@
               "RelativeToolTip": "DAL\\BanAnDAL.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAIAxwB0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:43:51.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T14:43:51.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "O_BanAnAdmin.cs [Design]",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_BanAnAdmin.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_BanAnAdmin.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_BanAnAdmin.cs [Design]",
               "RelativeToolTip": "GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_BanAnAdmin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T10:03:57.82Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-24T10:03:57.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "O_MonAnAdmin.cs [Design]",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\UC_ThanPhanAdmin\\O_MonAnAdmin.cs",
@@ -238,40 +245,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "O_BanAn.cs [Design]",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\UC_ThanhPhan\\O_BanAn.cs",
               "RelativeDocumentMoniker": "GUI\\UC_ThanhPhan\\O_BanAn.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\UC_ThanhPhan\\O_BanAn.cs [Design]",
               "RelativeToolTip": "GUI\\UC_ThanhPhan\\O_BanAn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:51:09.624Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-24T09:51:09.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserControlQLBanAn.cs",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLBanAn.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\UserControlQLBanAn.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLBanAn.cs",
               "RelativeToolTip": "GUI\\FormAdmin\\UserControlQLBanAn.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAASwCAAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:45:11.708Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-24T09:45:11.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SuaMonAn.cs [Design]",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\SuaMonAn.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\SuaMonAn.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\SuaMonAn.cs [Design]",
               "RelativeToolTip": "GUI\\FormAdmin\\SuaMonAn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T09:13:16.846Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-10-24T09:13:16.846Z"
             }
           ]
         }
