@@ -203,7 +203,6 @@
             this.btn_suaThongTinNhanVien.Size = new System.Drawing.Size(234, 46);
             this.btn_suaThongTinNhanVien.TabIndex = 5;
             this.btn_suaThongTinNhanVien.Text = "Sửa thông tin nhân viên";
-            this.btn_suaThongTinNhanVien.Click += new System.EventHandler(this.btn_suaThongTinNhanVien_Click_1);
             // 
             // UserControlQLNhanVien
             // 

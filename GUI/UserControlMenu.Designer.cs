@@ -45,6 +45,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txt_hoVaTen = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.cbo_maBan = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,7 +53,6 @@
             this.panelNoiDung = new System.Windows.Forms.FlowLayoutPanel();
             this.panelTop = new Guna.UI2.WinForms.Guna2Panel();
             this.cboLoaiMonAn = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.panelDatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGVDonHang)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -143,14 +143,14 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dtGVDonHang.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtGVDonHang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtGVDonHang.Location = new System.Drawing.Point(72, 328);
+            this.dtGVDonHang.Location = new System.Drawing.Point(72, 311);
             this.dtGVDonHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtGVDonHang.Name = "dtGVDonHang";
             this.dtGVDonHang.ReadOnly = true;
             this.dtGVDonHang.RowHeadersVisible = false;
             this.dtGVDonHang.RowHeadersWidth = 60;
             this.dtGVDonHang.RowTemplate.Height = 24;
-            this.dtGVDonHang.Size = new System.Drawing.Size(403, 331);
+            this.dtGVDonHang.Size = new System.Drawing.Size(403, 348);
             this.dtGVDonHang.TabIndex = 15;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -205,7 +205,7 @@
             // cb_gioiTinhNu
             // 
             this.cb_gioiTinhNu.AutoSize = true;
-            this.cb_gioiTinhNu.Location = new System.Drawing.Point(285, 270);
+            this.cb_gioiTinhNu.Location = new System.Drawing.Point(403, 270);
             this.cb_gioiTinhNu.Margin = new System.Windows.Forms.Padding(4);
             this.cb_gioiTinhNu.Name = "cb_gioiTinhNu";
             this.cb_gioiTinhNu.Size = new System.Drawing.Size(46, 20);
@@ -216,7 +216,7 @@
             // cb_gioiTinhNam
             // 
             this.cb_gioiTinhNam.AutoSize = true;
-            this.cb_gioiTinhNam.Location = new System.Drawing.Point(173, 270);
+            this.cb_gioiTinhNam.Location = new System.Drawing.Point(248, 270);
             this.cb_gioiTinhNam.Margin = new System.Windows.Forms.Padding(4);
             this.cb_gioiTinhNam.Name = "cb_gioiTinhNam";
             this.cb_gioiTinhNam.Size = new System.Drawing.Size(58, 20);
@@ -295,6 +295,19 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(517, 101);
             this.guna2Panel2.TabIndex = 6;
+            // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.Checked = true;
+            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(55, 47);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(200, 36);
+            this.guna2DateTimePicker1.TabIndex = 4;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 10, 24, 15, 35, 44, 289);
             // 
             // label3
             // 
@@ -394,19 +407,6 @@
             this.cboLoaiMonAn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cboLoaiMonAn.SelectedIndexChanged += new System.EventHandler(this.cboLoaiMonAn_SelectedIndexChanged);
             // 
-            // guna2DateTimePicker1
-            // 
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(55, 47);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(200, 36);
-            this.guna2DateTimePicker1.TabIndex = 4;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2024, 10, 24, 15, 35, 44, 289);
-            // 
             // UserControlMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -443,8 +443,6 @@
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2TextBox txt_hoVaTen;
         private Guna.UI2.WinForms.Guna2TextBox txt_sDT;
-        private System.Windows.Forms.CheckBox cb_gioiTinhNu;
-        private System.Windows.Forms.CheckBox cb_gioiTinhNam;
 
         private Guna.UI2.WinForms.Guna2DataGridView dtGVDonHang;
         private Guna.UI2.WinForms.Guna2Shapes guna2Shapes1;
@@ -453,6 +451,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tenMonAn;
         private System.Windows.Forms.DataGridViewTextBoxColumn soLuong;
         private System.Windows.Forms.DataGridViewTextBoxColumn gia;
+        private System.Windows.Forms.CheckBox cb_gioiTinhNu;
+        private System.Windows.Forms.CheckBox cb_gioiTinhNam;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
     }
 }

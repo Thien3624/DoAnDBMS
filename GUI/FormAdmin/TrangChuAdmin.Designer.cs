@@ -48,10 +48,10 @@
             this.btn_quanLyThucDon.FillColor = System.Drawing.Color.Transparent;
             this.btn_quanLyThucDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_quanLyThucDon.ForeColor = System.Drawing.Color.White;
-            this.btn_quanLyThucDon.Location = new System.Drawing.Point(191, 0);
-            this.btn_quanLyThucDon.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_quanLyThucDon.Location = new System.Drawing.Point(255, 0);
+            this.btn_quanLyThucDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_quanLyThucDon.Name = "btn_quanLyThucDon";
-            this.btn_quanLyThucDon.Size = new System.Drawing.Size(156, 54);
+            this.btn_quanLyThucDon.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyThucDon.TabIndex = 1;
             this.btn_quanLyThucDon.Text = "Quản lý thực đơn";
             this.btn_quanLyThucDon.Click += new System.EventHandler(this.btn_quanLyThucDon_Click);
@@ -66,12 +66,13 @@
             this.btn_quanLyBanAn.FillColor = System.Drawing.Color.Transparent;
             this.btn_quanLyBanAn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_quanLyBanAn.ForeColor = System.Drawing.Color.White;
-            this.btn_quanLyBanAn.Location = new System.Drawing.Point(345, 2);
-            this.btn_quanLyBanAn.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_quanLyBanAn.Location = new System.Drawing.Point(460, 2);
+            this.btn_quanLyBanAn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_quanLyBanAn.Name = "btn_quanLyBanAn";
-            this.btn_quanLyBanAn.Size = new System.Drawing.Size(156, 54);
+            this.btn_quanLyBanAn.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyBanAn.TabIndex = 2;
             this.btn_quanLyBanAn.Text = "Quản lý bàn ăn";
+            this.btn_quanLyBanAn.Click += new System.EventHandler(this.btn_quanLyBanAn_Click);
             // 
             // btn_quanLyHoaDon
             // 
@@ -84,10 +85,10 @@
             this.btn_quanLyHoaDon.FillColor = System.Drawing.Color.Transparent;
             this.btn_quanLyHoaDon.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_quanLyHoaDon.ForeColor = System.Drawing.Color.White;
-            this.btn_quanLyHoaDon.Location = new System.Drawing.Point(501, 2);
-            this.btn_quanLyHoaDon.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_quanLyHoaDon.Location = new System.Drawing.Point(668, 2);
+            this.btn_quanLyHoaDon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_quanLyHoaDon.Name = "btn_quanLyHoaDon";
-            this.btn_quanLyHoaDon.Size = new System.Drawing.Size(156, 54);
+            this.btn_quanLyHoaDon.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyHoaDon.TabIndex = 3;
             this.btn_quanLyHoaDon.Text = "Quản lý hóa đơn";
             this.btn_quanLyHoaDon.TextFormatNoPrefix = true;
@@ -102,9 +103,9 @@
             this.guna2Panel1.Controls.Add(this.btn_quanLyThucDon);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1186, 54);
+            this.guna2Panel1.Size = new System.Drawing.Size(1581, 66);
             this.guna2Panel1.TabIndex = 0;
             // 
             // btn_quanLyNhanVien
@@ -118,10 +119,10 @@
             this.btn_quanLyNhanVien.FillColor = System.Drawing.Color.Transparent;
             this.btn_quanLyNhanVien.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_quanLyNhanVien.ForeColor = System.Drawing.Color.White;
-            this.btn_quanLyNhanVien.Location = new System.Drawing.Point(813, 0);
-            this.btn_quanLyNhanVien.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_quanLyNhanVien.Location = new System.Drawing.Point(1084, 0);
+            this.btn_quanLyNhanVien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_quanLyNhanVien.Name = "btn_quanLyNhanVien";
-            this.btn_quanLyNhanVien.Size = new System.Drawing.Size(156, 54);
+            this.btn_quanLyNhanVien.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyNhanVien.TabIndex = 5;
             this.btn_quanLyNhanVien.Text = "Quản lý nhân viên";
             this.btn_quanLyNhanVien.Click += new System.EventHandler(this.btn_quanLyNhanVien_Click);
@@ -137,31 +138,31 @@
             this.btn_quanLyDoanhThu.FillColor = System.Drawing.Color.Transparent;
             this.btn_quanLyDoanhThu.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_quanLyDoanhThu.ForeColor = System.Drawing.Color.White;
-            this.btn_quanLyDoanhThu.Location = new System.Drawing.Point(656, 0);
-            this.btn_quanLyDoanhThu.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_quanLyDoanhThu.Location = new System.Drawing.Point(875, 0);
+            this.btn_quanLyDoanhThu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_quanLyDoanhThu.Name = "btn_quanLyDoanhThu";
-            this.btn_quanLyDoanhThu.Size = new System.Drawing.Size(156, 54);
+            this.btn_quanLyDoanhThu.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyDoanhThu.TabIndex = 4;
             this.btn_quanLyDoanhThu.Text = "Quản lý doanh thu";
             // 
             // panelHienThi
             // 
             this.panelHienThi.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelHienThi.Location = new System.Drawing.Point(0, 54);
-            this.panelHienThi.Margin = new System.Windows.Forms.Padding(2);
+            this.panelHienThi.Location = new System.Drawing.Point(0, 66);
+            this.panelHienThi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelHienThi.Name = "panelHienThi";
-            this.panelHienThi.Size = new System.Drawing.Size(1186, 647);
+            this.panelHienThi.Size = new System.Drawing.Size(1581, 797);
             this.panelHienThi.TabIndex = 2;
             // 
             // TrangChuAdmin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1186, 701);
+            this.ClientSize = new System.Drawing.Size(1581, 863);
             this.Controls.Add(this.panelHienThi);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TrangChuAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TrangChu";

@@ -18,7 +18,6 @@ namespace GUI
     public partial class UserControlMenu : UserControl
     {
         DonHangDAO donHangDAO = new DonHangDAO();
-
         public UserControlMenu()
         {
             InitializeComponent();
@@ -89,7 +88,7 @@ namespace GUI
 
         private void LoadIdBanAn()
         {
-            List<string> IdBanAnList = banAnDAL.LayDanhSachIdBanAn();
+            List<string> IdBanAnList = banAnDAL.LayDanhSachIdBanAnChuaDat();
             cbo_maBan.DataSource = IdBanAnList;
         }
 
@@ -175,7 +174,7 @@ namespace GUI
                         ThanhTien = thanhTien
                     });
                 }
-
+                banAnDAL.doiTrangThaiBan(maBan);
                 // Save the order details to the database
                 donHangDAO.ThemChiTietDonHang(chiTietDonHangs);
                 MessageBox.Show("Đơn hàng đã được thêm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

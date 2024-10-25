@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\dbms\\project\\c#\\doandbms\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\DBMS\\Project\\C#\\DoAnDBMS\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|d:\\dbms\\project\\c#\\doandbms\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserControlMenu.cs",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
@@ -55,25 +55,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserControlMenu.cs [Design]",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs",
               "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
               "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\GUI\\UserControlMenu.cs [Design]",
               "RelativeToolTip": "GUI\\UserControlMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:47:46.668Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-10-25T02:47:46.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DonHangDAO.cs",
               "DocumentMoniker": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\DAL\\DonHangDAO.cs",
               "RelativeDocumentMoniker": "DAL\\DonHangDAO.cs",
               "ToolTip": "D:\\DBMS\\Project\\C#\\DoAnDBMS\\DAL\\DonHangDAO.cs",
               "RelativeToolTip": "DAL\\DonHangDAO.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwCwAAAAqAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T02:46:48.056Z",
               "EditorCaption": ""

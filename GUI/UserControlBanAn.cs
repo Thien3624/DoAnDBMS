@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static GUI.UC_ThanhPhan.O_BanAn;
 
 namespace GUI
 {
@@ -19,6 +20,7 @@ namespace GUI
             InitializeComponent();
         }
         BanAnDAL BanAnDAL = new BanAnDAL();
+        DonHangDAO DonHangDAO = new DonHangDAO();
         private void addBanAn()
         {
             DataTable dt = new DataTable();
@@ -28,8 +30,7 @@ namespace GUI
                 O_BanAn oBanAn = new O_BanAn();
                 // Lấy giá trị từng cột trong hàng hiện tại
                 int maBan = row.Field<int>("maBan");
-                string sucChua = row["sucChua"].ToString();
-                if (row["trangThai"].ToString().Equals("Đã đặt"))
+                if ((bool)row["trangThai"])
                 {
                     oBanAn.BackColor = Color.Red;
                 }
@@ -37,8 +38,8 @@ namespace GUI
                 {
                     oBanAn.BackColor = Color.Green;
                 }
-                oBanAn.themBanAn(maBan, sucChua);
-
+                oBanAn.themBanAn(maBan);
+                oBanAn.BanAnClicked += O_BanAn_Clicked;
                 panelNoiDung.Controls.Add(oBanAn);
                 oBanAn.BringToFront();
             }
@@ -47,6 +48,17 @@ namespace GUI
         public void UserControlBanAn_Load(object sender, EventArgs e)
         {
             addBanAn();
+        }
+
+        private void O_BanAn_Clicked(object sender, BanAnEventArgs e)
+        {
+            HienThiDonHang(e.MaBan);
+        }
+
+        private void HienThiDonHang(int maBan)
+        {
+           
+
         }
     }
 }

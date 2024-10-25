@@ -140,6 +140,8 @@ E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.UserControlMenu.resources
 >>>>>>> dd4e5c3c35b3fea296c90e1c956d2c19322812a4
 >>>>>>> 107e1408dbcdc335d46165452cf0b0f5db114ba9
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLThucDon.resources
 D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources
 D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLThucDon.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_MonAnAdmin.resources
@@ -151,7 +153,19 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+>>>>>>> 0afca29b6dc70d17813154449ab0b27e8167a932
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
 E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+>>>>>>> c1c41e9baa9ab0bde4bd0b6ed6d71b078c8c9728
+D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+>>>>>>> ee87ebefa2134be4dcaa33ede64c3d4f625cbfec
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
