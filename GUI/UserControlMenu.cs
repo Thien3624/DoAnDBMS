@@ -191,7 +191,7 @@ namespace GUI
         {
             string tenMonAn = txt_tenMonAn.Text;
             DataTable dt = new DataTable();
-            dt = monAnDAL.TimKiemMonAn(tenMonAn);
+            dt = monAnDAL.TimKiemMonAn('%'+ tenMonAn + '%');
             panelNoiDung.Controls.Clear();
             foreach (DataRow row in dt.Rows)
             {
@@ -211,6 +211,17 @@ namespace GUI
                 txt_sDT.Text = row["SDT"].ToString();
                 cb_gioiTinhNam.Checked = row["gioiTinh"].ToString() == "Nam" ? true : false;
                 cb_gioiTinhNu.Checked = row["gioiTinh"].ToString() == "Nữ" ? true : false;
+            }
+        }
+
+        private void btn_bestSeller_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = monAnDAL.BestSeller();
+            panelNoiDung.Controls.Clear();
+            foreach (DataRow row in dt.Rows)
+            {
+                ThemMonAnVaoPanel(row);
             }
         }
     }

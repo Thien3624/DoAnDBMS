@@ -94,5 +94,11 @@ namespace DAL
             };
             return executeSearchQuery(sql, parameters);
         }
+
+        public DataTable BestSeller()
+        {
+            string sql = "SELECT * FROM dbo.BanChayNhat() ORDER BY tongSoLuong ASC;";
+            return executeDisplayQuery(sql);
+        }
     }
 }
