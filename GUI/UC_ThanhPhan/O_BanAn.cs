@@ -1,4 +1,5 @@
 ﻿using BLL;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,20 +18,9 @@ namespace GUI.UC_ThanhPhan
         public O_BanAn()
         {
             InitializeComponent();
-            this.Click += O_BanAn_Click;
+            this.Click += lb_banAn_Click;
         }
-        private void O_BanAn_Click(object sender, EventArgs e)
-        {
-            // Khi bàn ăn được click, kích hoạt event và truyền dữ liệu
-            if (BanAnClicked != null)
-            {
-                string tenBan = lb_maBan.Text;
-                List<string> lst = tenBan.Split(' ').ToList();
-                int maBan = int.Parse(lst[1]);
-                BanAnEventArgs args = new BanAnEventArgs(maBan);
-                BanAnClicked(this, args);
-            }
-        }
+        BanAnDAL banAnDAL = new BanAnDAL();
         public void themBanAn(int maBan)
         {
             lb_maBan.BackColor = lb_banAn.BackColor;
@@ -49,7 +39,14 @@ namespace GUI.UC_ThanhPhan
 
         private void lb_banAn_Click(object sender, EventArgs e)
         {
-
+            if (BanAnClicked != null)
+            {
+                string tenBan = lb_maBan.Text;
+                List<string> lst = tenBan.Split(' ').ToList();
+                int maBan = int.Parse(lst[1]);
+                BanAnEventArgs args = new BanAnEventArgs(maBan);
+                BanAnClicked(this, args);
+            }
         }
     }
 }

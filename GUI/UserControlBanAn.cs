@@ -57,7 +57,32 @@ namespace GUI
 
         private void HienThiDonHang(int maBan)
         {
-           
+            DataTable dt = new DataTable();
+            dt = BanAnDAL.HienThiHoaDonTheoBan(maBan);
+            dgDonHang.Rows.Clear();
+            int tongTien = 0;
+            if (dt.Rows.Count > 0)
+            {
+                txt_tenKhachHang.Text = dt.Rows[0]["hoTenKhachHang"].ToString();
+                txt_soDienThoai.Text = dt.Rows[0]["SDT"].ToString();
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    string tenMonAn = row["tenMonAn"].ToString();
+                    int soLuong = int.Parse(row["soLuong"].ToString());
+                    decimal thanhTien = decimal.Parse(row["thanhTien"].ToString());
+
+                    dgDonHang.Rows.Add(tenMonAn, soLuong, thanhTien);
+
+                    tongTien += int.Parse(row["thanhTien"].ToString());
+                }
+                lb_tongTien.Text = tongTien.ToString("N0") + "VNĐ";
+            }
+            else
+            {
+                MessageBox.Show("Không có dữ liệu hóa đơn cho bàn " + maBan);
+            }
+
 
         }
     }
