@@ -70,7 +70,7 @@ namespace GUI
                 {
                     string tenMonAn = row["tenMonAn"].ToString();
                     int soLuong = int.Parse(row["soLuong"].ToString());
-                    decimal thanhTien = decimal.Parse(row["thanhTien"].ToString());
+                    decimal thanhTien = decimal.Parse(row["ThanhTien"].ToString());
 
                     dgDonHang.Rows.Add(tenMonAn, soLuong, thanhTien);
 

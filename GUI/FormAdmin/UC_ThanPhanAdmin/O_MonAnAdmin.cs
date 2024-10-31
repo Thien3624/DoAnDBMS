@@ -20,12 +20,11 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
             InitializeComponent();
         }
         private int Gia;
-        public void themMonAnAdmin(string maMonAn, string tenMonAn,string loaiMonAn, int gia,int soLuong, Image images)
+        public void themMonAnAdmin(string maMonAn, string tenMonAn,string loaiMonAn, int gia, Image images)
         {
             lb_maMonAn.Text = maMonAn;
             lb_tenMonAn.Text = tenMonAn;
             lb_giaMonAn.Text = "Giá: " + gia.ToString("N0") + " VNĐ";
-            lb_soLuong.Text = soLuong.ToString();
             lb_loaiMonAn.Text = loaiMonAn;
             picb_anhMonAn.Image = images;
             Gia = gia;
@@ -37,10 +36,9 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
             string tenMonAn = lb_tenMonAn.Text;
             string loaiMonAn = lb_loaiMonAn.Text;
             int gia = Gia;
-            int soLuong = int.Parse(lb_soLuong.Text);
             byte[] anhMoTa = ImageToByteArray(picb_anhMonAn.Image);
 
-            SuaMonAn suaMonAn = new SuaMonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, anhMoTa);
+            SuaMonAn suaMonAn = new SuaMonAn(maMonAn, tenMonAn, loaiMonAn, gia, anhMoTa);
             suaMonAn.ShowDialog();
         }
         private byte[] ImageToByteArray(Image imageIn)

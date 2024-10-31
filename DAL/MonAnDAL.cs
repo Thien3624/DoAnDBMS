@@ -44,7 +44,6 @@ namespace DAL
                 new SqlParameter("@tenMonAn", monAn.TenMonAn),
                 new SqlParameter("@loaiMonAn", monAn.LoaiMonAn),
                 new SqlParameter("@gia", monAn.Gia),
-                new SqlParameter("@soLuong", monAn.SoLuong),
                 new SqlParameter("@anhMoTa", (object)monAn.Images ?? DBNull.Value)
             };
 
@@ -70,7 +69,6 @@ namespace DAL
                 new SqlParameter("@tenMonAn", monAn.TenMonAn),
                 new SqlParameter("@loaiMonAn", monAn.LoaiMonAn),
                 new SqlParameter("@gia", monAn.Gia),
-                new SqlParameter("@soLuong", monAn.SoLuong),
                 new SqlParameter("@anhMoTa", (object)monAn.Images ?? DBNull.Value)
             };
 
