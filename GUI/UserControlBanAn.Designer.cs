@@ -47,6 +47,7 @@
             this.txt_tenKhachHang = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_inHoaDon = new Guna.UI2.WinForms.Guna2Button();
             this.panelDatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDonHang)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -68,6 +69,7 @@
             this.panelDatHang.BackColor = System.Drawing.Color.White;
             this.panelDatHang.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panelDatHang.BorderThickness = 1;
+            this.panelDatHang.Controls.Add(this.btn_inHoaDon);
             this.panelDatHang.Controls.Add(this.guna2ComboBox2);
             this.panelDatHang.Controls.Add(this.guna2Button2);
             this.panelDatHang.Controls.Add(this.guna2Button1);
@@ -96,9 +98,9 @@
             this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox2.ItemHeight = 20;
-            this.guna2ComboBox2.Location = new System.Drawing.Point(303, 638);
+            this.guna2ComboBox2.Location = new System.Drawing.Point(303, 687);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(164, 26);
+            this.guna2ComboBox2.Size = new System.Drawing.Size(146, 26);
             this.guna2ComboBox2.TabIndex = 21;
             // 
             // guna2Button2
@@ -111,7 +113,7 @@
             this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(71, 679);
+            this.guna2Button2.Location = new System.Drawing.Point(303, 638);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(146, 35);
             this.guna2Button2.TabIndex = 20;
@@ -317,6 +319,23 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Bàn ăn";
             // 
+            // btn_inHoaDon
+            // 
+            this.btn_inHoaDon.BorderRadius = 10;
+            this.btn_inHoaDon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_inHoaDon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_inHoaDon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_inHoaDon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_inHoaDon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_inHoaDon.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_inHoaDon.ForeColor = System.Drawing.Color.White;
+            this.btn_inHoaDon.Location = new System.Drawing.Point(71, 687);
+            this.btn_inHoaDon.Name = "btn_inHoaDon";
+            this.btn_inHoaDon.Size = new System.Drawing.Size(146, 35);
+            this.btn_inHoaDon.TabIndex = 22;
+            this.btn_inHoaDon.Text = "In hóa đơn";
+            this.btn_inHoaDon.Click += new System.EventHandler(this.btn_inHoaDon_Click);
+            // 
             // UserControlBanAn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -354,5 +373,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tenMonAn;
         private System.Windows.Forms.DataGridViewTextBoxColumn soLuong;
         private System.Windows.Forms.DataGridViewTextBoxColumn thanhTien;
+        private Guna.UI2.WinForms.Guna2Button btn_inHoaDon;
     }
 }

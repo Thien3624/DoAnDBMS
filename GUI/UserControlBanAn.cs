@@ -1,4 +1,6 @@
-﻿using DAL;
+﻿using BLL;
+using DAL;
+using GUI.Report;
 using GUI.UC_ThanhPhan;
 using System;
 using System.Collections.Generic;
@@ -50,9 +52,11 @@ namespace GUI
             addBanAn();
         }
 
+        private int mb;
         private void O_BanAn_Clicked(object sender, BanAnEventArgs e)
         {
             HienThiDonHang(e.MaBan);
+            mb = e.MaBan;
         }
 
         private void HienThiDonHang(int maBan)
@@ -84,6 +88,19 @@ namespace GUI
             }
 
 
+        }
+
+        private void btn_inHoaDon_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = BanAnDAL.HienThiHoaDonTheoBan(mb);
+            rptHoaDon hoaDon = new rptHoaDon();
+            //Gán nguồn dữ liệu
+            hoaDon.SetDataSource(dt);
+            //Hiển thị hóa đơn
+            FrmHoaDon frmHoaDon = new FrmHoaDon();
+            frmHoaDon.viewHoaDon.ReportSource = hoaDon;
+            frmHoaDon.ShowDialog();
         }
     }
 }
