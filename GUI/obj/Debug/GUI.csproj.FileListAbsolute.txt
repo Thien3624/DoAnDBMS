@@ -187,3 +187,11 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Objec
 D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\stdole.dll
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.Report.FrmHoaDon.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.Report.FrmHoaDon.resources
