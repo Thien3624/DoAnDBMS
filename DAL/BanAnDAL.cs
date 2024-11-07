@@ -43,7 +43,15 @@ namespace DAL
             const string sql = "SELECT maBan FROM QuanLyBanAn where [trangThai] = 0";
             return ExecuteQueryAndGetList(sql);
         }
-
+        public DataTable HienThiHoaDonTheoBan(int maBan)
+        {
+            string sql = "SELECT * FROM [dbo].[HienThiHoaDonTheoBan](@maBan)";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter ("@maBan", SqlDbType.Int) { Value = maBan }
+            };
+            return executeSearchQuery(sql, parameters);
+        }
 
     }
 }

@@ -74,7 +74,7 @@ namespace GUI.FormAdmin.UC_ThanPhanAdmin
             }
         }
 
-        private void btn_suaThongTinNhanVien_Click(object sender, EventArgs e)
+        private void btn_suaThongTinNhanVien_Click_1(object sender, EventArgs e)
         {
             SuaNhanVien suaNhanVien = new SuaNhanVien();
             suaNhanVien.ShowDialog();

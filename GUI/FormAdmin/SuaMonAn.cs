@@ -1,4 +1,5 @@
-﻿using DAL;
+﻿using BLL;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,10 +26,10 @@ namespace GUI.FormAdmin
             string tenMonAn = txt_tenMonAn.Text;
             string loaiMonAn = cbo_loaiMonAn.Text;
             int gia = int.Parse(txt_gia.Text);
-            int soLuong = int.Parse(txt_soLuong.Text);
             byte[] anhMoTa = ImageToByteArray(pic_AnhMonAn.Image);
 
-            monAnDAL.SuaMonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, anhMoTa);
+            MonAn monAn = new MonAn(maMonAn, tenMonAn, loaiMonAn, gia, anhMoTa);
+            monAnDAL.SuaMonAn(monAn);
             MessageBox.Show("Cập nhật món ăn thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             this.Close();
         }
@@ -67,13 +68,12 @@ namespace GUI.FormAdmin
         }
 
         //Hiển thị dữ liệu của món muốn sửa lên form
-        public SuaMonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, int soLuong, byte[] anhMoTa)
+        public SuaMonAn(string maMonAn, string tenMonAn, string loaiMonAn, int gia, byte[] anhMoTa)
         {
             InitializeComponent();
             txt_maMonAn.Text = maMonAn;
             txt_tenMonAn.Text = tenMonAn;
             txt_gia.Text = gia.ToString();
-            txt_soLuong.Text = soLuong.ToString();
             pic_AnhMonAn.Image = ByteArrayToImage(anhMoTa);
             LoadLoaiMonAn();
             cbo_loaiMonAn.SelectedItem = loaiMonAn;

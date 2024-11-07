@@ -1,6 +1,7 @@
 ﻿using BLL;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,14 @@ namespace DAL
             executeInsertQuery(sql, parameters);
         }
 
-
+        public DataTable timKiemKhachHangTheoSDT(string sDT)
+        {
+            string sql = "SELECT * FROM dbo.TimKiemKhachHangTheoSDT(@SDT)";
+            SqlParameter[] parameters = new SqlParameter[] {
+                new SqlParameter("@SDT", SqlDbType.VarChar) { Value = sDT }
+            };
+            return executeSearchQuery(sql, parameters);
+        }
+            
     }
 }

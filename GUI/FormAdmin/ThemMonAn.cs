@@ -50,7 +50,6 @@ namespace GUI.FormAdmin
                 string tenMonAn = txt_tenMonAn.Text;
                 string loaiMonAn = cbo_loaiMonAn.SelectedItem?.ToString(); // Kiểm tra null
                 int gia = int.Parse(txt_gia.Text);
-                int soLuong = int.Parse(txt_soLuong.Text);
 
                 if (imageBytes == null)
                 {
@@ -58,8 +57,8 @@ namespace GUI.FormAdmin
                     return;
                 }
 
-                MonAn monAn = new MonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, imageBytes);
-                monAnDAL.ThemMonAn(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, imageBytes);
+                MonAn monAn = new MonAn(maMonAn, tenMonAn, loaiMonAn, gia, imageBytes);
+                monAnDAL.ThemMonAn(monAn);
                 MessageBox.Show("Thêm món ăn thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
 

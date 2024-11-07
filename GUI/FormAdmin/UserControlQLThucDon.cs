@@ -33,11 +33,10 @@ namespace GUI.FormAdmin
             string tenMonAn = row["tenMonAn"].ToString();
             string loaiMonAn = row["loaiMonAn"].ToString();
             int gia = row.Field<int>("gia");
-            int soLuong = row.Field<int>("soLuong");
             byte[] b = row.Field<byte[]>("anhMoTa");
             Image anh = ByteArrToImage(b);
 
-            oMonAnAdmin.themMonAnAdmin(maMonAn, tenMonAn, loaiMonAn, gia, soLuong, anh);
+            oMonAnAdmin.themMonAnAdmin(maMonAn, tenMonAn, loaiMonAn, gia, anh);
             panelNoiDung.Controls.Add(oMonAnAdmin);
             oMonAnAdmin.BringToFront();
         }

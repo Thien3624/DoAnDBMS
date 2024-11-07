@@ -9,77 +9,41 @@ namespace DAL
     public class DonHangDAO : DBConnection
     {
         public DonHangDAO() : base() { }
-
-        // Method to insert DonHang and return the generated maDonHang
         public int ThemDonHang(DonHang donHang)
         {
-            using (SqlConnection conn = GetSqlConnection())
+            string storedProcedure = "ThemDonHang";
+            SqlParameter[] parameters = new SqlParameter[]
             {
-                conn.Open();
-                using (SqlTransaction transaction = conn.BeginTransaction())
+                new SqlParameter("@maBan", donHang.MaBan),
+                new SqlParameter("@maKhachHang", donHang.MaKhachHang),
+                new SqlParameter("@ngayDatMon", donHang.NgayDatMon),
+                new SqlParameter("@maDonHang", SqlDbType.Int)
                 {
-                    try
-                    {
-                        // Insert DonHang
-                        using (SqlCommand cmd = new SqlCommand("ThemDonHang", conn, transaction))
-                        {
-                            cmd.CommandType = CommandType.StoredProcedure;
-                            cmd.Parameters.AddWithValue("@maBan", donHang.MaBan);
-                            cmd.Parameters.AddWithValue("@maKhachHang", donHang.MaKhachHang);
-                            cmd.Parameters.AddWithValue("@ngayDatMon", donHang.NgayDatMon);
-                            SqlParameter outputIdParam = new SqlParameter("@maDonHang", SqlDbType.Int)
-                            {
-                                Direction = ParameterDirection.Output
-                            };
-                            cmd.Parameters.Add(outputIdParam);
-                            cmd.ExecuteNonQuery();
-                            transaction.Commit();
-                            // Return the generated maDonHang
-                            return (int)outputIdParam.Value;
-                        }
-                    }
-                    catch (Exception)
-                    {
-                        transaction.Rollback();
-                        throw;
-                    }
+                    Direction = ParameterDirection.Output
                 }
-            }
+            };
+            executeInsertQuery(storedProcedure, parameters);
+            return (int)parameters[3].Value;
         }
-
 
         // Method to insert ChiTietDonHang
         public void ThemChiTietDonHang(List<ChiTietDonHang> chiTietDonHangs)
         {
-            using (SqlConnection conn = GetSqlConnection())
+            string storedProcedure = "ThemChiTietDonHang";
+            foreach (var chiTiet in chiTietDonHangs)
             {
-                conn.Open();
-                using (SqlTransaction transaction = conn.BeginTransaction())
+                SqlParameter[] parameters = new SqlParameter[]
                 {
-                    try
-                    {
-                        foreach (var chiTiet in chiTietDonHangs)
-                        {
-                            using (SqlCommand cmd = new SqlCommand("ThemChiTietDonHang", conn, transaction))
-                            {
-                                cmd.CommandType = CommandType.StoredProcedure;
-                                cmd.Parameters.AddWithValue("@maDonHang", chiTiet.MaDonHang);
-                                cmd.Parameters.AddWithValue("@maMonAn", chiTiet.MaMonAn);
-                                cmd.Parameters.AddWithValue("@soLuong", chiTiet.SoLuong);
-                                cmd.Parameters.AddWithValue("@donGia", chiTiet.DonGia);
-                                cmd.Parameters.AddWithValue("@thanhTien", chiTiet.ThanhTien);
-                                cmd.ExecuteNonQuery();
-                            }
-                        }
-                        transaction.Commit();
-                    }
-                    catch (Exception)
-                    {
-                        transaction.Rollback();
-                        throw;
-                    }
-                }
+                    new SqlParameter("@maDonHang", chiTiet.MaDonHang),
+                    new SqlParameter("@maMonAn", chiTiet.MaMonAn),
+                    new SqlParameter("@soLuong", chiTiet.SoLuong),
+                    new SqlParameter("@donGia", chiTiet.DonGia),
+                    new SqlParameter("@thanhTien", chiTiet.ThanhTien)
+                };
+
+                executeInsertQuery(storedProcedure, parameters);
             }
         }
+
     }
 }

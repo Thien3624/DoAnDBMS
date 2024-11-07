@@ -28,22 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lb_banAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.lb_maBan = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.lb_banAn = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.SuspendLayout();
-            // 
-            // lb_banAn
-            // 
-            this.lb_banAn.AutoSize = false;
-            this.lb_banAn.BackColor = System.Drawing.Color.Transparent;
-            this.lb_banAn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_banAn.Location = new System.Drawing.Point(0, 0);
-            this.lb_banAn.Margin = new System.Windows.Forms.Padding(4);
-            this.lb_banAn.Name = "lb_banAn";
-            this.lb_banAn.Size = new System.Drawing.Size(255, 231);
-            this.lb_banAn.TabIndex = 0;
-            this.lb_banAn.Text = null;
-            this.lb_banAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lb_maBan
             // 
@@ -58,6 +45,20 @@
             this.lb_maBan.Text = "Bàn 01";
             this.lb_maBan.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // lb_banAn
+            // 
+            this.lb_banAn.AutoSize = false;
+            this.lb_banAn.BackColor = System.Drawing.Color.Transparent;
+            this.lb_banAn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_banAn.Location = new System.Drawing.Point(0, 0);
+            this.lb_banAn.Margin = new System.Windows.Forms.Padding(4);
+            this.lb_banAn.Name = "lb_banAn";
+            this.lb_banAn.Size = new System.Drawing.Size(255, 231);
+            this.lb_banAn.TabIndex = 0;
+            this.lb_banAn.Text = null;
+            this.lb_banAn.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lb_banAn.Click += new System.EventHandler(this.lb_banAn_Click);
+            // 
             // O_BanAn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -67,15 +68,13 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "O_BanAn";
             this.Size = new System.Drawing.Size(255, 231);
-            this.Click += new System.EventHandler(this.O_BanAn_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2HtmlLabel lb_banAn;
         private Guna.UI2.WinForms.Guna2HtmlLabel lb_maBan;
+        private Guna.UI2.WinForms.Guna2HtmlLabel lb_banAn;
     }
 }
