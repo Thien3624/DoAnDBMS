@@ -33,6 +33,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelNoiDung = new System.Windows.Forms.FlowLayoutPanel();
             this.panelDatHang = new Guna.UI2.WinForms.Guna2Panel();
+            this.btn_inHoaDon = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -47,7 +48,6 @@
             this.txt_tenKhachHang = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_inHoaDon = new Guna.UI2.WinForms.Guna2Button();
             this.panelDatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDonHang)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -85,6 +85,23 @@
             this.panelDatHang.Name = "panelDatHang";
             this.panelDatHang.Size = new System.Drawing.Size(517, 797);
             this.panelDatHang.TabIndex = 6;
+            // 
+            // btn_inHoaDon
+            // 
+            this.btn_inHoaDon.BorderRadius = 10;
+            this.btn_inHoaDon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btn_inHoaDon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btn_inHoaDon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btn_inHoaDon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btn_inHoaDon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btn_inHoaDon.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_inHoaDon.ForeColor = System.Drawing.Color.White;
+            this.btn_inHoaDon.Location = new System.Drawing.Point(71, 687);
+            this.btn_inHoaDon.Name = "btn_inHoaDon";
+            this.btn_inHoaDon.Size = new System.Drawing.Size(146, 35);
+            this.btn_inHoaDon.TabIndex = 22;
+            this.btn_inHoaDon.Text = "In hóa đơn";
+            this.btn_inHoaDon.Click += new System.EventHandler(this.btn_inHoaDon_Click);
             // 
             // guna2ComboBox2
             // 
@@ -134,6 +151,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(146, 35);
             this.guna2Button1.TabIndex = 19;
             this.guna2Button1.Text = "Thanh toán";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // lb_tongTien
             // 
@@ -318,23 +336,6 @@
             this.label1.Size = new System.Drawing.Size(110, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "Bàn ăn";
-            // 
-            // btn_inHoaDon
-            // 
-            this.btn_inHoaDon.BorderRadius = 10;
-            this.btn_inHoaDon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btn_inHoaDon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btn_inHoaDon.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btn_inHoaDon.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btn_inHoaDon.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btn_inHoaDon.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_inHoaDon.ForeColor = System.Drawing.Color.White;
-            this.btn_inHoaDon.Location = new System.Drawing.Point(71, 687);
-            this.btn_inHoaDon.Name = "btn_inHoaDon";
-            this.btn_inHoaDon.Size = new System.Drawing.Size(146, 35);
-            this.btn_inHoaDon.TabIndex = 22;
-            this.btn_inHoaDon.Text = "In hóa đơn";
-            this.btn_inHoaDon.Click += new System.EventHandler(this.btn_inHoaDon_Click);
             // 
             // UserControlBanAn
             // 

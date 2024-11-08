@@ -47,5 +47,11 @@ namespace GUI.FormAdmin
             addHienThi(qlBanAn);
             qlBanAn.Load += new EventHandler(qlBanAn.UserControlBanAn_Load);
         }
+
+        private void btn_quanLyHoaDon_Click(object sender, EventArgs e)
+        {
+            UserControlHoaDon hd = new UserControlHoaDon();
+            addHienThi(hd);
+        }
     }
 }

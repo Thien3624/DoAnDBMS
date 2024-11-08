@@ -182,10 +182,10 @@
     <Compile Include="UserControlBanAn.Designer.cs">
       <DependentUpon>UserControlBanAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControlHoaDon.cs">
+    <Compile Include="FormAdmin\UserControlHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControlHoaDon.Designer.cs">
+    <Compile Include="FormAdmin\UserControlHoaDon.Designer.cs">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FormAdmin\SuaMonAn.resx">
@@ -256,7 +256,7 @@
     <EmbeddedResource Include="UserControlBanAn.resx">
       <DependentUpon>UserControlBanAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlHoaDon.resx">
+    <EmbeddedResource Include="FormAdmin\UserControlHoaDon.resx">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />

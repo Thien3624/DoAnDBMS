@@ -102,5 +102,10 @@ namespace GUI
             frmHoaDon.viewHoaDon.ReportSource = hoaDon;
             frmHoaDon.ShowDialog();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

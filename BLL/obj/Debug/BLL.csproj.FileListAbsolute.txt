@@ -16,14 +16,6 @@ D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.dll
 D:\DBMS\Project\C#\DoAnDBMS\DoAnDBMS\BLL\obj\Debug\BLL.pdb
-<<<<<<< HEAD
-E:\study\nam-3\DBMS\DoAnDBMS\BLL\bin\Debug\BLL.dll
-E:\study\nam-3\DBMS\DoAnDBMS\BLL\bin\Debug\BLL.pdb
-E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.dll
-E:\study\nam-3\DBMS\DoAnDBMS\BLL\obj\Debug\BLL.pdb
-=======
 D:\DBMS_Project\DoAnDBMS\BLL\bin\Debug\BLL.dll
 D:\DBMS_Project\DoAnDBMS\BLL\bin\Debug\BLL.pdb
 D:\DBMS_Project\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
@@ -36,4 +28,4 @@ D:\DBMS\Project\C#\DoAnDBMS\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
 D:\DBMS\Project\C#\DoAnDBMS\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 D:\DBMS\Project\C#\DoAnDBMS\BLL\obj\Debug\BLL.dll
 D:\DBMS\Project\C#\DoAnDBMS\BLL\obj\Debug\BLL.pdb
->>>>>>> 34beb9bb128607332b84d56c642cd1b5ca389721
+

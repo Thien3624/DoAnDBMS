@@ -20,7 +20,8 @@ namespace GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TrangChuAdmin());
+            Application.Run(new FormDangNhap());
+
         }
     }
 }
