@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DAL;
+using GUI.FormAdmin;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,10 +21,23 @@ namespace GUI
 
         private void btn_dangNhap_Click(object sender, EventArgs e)
         {
-            if(tb_tenDangNhap.Text.Equals("123") && tb_matKhau.Text.Equals("123"))
+            TaiKhoanDAO taiKhoanDAO = new TaiKhoanDAO();
+            bool uyQuyen;
+
+            if (taiKhoanDAO.KiemTraDangNhap(tb_tenDangNhap.Text, tb_matKhau.Text, out uyQuyen))
             {
-                TrangChu trangChu = new TrangChu();
-                trangChu.Show();
+                if (uyQuyen)
+                {
+                    TrangChuAdmin trangChuAdmin = new TrangChuAdmin();
+                    trangChuAdmin.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    TrangChu trangChu = new TrangChu();
+                    trangChu.Show();
+                    this.Hide();    
+                }
             }
         }
     }

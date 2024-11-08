@@ -104,7 +104,7 @@
             this.btn_ThemMonAn.FillColor = System.Drawing.Color.DarkOrange;
             this.btn_ThemMonAn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btn_ThemMonAn.ForeColor = System.Drawing.Color.White;
-            this.btn_ThemMonAn.Location = new System.Drawing.Point(1372, 31);
+            this.btn_ThemMonAn.Location = new System.Drawing.Point(1330, 31);
             this.btn_ThemMonAn.Name = "btn_ThemMonAn";
             this.btn_ThemMonAn.Size = new System.Drawing.Size(180, 45);
             this.btn_ThemMonAn.TabIndex = 1;
