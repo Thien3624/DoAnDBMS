@@ -1,5 +1,6 @@
 ﻿using BLL;
 using DAL;
+using GUI.FormAdmin.UC_ThanPhanAdmin;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,106 +22,53 @@ namespace GUI.FormAdmin
             InitializeComponent();
         }
 
-        // Phương thức để tải mã nhân viên vào ComboBox
-        private DBConnection dBConnection = new DBConnection();
+        NhanVienDAL nhanVienDAL = new NhanVienDAL();
         private void LoadMaNV()
         {
-            DBConnection dBConnection = new DBConnection();
-            using (SqlConnection connection = dBConnection.GetSqlConnection())
-            {
-                connection.Open();
-                string query = "SELECT maNhanVien FROM NHANVIEN";
-                SqlCommand command = new SqlCommand(query, connection);
-                SqlDataReader reader = command.ExecuteReader();
-
-                // Xóa các item hiện có trong ComboBox (nếu có)
-                cbb_maNhanVien.Items.Clear();
-
-                // Đọc dữ liệu và thêm vào ComboBox
-                while (reader.Read())
-                {
-                    cbb_maNhanVien.Items.Add(reader["maNhanVien"].ToString());
-                }
-
-                connection.Close();
-            }
+            List<string> dsMaNhanVien = nhanVienDAL.layDanhSachMaNhanVien();
+            cbb_maNhanVien.DataSource = dsMaNhanVien;
         }
 
         private void SuaNhanVien_Load(object sender, EventArgs e)
         {
             LoadMaNV();
-            LoadMaNhanVien();
-        }
-
-        private void LoadMaNhanVien()
-        {
-            try
-            {
-                using (SqlConnection conn = dBConnection.GetSqlConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT maNhanVien FROM NHANVIEN";
-                    SqlCommand cmd = new SqlCommand(query, conn);
-                    SqlDataReader reader = cmd.ExecuteReader();
-
-                    cbb_maNhanVien.Items.Clear();
-                    while (reader.Read())
-                    {
-                        cbb_maNhanVien.Items.Add(reader["maNhanVien"].ToString());
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Lỗi: " + ex.Message);
-            }
         }
 
         private void cbb_maNhanVien_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbb_maNhanVien.SelectedItem != null)
+            DataTable dt = nhanVienDAL.layThongTinNhanVienDuocChon(cbb_maNhanVien.SelectedItem.ToString());
+            if (dt != null && dt.Rows.Count > 0)
             {
-                try
+                DataRow row = dt.Rows[0];
+
+                tb_cccd.Text = row["CCCD"].ToString();
+                tb_hoVaTen.Text = row["hoVaTen"].ToString();
+                cbb_maNhanVien.SelectedText = row["maNhanVien"].ToString();
+
+                // Gán giới tính
+                string gioiTinh = row["gioiTinh"].ToString();
+                if (gioiTinh == "Nam")
                 {
-                    using (SqlConnection conn = dBConnection.GetSqlConnection())
-                    {
-                        conn.Open();
-                        string query = "SELECT * FROM NHANVIEN WHERE maNhanVien = @maNhanVien";
-                        SqlCommand cmd = new SqlCommand(query, conn);
-                        cmd.Parameters.AddWithValue("@maNhanVien", cbb_maNhanVien.SelectedItem.ToString());
-
-                        SqlDataReader reader = cmd.ExecuteReader();
-                        if (reader.Read())
-                        {
-                            // Đổ dữ liệu vào các control
-                            tb_cccd.Text = reader["CCCD"].ToString();
-                            tb_hoVaTen.Text = reader["hoVaTen"].ToString();
-
-                            // Xử lý giới tính
-                            if (reader["gioiTinh"].ToString() == "Nam")
-                                radio_nam.Checked = true;
-                            else
-                                radio_nu.Checked = true;
-
-                            // Xử lý ngày sinh
-                            if (reader["ngaySinh"] != DBNull.Value)
-                                datetime_ngaySinh.Value = Convert.ToDateTime(reader["NgaySinh"]);
-
-                            tb_soDienThoai.Text = reader["soDienThoai"].ToString();
-                            tb_diaChi.Text = reader["diaChi"].ToString();
-                        }
-                    }
+                    radio_nam.Checked = true;
                 }
-                catch (Exception ex)
+                else if (gioiTinh == "Nữ")
                 {
-                    MessageBox.Show("Lỗi: " + ex.Message);
+                    radio_nu.Checked = true;
                 }
+
+                datetime_ngaySinh.Value = Convert.ToDateTime(row["ngaySinh"]);
+
+                tb_soDienThoai.Text = row["soDienThoai"].ToString();
+                tb_diaChi.Text = row["diaChi"].ToString();
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy thông tin nhân viên.");
             }
         }
 
         private void btn_luu_Click(object sender, EventArgs e)
         {
-            
             try
             {
                 string maNhanVien = cbb_maNhanVien.Text;
@@ -144,12 +92,11 @@ namespace GUI.FormAdmin
                 NhanVienDAL nhanVienDAL = new NhanVienDAL(); 
                 nhanVienDAL.SuaNhanVien(nhanVien);
                 MessageBox.Show("Sửa thông tin nhân viên thành công!");
-            }catch (Exception ex) 
+            }
+            catch (Exception ex) 
             {
                 MessageBox.Show("Lỗi: " + ex.ToString());
             }
-            
-            
         }
     }
 }

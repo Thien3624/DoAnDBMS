@@ -31,15 +31,15 @@ namespace GUI
                 if (uyQuyen)
                 {
                     TrangChuAdmin trangChuAdmin = new TrangChuAdmin();
-                    trangChuAdmin.Show();
-                    this.Hide();
+                    trangChuAdmin.ShowDialog();
+                    this.Close();
                 }
                 else
                 {
                     TrangChu trangChu = new TrangChu();
-                    trangChu.Show();
-                    this.Hide();
-                    MessageBox.Show(TaiKhoanDangNhap.maNhanVien);
+                    trangChu.ShowDialog();
+                    this.Close();
+
                 }
             }
         }

@@ -141,8 +141,65 @@ D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
+<<<<<<< HEAD
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLDoanhThu.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\Constant.dll
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\Constant.pdb
+=======
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+>>>>>>> c1c41e9baa9ab0bde4bd0b6ed6d71b078c8c9728
+>>>>>>> ee87ebefa2134be4dcaa33ede64c3d4f625cbfec
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.Shared.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\bin\Debug\stdole.dll
+D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.Report.FrmHoaDon.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaMonAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.SuaNhanVien.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.Report.FrmHoaDon.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.Shared.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\bin\Debug\stdole.dll
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
+E:\study\nam-3\DBMS\DoAnDBMS\GUI\obj\Debug\GUI.Report.FrmHoaDon.resources
+>>>>>>> 812bae7490c218546990fda7cc71be178abe1218
