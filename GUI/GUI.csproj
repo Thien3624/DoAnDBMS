@@ -289,6 +289,10 @@
       <Project>{e105c768-dabb-4b62-9732-6eed462ddf3f}</Project>
       <Name>BLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Constant\Constant.csproj">
+      <Project>{43d42802-2436-4f8e-b2e7-6b1491f52d29}</Project>
+      <Name>Constant</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{364a5989-611d-4083-a0d6-8a506798d349}</Project>
       <Name>DAL</Name>

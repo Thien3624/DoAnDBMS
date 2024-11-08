@@ -144,3 +144,5 @@ D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.O_BanAnAdmin.re
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLBanAn.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLDoanhThu.resources
 D:\VS Code\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\Constant.dll
+D:\VS Code\DoAnDBMS\GUI\bin\Debug\Constant.pdb

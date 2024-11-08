@@ -1,0 +1,6 @@
+D:\VS Code\DoAnDBMS\Constant\bin\Debug\Constant.dll
+D:\VS Code\DoAnDBMS\Constant\bin\Debug\Constant.pdb
+D:\VS Code\DoAnDBMS\Constant\obj\Debug\Constant.csproj.AssemblyReference.cache
+D:\VS Code\DoAnDBMS\Constant\obj\Debug\Constant.csproj.CoreCompileInputs.cache
+D:\VS Code\DoAnDBMS\Constant\obj\Debug\Constant.dll
+D:\VS Code\DoAnDBMS\Constant\obj\Debug\Constant.pdb

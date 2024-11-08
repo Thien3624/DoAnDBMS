@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Constant;
 
 namespace GUI
 {
@@ -26,6 +27,7 @@ namespace GUI
 
             if (taiKhoanDAO.KiemTraDangNhap(tb_tenDangNhap.Text, tb_matKhau.Text, out uyQuyen))
             {
+                TaiKhoanDangNhap.maNhanVien = tb_tenDangNhap.Text;
                 if (uyQuyen)
                 {
                     TrangChuAdmin trangChuAdmin = new TrangChuAdmin();
@@ -36,7 +38,8 @@ namespace GUI
                 {
                     TrangChu trangChu = new TrangChu();
                     trangChu.Show();
-                    this.Hide();    
+                    this.Hide();
+                    MessageBox.Show(TaiKhoanDangNhap.maNhanVien);
                 }
             }
         }
