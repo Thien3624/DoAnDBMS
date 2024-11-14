@@ -92,6 +92,7 @@
             this.btn_quanLyHoaDon.TabIndex = 3;
             this.btn_quanLyHoaDon.Text = "Quản lý hóa đơn";
             this.btn_quanLyHoaDon.TextFormatNoPrefix = true;
+            this.btn_quanLyHoaDon.Click += new System.EventHandler(this.btn_quanLyHoaDon_Click);
             // 
             // guna2Panel1
             // 

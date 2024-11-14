@@ -8,16 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using BLL;
 using System.Web.UI.WebControls;
+using Microsoft.SqlServer.Server;
+using System.Data.Common;
 
 namespace DAL
 {
     public class NhanVienDAL : DBConnection
     {
+        private DBConnection dBConnection = new DBConnection();
         public NhanVienDAL() : base() { }
 
         public DataTable hienThiNhanVien()
         {
-            const string sql = "SELECT * FROM NHANVIEN WHERE TrangThaiLamViec = 1";
+            const string sql = "SELECT * FROM XemNhanVien WHERE TrangThaiLamViec = 1";
             return executeDisplayQuery(sql);
         }
 
@@ -67,12 +70,29 @@ namespace DAL
             try
             {
                 executeUpdateOrDeleteQuery(storedProcedure, parameters);
-                Console.WriteLine("Cập nhật thông tin nhân viên thành công.");
+                Console.WriteLine("Cập nhật thông tin nhân viên thành công");
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Lỗi khi cập nhật thông tin nhân viên: " + ex.Message);
             }
+        }
+
+        public List<string> layDanhSachMaNhanVien()
+        {
+            string query = "SELECT maNhanVien FROM XemNhanVien WHERE TrangThaiLamViec = 1";
+            return ExecuteQueryAndGetList(query);
+        }
+
+        public DataTable layThongTinNhanVienDuocChon(string maNhanVien)
+        {
+            string query = "SELECT * FROM XemNhanVien WHERE maNhanVien = @maNhanVien";
+
+            SqlParameter[] parameters = new SqlParameter[] {
+                new SqlParameter("@maNhanVien", SqlDbType.VarChar) { Value = maNhanVien }
+            };
+
+            return executeSearchQuery(query, parameters);
         }
     }
 }

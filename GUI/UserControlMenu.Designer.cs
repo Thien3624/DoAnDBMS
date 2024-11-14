@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelDatHang = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_ktraKH = new Guna.UI2.WinForms.Guna2Button();
             this.btn_themDonHang = new Guna.UI2.WinForms.Guna2Button();
@@ -57,6 +57,8 @@
             this.txt_tenMonAn = new Guna.UI2.WinForms.Guna2TextBox();
             this.btn_timKiem = new Guna.UI2.WinForms.Guna2Button();
             this.cboLoaiMonAn = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lb_tongTien = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panelDatHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtGVDonHang)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -69,6 +71,8 @@
             this.panelDatHang.BackColor = System.Drawing.Color.White;
             this.panelDatHang.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panelDatHang.BorderThickness = 1;
+            this.panelDatHang.Controls.Add(this.lb_tongTien);
+            this.panelDatHang.Controls.Add(this.label6);
             this.panelDatHang.Controls.Add(this.btn_ktraKH);
             this.panelDatHang.Controls.Add(this.btn_themDonHang);
             this.panelDatHang.Controls.Add(this.guna2Shapes1);
@@ -112,7 +116,7 @@
             this.btn_themDonHang.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btn_themDonHang.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_themDonHang.ForeColor = System.Drawing.Color.White;
-            this.btn_themDonHang.Location = new System.Drawing.Point(198, 709);
+            this.btn_themDonHang.Location = new System.Drawing.Point(61, 712);
             this.btn_themDonHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_themDonHang.Name = "btn_themDonHang";
             this.btn_themDonHang.Size = new System.Drawing.Size(147, 41);
@@ -123,7 +127,7 @@
             // guna2Shapes1
             // 
             this.guna2Shapes1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.guna2Shapes1.Location = new System.Drawing.Point(61, 682);
+            this.guna2Shapes1.Location = new System.Drawing.Point(61, 648);
             this.guna2Shapes1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Shapes1.Name = "guna2Shapes1";
             this.guna2Shapes1.PolygonSkip = 1;
@@ -137,17 +141,17 @@
             // dtGVDonHang
             // 
             this.dtGVDonHang.AllowUserToAddRows = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.dtGVDonHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dtGVDonHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dtGVDonHang.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtGVDonHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtGVDonHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dtGVDonHang.ColumnHeadersHeight = 30;
             this.dtGVDonHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dtGVDonHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -155,14 +159,14 @@
             this.tenMonAn,
             this.soLuong,
             this.gia});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtGVDonHang.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtGVDonHang.DefaultCellStyle = dataGridViewCellStyle3;
             this.dtGVDonHang.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dtGVDonHang.Location = new System.Drawing.Point(72, 311);
             this.dtGVDonHang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -171,7 +175,7 @@
             this.dtGVDonHang.RowHeadersVisible = false;
             this.dtGVDonHang.RowHeadersWidth = 60;
             this.dtGVDonHang.RowTemplate.Height = 24;
-            this.dtGVDonHang.Size = new System.Drawing.Size(403, 348);
+            this.dtGVDonHang.Size = new System.Drawing.Size(403, 314);
             this.dtGVDonHang.TabIndex = 15;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dtGVDonHang.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -483,6 +487,28 @@
             this.cboLoaiMonAn.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.cboLoaiMonAn.SelectedIndexChanged += new System.EventHandler(this.cboLoaiMonAn_SelectedIndexChanged);
             // 
+            // lb_tongTien
+            // 
+            this.lb_tongTien.AutoSize = true;
+            this.lb_tongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_tongTien.ForeColor = System.Drawing.Color.Black;
+            this.lb_tongTien.Location = new System.Drawing.Point(299, 666);
+            this.lb_tongTien.Name = "lb_tongTien";
+            this.lb_tongTien.Size = new System.Drawing.Size(70, 25);
+            this.lb_tongTien.TabIndex = 21;
+            this.lb_tongTien.Text = "0 VNĐ";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label6.Location = new System.Drawing.Point(56, 666);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(131, 29);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "Tổng tiền:";
+            // 
             // UserControlMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -534,5 +560,7 @@
         private Guna.UI2.WinForms.Guna2Button btn_timKiem;
         private Guna.UI2.WinForms.Guna2Button btn_ktraKH;
         private Guna.UI2.WinForms.Guna2Button btn_bestSeller;
+        private System.Windows.Forms.Label lb_tongTien;
+        private System.Windows.Forms.Label label6;
     }
 }

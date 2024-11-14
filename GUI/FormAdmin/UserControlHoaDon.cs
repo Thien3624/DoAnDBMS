@@ -31,5 +31,10 @@ namespace GUI
         {
 
         }
+
+        private void btn_xemThongTinHoaDon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

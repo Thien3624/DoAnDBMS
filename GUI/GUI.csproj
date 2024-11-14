@@ -46,6 +46,7 @@
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -104,6 +105,12 @@
     </Compile>
     <Compile Include="FormAdmin\UserControlQLBanAn.Designer.cs">
       <DependentUpon>UserControlQLBanAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLDoanhThu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAdmin\UserControlQLDoanhThu.Designer.cs">
+      <DependentUpon>UserControlQLDoanhThu.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAdmin\UserControlQLNhanVien.cs">
       <SubType>UserControl</SubType>
@@ -175,10 +182,10 @@
     <Compile Include="UserControlBanAn.Designer.cs">
       <DependentUpon>UserControlBanAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControlHoaDon.cs">
+    <Compile Include="FormAdmin\UserControlHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControlHoaDon.Designer.cs">
+    <Compile Include="FormAdmin\UserControlHoaDon.Designer.cs">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="FormAdmin\SuaMonAn.resx">
@@ -204,6 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\UserControlQLBanAn.resx">
       <DependentUpon>UserControlQLBanAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin\UserControlQLDoanhThu.resx">
+      <DependentUpon>UserControlQLDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdmin\UserControlQLNhanVien.resx">
       <DependentUpon>UserControlQLNhanVien.cs</DependentUpon>
@@ -246,7 +256,7 @@
     <EmbeddedResource Include="UserControlBanAn.resx">
       <DependentUpon>UserControlBanAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlHoaDon.resx">
+    <EmbeddedResource Include="FormAdmin\UserControlHoaDon.resx">
       <DependentUpon>UserControlHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -278,6 +288,10 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{e105c768-dabb-4b62-9732-6eed462ddf3f}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Constant\Constant.csproj">
+      <Project>{43d42802-2436-4f8e-b2e7-6b1491f52d29}</Project>
+      <Name>Constant</Name>
     </ProjectReference>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{364a5989-611d-4083-a0d6-8a506798d349}</Project>

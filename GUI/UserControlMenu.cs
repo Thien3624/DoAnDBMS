@@ -11,6 +11,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Constant;
+using System.Globalization;
 
 
 namespace GUI
@@ -25,6 +27,7 @@ namespace GUI
         private MonAnDAL monAnDAL = new MonAnDAL();
         private BanAnDAL banAnDAL = new BanAnDAL();
         private KhachHangDAO khachHangDAO = new KhachHangDAO();
+        private HoaDonDao hoaDonDao = new HoaDonDao();
         public Image ByteArrToImage(byte[] b)
         {
             MemoryStream m = new MemoryStream(b);
@@ -95,20 +98,26 @@ namespace GUI
 
         public void ThemMonAnVaoDonHang(string maMonAn, string tenMonAn, int soLuong, int gia)
         {
+
             if (soLuong <= 0)
             {
                 MessageBox.Show("Số lượng phải lớn hơn 0.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
+            string chuoiTienTe = lb_tongTien.Text.Replace("VNĐ", "").Trim(); // Loại bỏ "VNĐ" và khoảng trắng
+            int tongTien = int.Parse(chuoiTienTe, NumberStyles.AllowThousands); // Chuyển đổi chuỗi thành số nguyên
+            tongTien += gia * soLuong;;
+            lb_tongTien.Text = tongTien.ToString("N0") + "VNĐ";
             foreach (DataGridViewRow row in dtGVDonHang.Rows)
             {
                 if (row.Cells["TenMonAn"].Value.ToString() == tenMonAn)
                 {
                     int existingQuantity = Convert.ToInt32(row.Cells["SoLuong"].Value);
                     row.Cells["SoLuong"].Value = existingQuantity + soLuong;
+                    row.Cells["gia"].Value = gia * (existingQuantity + soLuong);
                     return;
-                }
+                }  
             }
 
             int rowIndex = dtGVDonHang.Rows.Add();
@@ -117,6 +126,8 @@ namespace GUI
             newRow.Cells["tenMonAn"].Value = tenMonAn;
             newRow.Cells["soLuong"].Value = soLuong;
             newRow.Cells["gia"].Value = gia * soLuong;
+            
+            
         }
 
         private void btn_themDonHang_Click(object sender, EventArgs e)
@@ -178,6 +189,11 @@ namespace GUI
                 banAnDAL.doiTrangThaiBan(maBan);
                 // Save the order details to the database
                 donHangDAO.ThemChiTietDonHang(chiTietDonHangs);
+                // thêm vào hóa đơn
+                string chuoiTienTe = lb_tongTien.Text.Replace("VNĐ", "").Trim();
+                int tongTien = int.Parse(chuoiTienTe, NumberStyles.AllowThousands);
+                hoaDonDao.ThemHoaDon(generatedMaDonHang, khachHang.MaKhachHang, tongTien, ngayDatMon, false, maBan, TaiKhoanDangNhap.maNhanVien);
+                
                 MessageBox.Show("Đơn hàng đã được thêm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
