@@ -59,3 +59,5 @@ D:\VS Code\DoAnDBMS\DAL\bin\Debug\Constant.dll
 D:\VS Code\DoAnDBMS\DAL\bin\Debug\Constant.pdb
 D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\Constant.dll
 D:\DBMS\Project\C#\DoAnDBMS\DAL\bin\Debug\Constant.pdb
+D:\DBMS_Project\DoAnDBMS\DAL\bin\Debug\Constant.dll
+D:\DBMS_Project\DoAnDBMS\DAL\bin\Debug\Constant.pdb

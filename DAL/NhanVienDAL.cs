@@ -45,12 +45,13 @@ namespace DAL
         public void XoaNhanVien(NhanVien nhanVien)
         {
             string storedProcedure = "XoaNhanVien";
+            string storedProcedure1 = "";
             SqlParameter[] parameters = new SqlParameter[]
             {
                 new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = nhanVien.MaNhanVien }
             };
 
-            executeUpdateOrDeleteQuery(storedProcedure, parameters); // Giả sử bạn đã định nghĩa phương thức này để thực hiện stored procedure
+            executeUpdateOrDeleteQuery(storedProcedure, parameters); 
         }
 
         public void SuaNhanVien(NhanVien nhanVien)

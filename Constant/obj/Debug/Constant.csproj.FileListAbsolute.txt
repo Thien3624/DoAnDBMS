@@ -10,3 +10,9 @@ D:\DBMS\Project\C#\DoAnDBMS\Constant\obj\Debug\Constant.csproj.AssemblyReference
 D:\DBMS\Project\C#\DoAnDBMS\Constant\obj\Debug\Constant.csproj.CoreCompileInputs.cache
 D:\DBMS\Project\C#\DoAnDBMS\Constant\obj\Debug\Constant.dll
 D:\DBMS\Project\C#\DoAnDBMS\Constant\obj\Debug\Constant.pdb
+D:\DBMS_Project\DoAnDBMS\Constant\bin\Debug\Constant.dll
+D:\DBMS_Project\DoAnDBMS\Constant\bin\Debug\Constant.pdb
+D:\DBMS_Project\DoAnDBMS\Constant\obj\Debug\Constant.csproj.AssemblyReference.cache
+D:\DBMS_Project\DoAnDBMS\Constant\obj\Debug\Constant.csproj.CoreCompileInputs.cache
+D:\DBMS_Project\DoAnDBMS\Constant\obj\Debug\Constant.dll
+D:\DBMS_Project\DoAnDBMS\Constant\obj\Debug\Constant.pdb

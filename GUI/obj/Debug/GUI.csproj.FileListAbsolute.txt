@@ -210,3 +210,6 @@ D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemMonAn.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.ThemNhanVien.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLDoanhThu.resources
 D:\DBMS\Project\C#\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UC_ThanPhanAdmin.UserControlQLNhanVien.resources
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\Constant.dll
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\Constant.pdb
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLDoanhThu.resources
