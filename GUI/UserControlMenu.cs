@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Constant;
 using System.Globalization;
+using System.Text.RegularExpressions;
 
 
 namespace GUI
@@ -135,19 +136,19 @@ namespace GUI
             try
             {
                 // Validate input
+                if (dtGVDonHang.Rows.Count <= 0)
+                {
+                    MessageBox.Show("Vui lòng chọn ít nhất một món ăn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 if (string.IsNullOrWhiteSpace(txt_hoVaTen.Text))
                 {
                     MessageBox.Show("Vui lòng nhập họ tên khách hàng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
-                if (string.IsNullOrWhiteSpace(txt_sDT.Text))
+                if (string.IsNullOrWhiteSpace(txt_sDT.Text) || !Regex.IsMatch(txt_sDT.Text.Trim(), @"^\d{10}$"))
                 {
-                    MessageBox.Show("Vui lòng nhập số điện thoại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-                if (dtGVDonHang.Rows.Count <= 0)
-                {
-                    MessageBox.Show("Vui lòng chọn ít nhất một món ăn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Vui lòng nhập số điện thoại hợp lệ (10 chữ số)!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
@@ -186,14 +187,15 @@ namespace GUI
                         ThanhTien = thanhTien
                     });
                 }
-                banAnDAL.doiTrangThaiBan(maBan);
+                
                 // Save the order details to the database
                 donHangDAO.ThemChiTietDonHang(chiTietDonHangs);
                 // thêm vào hóa đơn
                 string chuoiTienTe = lb_tongTien.Text.Replace("VNĐ", "").Trim();
                 int tongTien = int.Parse(chuoiTienTe, NumberStyles.AllowThousands);
                 hoaDonDao.ThemHoaDon(generatedMaDonHang, khachHang.MaKhachHang, tongTien, ngayDatMon, false, maBan, TaiKhoanDangNhap.maNhanVien);
-                
+                //Đổi trạng thái bàn
+                banAnDAL.doiTrangThaiBan(maBan);
                 MessageBox.Show("Đơn hàng đã được thêm thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)

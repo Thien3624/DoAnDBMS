@@ -219,3 +219,7 @@ D:\VS Code\DoAnDBMS\GUI\bin\Debug\LiveCharts.WinForms.pdb
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\LiveCharts.WinForms.xml
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\LiveCharts.Wpf.pdb
 D:\VS Code\DoAnDBMS\GUI\bin\Debug\LiveCharts.Wpf.xml
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\Constant.dll
+D:\DBMS_Project\DoAnDBMS\GUI\bin\Debug\Constant.pdb
+D:\DBMS_Project\DoAnDBMS\GUI\obj\Debug\GUI.FormAdmin.UserControlQLDoanhThu.resources
+>>>>>>> 63f205a4f72357c753c749b221b8a1a808e9bfb7

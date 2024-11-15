@@ -15,7 +15,7 @@ namespace DAL
         {
             uyQuyen = false;
 
-            string query = "SELECT UyQuyen FROM PHANQUYEN WHERE taiKhoan = @taiKhoan AND matKhau = @matKhau";
+            string query = "SELECT * FROM dbo.Dang_Nhap(@taiKhoan, @matKhau)";
             SqlParameter[] parameters = new SqlParameter[]
             {
                 new SqlParameter("@taiKhoan", taiKhoan),

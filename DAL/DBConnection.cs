@@ -157,7 +157,6 @@ namespace DAL
                 catch (Exception ex)
                 {
                     Console.WriteLine("Lỗi: " + ex.Message);
-                    throw;
                 }
             }
             return dt;
