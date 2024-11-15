@@ -69,6 +69,7 @@ namespace GUI
             {
                 txt_tenKhachHang.Text = dt.Rows[0]["hoTenKhachHang"].ToString();
                 txt_soDienThoai.Text = dt.Rows[0]["SDT"].ToString();
+                lb_maHoaDon.Text = dt.Rows[0]["maHoaDon"].ToString();
 
                 foreach (DataRow row in dt.Rows)
                 {
@@ -90,22 +91,39 @@ namespace GUI
 
         }
 
-        private void btn_inHoaDon_Click(object sender, EventArgs e)
+        private void btn_thanhToan_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
-            dt = BanAnDAL.HienThiHoaDonTheoBan(mb);
-            rptHoaDon hoaDon = new rptHoaDon();
-            //Gán nguồn dữ liệu
-            hoaDon.SetDataSource(dt);
-            //Hiển thị hóa đơn
-            FrmHoaDon frmHoaDon = new FrmHoaDon();
-            frmHoaDon.viewHoaDon.ReportSource = hoaDon;
-            frmHoaDon.ShowDialog();
-        }
+            DialogResult result = MessageBox.Show("Bạn chắc chắn muốn thanh toán cho bàn " + mb + "?", "Xác nhận thanh toán", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                try
+                {
+                    // Lấy dữ liệu hóa đơn để hiển thị
+                    DataTable dt = BanAnDAL.HienThiHoaDonTheoBan(mb);
+                    rptHoaDon hoaDon = new rptHoaDon();
+                    hoaDon.SetDataSource(dt);
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
+                    //Thanh toán
+                    int maHoaDon = int.Parse(lb_maHoaDon.Text);
+                    DonHangDAO.ThanhToanDonHang(mb, maHoaDon);
+                    MessageBox.Show("Thanh toán thành công");
 
+                    
+
+                    // Hiển thị hóa đơn
+                    FrmHoaDon frmHoaDon = new FrmHoaDon();
+                    frmHoaDon.viewHoaDon.ReportSource = hoaDon;
+                    frmHoaDon.ShowDialog();
+                }
+                catch (FormatException)
+                {
+                    MessageBox.Show("Mã hóa đơn không hợp lệ, vui lòng kiểm tra lại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Có lỗi xảy ra: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

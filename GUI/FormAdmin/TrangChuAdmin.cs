@@ -53,5 +53,11 @@ namespace GUI.FormAdmin
             UserControlHoaDon hd = new UserControlHoaDon();
             addHienThi(hd);
         }
+
+        private void btn_quanLyDoanhThu_Click(object sender, EventArgs e)
+        {
+            UserControlQLDoanhThu dt = new UserControlQLDoanhThu();
+            addHienThi(dt);
+        }
     }
 }

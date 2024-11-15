@@ -31,3 +31,6 @@ D:\DBMS\Project\C#\DoAnDBMS\BLL\obj\Debug\BLL.pdb
 D:\VS Code\DoAnDBMS\BLL\bin\Debug\Constant.dll
 D:\VS Code\DoAnDBMS\BLL\bin\Debug\Constant.pdb
 D:\VS Code\DoAnDBMS\BLL\obj\Debug\BLL.csproj.Up2Date
+D:\DBMS\Project\C#\DoAnDBMS\BLL\bin\Debug\Constant.dll
+D:\DBMS\Project\C#\DoAnDBMS\BLL\bin\Debug\Constant.pdb
+D:\DBMS\Project\C#\DoAnDBMS\BLL\obj\Debug\BLL.csproj.Up2Date

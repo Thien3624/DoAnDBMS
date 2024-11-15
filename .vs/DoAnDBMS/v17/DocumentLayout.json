@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "D:\\VS Code\\DoAnDBMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\formadmin\\usercontrolhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolbanan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\formadmin\\usercontrolqldoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\usercontrolqldoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\donhangdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\trangchuadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\doanhthudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\doanhthudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\formadmin\\usercontrolqldoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\usercontrolqldoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\usercontrolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\formadmin\\usercontrolhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\usercontrolhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|d:\\vs code\\doandbms\\gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|D:\\VS Code\\DoAnDBMS\\gui\\formadmin\\usercontrolhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86868B36-24D3-4FDF-BAAE-66A4657C9B7C}|GUI\\GUI.csproj|solutionrelative:gui\\formadmin\\usercontrolhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|D:\\VS Code\\DoAnDBMS\\dal\\hoadondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364A5989-611D-4083-A0D6-8A506798D349}|DAL\\DAL.csproj|solutionrelative:dal\\hoadondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Bookmark",
@@ -35,26 +63,128 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserControlBanAn.cs [Design]",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlBanAn.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControlBanAn.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlBanAn.cs [Design]",
+              "RelativeToolTip": "GUI\\UserControlBanAn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T05:29:46.747Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrangChuAdmin.cs [Design]",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\TrangChuAdmin.cs",
+              "RelativeDocumentMoniker": "GUI\\FormAdmin\\TrangChuAdmin.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\TrangChuAdmin.cs [Design]",
+              "RelativeToolTip": "GUI\\FormAdmin\\TrangChuAdmin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T19:09:47.163Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DonHangDAO.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\DonHangDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\DonHangDAO.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\DAL\\DonHangDAO.cs",
+              "RelativeToolTip": "DAL\\DonHangDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:53:11.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControlQLDoanhThu.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLDoanhThu.cs",
+              "RelativeDocumentMoniker": "GUI\\FormAdmin\\UserControlQLDoanhThu.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLDoanhThu.cs",
+              "RelativeToolTip": "GUI\\FormAdmin\\UserControlQLDoanhThu.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwE0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:47:12.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoanhThuDAL.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\DoanhThuDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\DoanhThuDAL.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\DAL\\DoanhThuDAL.cs",
+              "RelativeToolTip": "DAL\\DoanhThuDAL.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAmwFQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:08:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserControlQLDoanhThu.cs [Design]",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLDoanhThu.cs",
+              "RelativeDocumentMoniker": "GUI\\FormAdmin\\UserControlQLDoanhThu.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlQLDoanhThu.cs [Design]",
+              "RelativeToolTip": "GUI\\FormAdmin\\UserControlQLDoanhThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T15:52:16.367Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserControlMenu.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlMenu.cs",
+              "RelativeDocumentMoniker": "GUI\\UserControlMenu.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\UserControlMenu.cs",
+              "RelativeToolTip": "GUI\\UserControlMenu.cs",
+              "ViewState": "AQIAANkAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:26:21.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserControlHoaDon.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlHoaDon.cs",
+              "RelativeDocumentMoniker": "GUI\\FormAdmin\\UserControlHoaDon.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlHoaDon.cs",
+              "RelativeToolTip": "GUI\\FormAdmin\\UserControlHoaDon.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAADwv0IAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:56:47.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UserControlHoaDon.cs [Design]",
               "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlHoaDon.cs",
               "RelativeDocumentMoniker": "GUI\\FormAdmin\\UserControlHoaDon.cs",
               "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormAdmin\\UserControlHoaDon.cs [Design]",
               "RelativeToolTip": "GUI\\FormAdmin\\UserControlHoaDon.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T08:06:44.593Z",
+              "WhenOpened": "2024-11-14T09:56:45.742Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormDangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\GUI\\FormDangNhap.cs",
-              "RelativeDocumentMoniker": "GUI\\FormDangNhap.cs",
-              "ToolTip": "D:\\VS Code\\DoAnDBMS\\GUI\\FormDangNhap.cs [Design]",
-              "RelativeToolTip": "GUI\\FormDangNhap.cs [Design]",
+              "DocumentIndex": 9,
+              "Title": "HoaDonDao.cs",
+              "DocumentMoniker": "D:\\VS Code\\DoAnDBMS\\DAL\\HoaDonDao.cs",
+              "RelativeDocumentMoniker": "DAL\\HoaDonDao.cs",
+              "ToolTip": "D:\\VS Code\\DoAnDBMS\\DAL\\HoaDonDao.cs",
+              "RelativeToolTip": "DAL\\HoaDonDao.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAArwCEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T08:06:09.466Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-14T09:50:48.266Z",
+              "EditorCaption": ""
             }
           ]
         }

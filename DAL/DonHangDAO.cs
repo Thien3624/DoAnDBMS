@@ -45,5 +45,16 @@ namespace DAL
             }
         }
 
+        public void ThanhToanDonHang(int maBan, int maHoaDon)
+        {
+            string storedProcedure = "ThanhToan";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@maBan", SqlDbType.Int) { Value = maBan },
+                new SqlParameter("@maHoaDon", SqlDbType.Int) { Value = maHoaDon }
+            };
+            executeUpdateOrDeleteQuery(storedProcedure, parameters);
+        }
+
     }
 }

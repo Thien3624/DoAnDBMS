@@ -162,5 +162,31 @@ namespace DAL
             }
             return dt;
         }
+
+        public int executeScalar(string query, SqlParameter[] parameters = null)
+        {
+            using (SqlConnection sqlCon = GetSqlConnection())
+            {
+                try
+                {
+                    sqlCon.Open();
+                    using (SqlCommand sqlCommand = new SqlCommand(query, sqlCon))
+                    {
+                        if (parameters != null)
+                        {
+                            sqlCommand.Parameters.AddRange(parameters);
+                        }
+                        var int1 = sqlCommand.ExecuteScalar(); // Trả về số hàng bị ảnh hưởng
+                        int res = int.Parse(int1.ToString());
+                        return res;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Lỗi: " + ex.Message);
+                    throw;
+                }
+            }
+        }
     }
 }

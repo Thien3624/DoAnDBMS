@@ -29,12 +29,12 @@ namespace DAL
             string storedProcedure = "ThemNhanVien";
             SqlParameter[] parameters = new SqlParameter[]
             {
-                new SqlParameter("@maNhanVien", SqlDbType.NVarChar) { Value = nhanVien.MaNhanVien },
-                new SqlParameter("@CCCD", SqlDbType.NVarChar) { Value = nhanVien.CCCD },
+                new SqlParameter("@maNhanVien", SqlDbType.VarChar) { Value = nhanVien.MaNhanVien },
+                new SqlParameter("@CCCD", SqlDbType.VarChar) { Value = nhanVien.CCCD },
                 new SqlParameter("@hoVaTen", SqlDbType.NVarChar) { Value = nhanVien.HoVaTen },
                 new SqlParameter("@gioiTinh", SqlDbType.NVarChar) { Value = nhanVien.GioiTinh },
                 new SqlParameter("@ngaySinh", SqlDbType.DateTime) { Value = nhanVien.NgaySinh },
-                new SqlParameter("@soDienThoai", SqlDbType.NVarChar) { Value = nhanVien.SoDienThoai },
+                new SqlParameter("@soDienThoai", SqlDbType.VarChar) { Value = nhanVien.SoDienThoai },
                 new SqlParameter("@diaChi", SqlDbType.NVarChar) { Value = nhanVien.DiaChi },
 
             };

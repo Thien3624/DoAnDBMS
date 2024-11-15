@@ -33,5 +33,27 @@ namespace DAL
             executeInsertQuery(storedProcedure, parameters);
         }
 
+        public DataTable HienThiDSHoaDon()
+        {
+            string sql = "SELECT * FROM XemDSHoaDon";
+            return executeDisplayQuery(sql);
+        }
+        public DataTable HienThiChiTietHoaDon(int maHoaDon)
+        {
+            string query = "SELECT distinct * FROM dbo.HienThiChiTietHoaDon(@maHoaDon)";
+            SqlParameter[] parameters = new SqlParameter[] {
+                new SqlParameter("@maHoaDon", SqlDbType.Int) { Value = maHoaDon }
+            };
+            return executeSearchQuery(query, parameters);
+        }
+        public DataTable HienThiMonAnTrongHoaDon(int maHoaDon)
+        {
+            string storedProcedure = "select * from dbo.HienThiMonAnTrongHoaDon(@maHoaDon)";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+            new SqlParameter("@maHoaDon", SqlDbType.Int) { Value = maHoaDon }
+            };
+            return executeSearchQuery(storedProcedure, parameters);
+        }
     }
 }

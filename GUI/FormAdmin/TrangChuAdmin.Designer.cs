@@ -145,6 +145,7 @@
             this.btn_quanLyDoanhThu.Size = new System.Drawing.Size(208, 66);
             this.btn_quanLyDoanhThu.TabIndex = 4;
             this.btn_quanLyDoanhThu.Text = "Quản lý doanh thu";
+            this.btn_quanLyDoanhThu.Click += new System.EventHandler(this.btn_quanLyDoanhThu_Click);
             // 
             // panelHienThi
             // 
