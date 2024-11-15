@@ -87,8 +87,6 @@ namespace GUI
             {
                 MessageBox.Show("Không có dữ liệu hóa đơn cho bàn " + maBan);
             }
-
-
         }
 
         private void btn_thanhToan_Click(object sender, EventArgs e)
